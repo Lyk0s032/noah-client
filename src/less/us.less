@@ -1,0 +1,586 @@
+.us{
+    .homeUs{
+        height:100%;
+
+        .container{
+            height:100%;
+            position:relative;
+            border:1px solid transparent;
+            background-color: black;
+            .wallpaper{
+                width:100%;
+                height:100%;
+                position:absolute;
+                z-index: 0;
+                background: url('https://histudy-nextjs.vercel.app/_next/static/media/bg-image-11.09086418.jpg');
+                background-size: cover;
+                background-repeat: no-repeat;
+                opacity: .6;
+            }
+            .Box{
+                z-index:1;
+                width:80%;
+                position: absolute;
+                left:10%;
+                right:10%;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                .txt{
+                    height:auto;
+                    text-align: center;
+                    .top{
+                        padding:10px;
+                        box-sizing: border-box;
+                        margin:30px 0px;
+                        margin-bottom: 60px;
+                        button{
+                            background-color: @bgBtnOpacity;
+                            padding:10px;
+                            border-radius: 20px;
+                            border:1px solid @bgBtnOpacity;
+                            width:30%;
+                            span{
+                                color: @bgColorTextPrimary;
+                            }
+                        }
+                    }
+                    h1{
+                        font-size: 42px;
+                        color: @bgWhite;
+                    }
+                    .contact{
+                        padding:20px;
+                        box-sizing: border-box;
+                        background-color: transparent;
+                        border:1px solid @bgPrimary;
+                        width:30%;
+                        margin:50px 0px;
+                        border-radius: 5px;
+                        span{
+                            font-size: 16px;
+                            color: @bgColorTextPrimary;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ourMision{
+        height:auto;
+        background-color: @bgWhite;
+        .containerMision{
+            height:auto;
+            width:95%;
+            padding:100px 0px;
+            display: flex;
+            justify-content: space-between;
+            .containersPictures{
+                width:50%;
+                position:relative;
+                display: flex;
+                justify-content: space-between;
+                .imgLeft{
+                    width:60%;
+                    background-size: cover;
+                    img{
+                        border-radius: 10px;
+                        width:100%;
+                        height: auto;
+                    
+                    }
+                }
+                .imgsRight{
+                    width:60%;
+                    margin-left: -10%;
+                    object-fit: contain;    
+                    margin-top:40px;                
+                    .top{
+                        width:90%;
+                        margin-left:10%;
+                        img{
+                            width:100%;
+                            border-radius: 10px;
+                        }
+                    }
+                    .bottom{
+                        margin-top:30px;
+                        img{
+                            width:100%;
+                            border-radius: 10px;
+                        }
+                    }
+                }
+            }
+            .boxDesc{
+                width:45%;
+                margin-left:2%;
+                height:auto;
+
+                .boxs{
+                    height:auto;
+
+                    .top{
+                        width:100%;
+                        padding:30px 0px;
+                        box-sizing: border-box;
+
+                        button{
+                            width:40%;
+                            padding:10px;
+                            border-radius: 20px;
+                            background-color: @bgBtnOpacity;
+                            border:1px solid @bgBtnOpacity;
+
+                            span{
+                                font-size: 12px;
+                                color: @bgColorTextPrimary;
+                            }
+                        }
+                    }
+                    .title{
+                        width:90%;
+
+                        h1{
+                            font-size: 42px;
+                            color: @bgColorTextPrimary;
+                            margin:10px 0px;
+                        }
+
+                        h3{
+                            color: @txtColorDark;
+                            font-weight: 100;
+                            font-size: 14px;
+                        }
+                    }
+                    .listOptionsSubMisiones{
+                        margin-top:30px;
+
+                        .option{
+                            width:100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin:20px 0px;
+                            .icon{
+                                width:20%;
+                                padding:10px;
+                                box-sizing: border-box;
+                                text-align: center;
+                            
+                                button{
+                                    border-radius: 100%;
+                                    box-sizing: border-box;
+                                    width:45px;
+                                    height:45px;
+                                    background-color: #db709321;
+                                    border:1px solid #db709321;
+                                    .iconD{
+                                        font-size: 18px;
+                                        color: #db7093;
+                                    }
+                                    
+                                }
+                                button.Impar{
+                                    background-color: #2f57ef21;
+                                    border: 1px solid #2f57ef21;
+                                    .iconD{
+                                        color: #2f57ef;
+                                    }
+                                }
+                            }
+                            .Desc{
+                                width:90%;
+                                h3{
+                                    color: @colorDark;
+                                    margin:10px 0px;
+                                    font-size: 16px;
+                                }
+                                span{
+                                    color: @txtColorDark;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .ourVision{
+        height: 100%;
+        background-color: @bgWhite;
+        padding:50px 0px;
+        box-sizing: border-box;
+        .containerVision{
+            height:auto;
+
+            .descriptionVision{
+                display: flex;
+                justify-content: space-between;
+                width:90%;
+                margin:auto;
+                .vision{
+                    width:50%;
+
+                    .top{
+                        width:100%;
+                        padding:10px 0px;
+                        button{
+                            background-color: @bgBtnOpacity;
+                            border:1px solid @bgBtnOpacity;
+                            padding:10px;
+                            border-radius: 20px;
+                            width:30%;
+                            cursor: pointer;
+
+                            span{
+                                color: @bgColorTextPrimary;
+                            }
+                        }
+                    }
+                    .title{
+                        padding:10px 0px;
+                        h1{
+                            font-weight: 100;
+                            color: @bgDark;
+                            margin:10px 0px;
+                            font-size: 42px;
+                        }
+                        h3{
+                            font-weight: 100;
+                            font-size: 16px;
+                            color: @txtColorDark;
+                        }
+                    }
+                    .listOptionsSubMisiones{
+                        margin-top:30px;
+
+                        .option{
+                            width:100%;
+                            display: flex;
+                            justify-content: space-between;
+                            align-items: center;
+                            margin:20px 0px;
+                            .icon{
+                                width:20%;
+                                padding:10px;
+                                box-sizing: border-box;
+                                text-align: center;
+                            
+                                button{
+                                    border-radius: 100%;
+                                    box-sizing: border-box;
+                                    width:45px;
+                                    height:45px;
+                                    background-color: #db709321;
+                                    border:1px solid #db709321;
+                                    .iconD{
+                                        font-size: 18px;
+                                        color: #db7093;
+                                    }
+                                    
+                                }
+                                button.Impar{
+                                    background-color: #2f57ef21;
+                                    border: 1px solid #2f57ef21;
+                                    .iconD{
+                                        color: #2f57ef;
+                                    }
+                                }
+                            }
+                            .Desc{
+                                width:90%;
+                                h3{
+                                    color: @colorDark;
+                                    margin:10px 0px;
+                                    font-size: 16px;
+                                }
+                                span{
+                                    color: @txtColorDark;
+                                    font-size: 14px;
+                                    font-weight: 100;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .subscription{
+        height:100%;
+        background: linear-gradient(-45deg, #9c27b0 20%, #6a1b9a 70%);;
+        
+        .contextSubscription{
+            height:100%;
+            display: flex;
+            align-items: center;
+            .containerSub{
+                height:auto;
+                width:70%;
+                margin:auto;
+                padding:10px;
+                box-sizing: border-box;
+                .top{
+                    text-align: center;
+                    padding:30px 0px;
+                    button{
+                        width:40%;
+                        border-radius: 20px;
+                        background-color: @bgBtnOpacity;;
+                        border:none;
+                        padding:10px;
+                        span{
+                            color: @bgColorTextPrimary;
+                        }
+                    }
+                }
+                .title{
+                    padding:10px 0px;
+                    box-sizing: border-box;
+                    text-align: center;
+                    h1{
+                        font-size: 38px;
+                        color: @bgWhite;
+                        margin:20px 0px;
+                    }
+                    h3{
+                        color: @bgWhite;
+                        font-weight: 100;
+                        font-size: 16px;
+                    }
+                }
+                .form{
+                    margin:30px 0px;
+                    width:100%;
+                    box-sizing: border-box;
+                    text-align: center;
+
+                    .formWhite{
+                        border-radius: 5px;
+                        background-color: @bgWhite;
+                        padding:10px;
+                        width:90%;
+                        margin:auto;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        input{
+                            width:70%;
+                            padding: 15px 10px;
+                            background-color: @bgWhite;
+                            outline: 0px;
+                            border:none;
+                        }
+                        button{
+                            width:25%;
+                            border:1px solid black;
+                            padding:15px 10px;
+                            box-sizing: border-box;
+                            border-radius: 10px;
+                            background-color: black;
+                            span{
+                                color: @bgWhite;
+                            }
+
+                        }
+                    }
+                    .smallMessage{
+                        margin-top:30px;
+                        span{
+                            color: @bgWhite;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width:800px){
+        .homeUs{
+            .container{
+                .Box{
+                    width:90%;
+                    margin:auto;
+                    right: 0px;
+                    left:0px;
+                    
+                    .txt{
+                        text-align: left;
+                        .top{
+                            text-align: center;
+                            margin:20px 0px;
+                            button{
+                                width:90%;
+                                border:1px solid @bgWhite;
+                                span{
+                                    color: @bgWhite;
+                                }
+                            }
+                        }
+                        h1{
+                            font-size: 20px;
+                            font-weight: 400;
+                        }
+
+                        .contact{
+                            background-color: @bgWhite;
+                            width:70%;
+                            border:1px solid @bgWhite;
+                            padding:10px;             
+                            margin:20px 0px;               
+                        }
+                    }
+                }
+            }
+        }
+
+        .ourMision{
+            box-sizing: border-box;
+
+            .containerMision{
+                flex-wrap: wrap;
+
+                .containersPictures{
+                    width:90%;
+                    margin:auto;
+
+                    .imgLeft{
+                        width:40%;
+                    }
+                    .imgsRight{
+                        width:80%;
+
+                        .bottom{
+                            display: none;
+                        }
+                    }
+                }
+                .boxDesc{
+                    width:90%;
+                    margin:auto;
+                
+                    .boxs{
+                        width:100%;
+                        .top{
+                            width:100%;
+                            text-align: center;
+                        }
+                        .title{
+                            width:100%;
+    
+                            h1{
+                                font-size: 26px;
+                            }
+                            h3{
+                                font-weight: 400;
+                            }
+                        }
+                        .listOptionsSubMisiones{
+                            .option{
+                                .Desc{
+                                    width:70%;
+
+                                    span{
+                                        font-weight: 400;
+                                        font-size: 14px;
+                                    }
+                                }   
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+
+        .ourVision{
+            height: auto;
+
+            .containerVision{
+                .descriptionVision{
+                    .vision{
+                        width:100%;
+                        
+                        .top{
+                            text-align: center;
+
+                            button{
+                                width:60%;
+                            }
+                        }
+                        .title{
+                            width:80%;
+                            margin:auto;
+                            h1{
+                                font-weight: 400;
+                                font-size: 32px;
+                            }
+
+                            h3{
+                                font-weight: 400;
+                                font-size: 14px;
+                            }
+                        }
+                        .listOptionsSubMisiones{
+                            .option{
+                                .Desc{
+                                    width:70%;
+                                    span{
+                                        font-weight: 400;
+                                    }
+                                }
+                            }
+                        }
+                    }
+    
+                    img{
+                        display: none;
+                    }
+                }
+            }
+        } 
+
+        .subscription{
+            height: auto;
+
+            .contextSubscription{
+
+                .containerSub{
+                    width:90%;
+
+                    .top{
+                        padding:20px 0px;
+
+                        button{
+                            width:80%;
+                            background-color: transparent;
+                            border:1px solid @bgWhite;
+
+                            span{
+                                font-size: 14px;
+                                color: @bgWhite,
+                            }
+                        }
+                        
+                    }
+                    .title{
+                        h1{
+                            font-size: 24px;
+                        }
+                        h3{
+                            font-weight: 400;
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

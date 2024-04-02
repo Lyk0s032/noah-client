@@ -1,0 +1,1313 @@
+.noah-app{
+    box-sizing: border-box;
+    height:100%;
+
+    .container-noah{
+        height: 86%;
+        box-sizing: border-box;
+        overflow-x: auto;
+        // background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/bg-2.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        .home{
+            position:relative;
+            box-sizing: border-box;
+            .firstComponentHome{
+                width:100%;
+                height: auto;
+                position:relative;
+                height:100%;
+                box-sizing: border-box;
+                display: flex;
+                align-items: center;
+
+                .left-div{
+                    box-sizing: border-box;
+                    width:40%;
+                    height:auto;
+                    padding:10px;
+                    box-sizing: border-box;
+                    margin-left:5%;
+
+                    .text{
+                        h1{
+                            font-size: 62px;
+                            color: @bgDark;
+                            
+                        }
+                        h3{
+                            color:#666;
+                            font-weight: 100;
+                            font-size: 16px;
+                        }
+                    }
+                    .go-toAction{
+                        margin-top:20px;
+                        display: flex;
+                        justify-content: space-between;
+                        button{
+                            width:48%;
+                            border-radius: 20px;
+                            padding:15px;
+                            box-sizing: border-box;
+                            border:1px solid #ccc;
+                            cursor: pointer;
+                        }
+                        .principal{
+                            background-color: @bgPrimary;
+                            border:1px solid @bgWhite;
+                            transition: .3s;
+
+                            span{
+                                color: @bgWhite;
+                            }
+
+                        }
+                        .principal:hover{
+                            transform: scale(1.1);
+                            background-color: @bgWhite;
+                            border:1px solid @bgPrimary;
+
+                            span{
+                                color: @bgPrimary;
+                            }
+                        }
+                        .normal{
+                            border:1px solid @bgWhite;
+                            background-color: @bgWhite;
+                            transition: .3s;
+                        }
+                        .normal:hover{
+                            transform: translateX(5%);
+                            border:1px solid #ccc;
+
+                        }
+                    }
+                }
+                z-index:1;
+            }
+            
+            .componentResponsiveServices{
+                box-sizing: border-box;
+                height:auto;
+                background-color: @bgWhite;
+                height:100%;
+                display: flex;
+                align-items: center;
+                
+                .containerRelative{
+                    background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/left-right-line-small.svg');
+                    object-fit: cover;
+                    background-position: bottom;
+                    display: flex;
+                    align-items: center;
+                    .containerServices{
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+                        height:auto;
+
+                        .wallpaperLeft{
+                            width:40%;
+                            img{
+                                width: 100%;
+                                object-fit: cover;
+                                border-radius: 10px;
+                                border:1px solid #eee;
+    
+                            }
+                        }
+                        .containerInfoServices{
+                            width:50%;
+                            padding:10px;
+                            box-sizing: border-box;
+    
+                            .top{
+                                padding:10px 0px;
+    
+                                button{
+                                    width:40%;
+                                    border-radius: 20px;
+                                    padding:10px;
+                                    box-sizing: border-box;
+                                    border:1px solid @bgBtnOpacity;
+                                    background-color: @bgBtnOpacity;
+                                    cursor: pointer;
+                                    transition: .3s;
+                                    span{
+                                        color: @bgColorTextPrimary;
+                                    }
+                                }
+                                button:hover{
+                                    transform: translateX(5%);
+                                }
+                            }
+                            .titleAndDesc{
+                                box-sizing: border-box;
+                                padding:10px 0px;
+                                width:80%;
+                                h1{
+                                    font-size: 28px;
+                                    font-weight: 700;
+                                    color: @bgDark;
+                                    margin:10px 0px;
+                                }
+                                span{
+                                    font-size: 16px;
+                                    color: #6b7385;
+                                    letter-spacing: 1px;
+                                }
+                            }
+                            .someOptions{
+                                width:70%;
+                                box-sizing: border-box;
+                                padding:10px 0px;
+    
+                                .img{
+                                    width:100%;
+                                    img{
+                                        width:100%;
+                                        transition: .3s;
+                                        border-radius: 20px;
+                                    }
+                                    img:hover{
+                                        transform: translateX(-5%);
+                                    }
+                                }
+                            }
+                            .listBeneficiosList{
+                                box-sizing: border-box;
+                                width:90%;
+                                box-sizing: border-box;
+    
+                                .title{
+                                    padding:10px 0px;
+                                    box-sizing: border-box;
+
+                                    h3{
+                                        color: @bgDark;
+                                        font-size: 16px;
+                                    }
+                                }
+                                .list-div{
+                                    width:100%;
+                                    box-sizing: border-box;
+                                    nav{
+                                        width:100%;
+                                        ul{
+                                            display: flex;
+                                            justify-content: space-between;
+                                            flex-wrap: wrap;
+                                            width:100%;
+                                            li{
+                                                width:48%;
+                                                box-sizing: border-box;
+                                                display: flex;
+                                                margin:8px 0px;
+                                                box-sizing:border-box;
+                                            
+                                                div{
+                                                    width:100%;
+                                                    display:flex;
+                                                    align-items: center;
+
+                                                    .icon{
+                                                        color: @bgPrimary;
+                                                        margin-right: 10px;
+                                                        font-size: 18px;
+                                                    }
+                                                    span{
+                                                        font-size: 16px;
+                                                        color: #6b7385;
+                                                        font-weight: 400;
+                                                        letter-spacing: 1px;
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .other{
+                height:100%;
+                box-sizing: border-box;
+                .containerOtherServices{
+                    height:100%;
+                    display: flex;
+                    align-items: center;
+                
+                    .designServices{
+                        height:auto;
+                        width:60%;
+                        box-sizing: border-box;
+
+                        .containerS{
+                            width:90%;
+                            margin-left:auto;
+
+                            .top{
+                                width:100%;
+                                padding:10px 0px;
+                                button{
+                                    padding:10px;
+                                    box-sizing: border-box;
+                                    border-radius: 20px;
+                                    width:40%;
+                                    background-color: @bgBtnOpacity;
+                                    border:1px solid @bgBtnOpacity;
+                                    cursor: pointer;
+                                    transition:.3s;
+                                    span{
+                                        color: @bgColorTextPrimary;
+                                    }
+                                }
+                                button:hover{
+                                    transform: translateX(5%);
+                                }
+                            }
+                            .titleAndDesc{
+                                padding:10px 0px;
+                                width:80%;
+                                h3{
+                                    font-weight: 700;
+                                    color: @bgDark;
+                                    font-size: 32px;
+                                    margin:10px 0px;
+                                }
+                                span{
+                                    color: @txtColorDark;
+                                    font-size: 16px;
+                                    letter-spacing: 1px;
+                                }
+                            }
+
+                            .title{
+                                padding:10px 0px;
+                                box-sizing: border-box;
+
+                                h3{
+                                    color: @bgDark;
+                                    font-size: 16px;
+                                }
+                            }
+                            .navDesignOptions{
+                                width:100%;
+                                box-sizing: border-box;
+                                nav{
+                                    width:100%;
+                                    ul{
+                                        display: flex;
+                                        justify-content: space-between;
+                                        flex-wrap: wrap;
+                                        width:100%;
+                                        li{
+                                            width:48%;
+                                            box-sizing: border-box;
+                                            display: flex;
+                                            margin:8px 0px;
+                                            box-sizing:border-box;
+                                        
+                                            div{
+                                                width:100%;
+                                                display:flex;
+                                                align-items: center;
+
+                                                .icon{
+                                                    color: @bgPrimary;
+                                                    margin-right: 10px;
+                                                    font-size: 18px;
+                                                }
+                                                span{
+                                                    font-size: 16px;
+                                                    color: #6b7385;
+                                                    font-weight: 400;
+                                                    letter-spacing: 1px;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .imgWallpaper{
+                        width:40%;
+                        box-sizing: border-box;
+                        height:auto;
+                        img{
+                            width:100%;
+                            border-radius: 20px;
+                            border:1px solid #eee;
+                            box-sizing: border-box;
+                        }
+                    }
+                }
+
+            }
+
+            .componentBlueBig{
+                height:100%;
+                background: @grandiente1;
+                box-sizing: border-box;
+                .wallpaperDiv{
+                    background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/icons/map.png');
+                    background-position: top;
+                    background-repeat: no-repeat;
+                    height:100%;
+                    display: flex;
+                    width:80%;
+                    margin:auto; 
+                    background-attachment: fixed;
+                    padding:10px;
+                    box-sizing: border-box;
+                    display: flex;
+                    align-items: center;
+                    .containerInfoBlue{
+                        width:100%;
+                        text-align: center;
+                        height:auto;
+                        .title{
+                            width:90%;
+                            margin:auto;
+                            h1{
+                                font-size: 64px;
+                                font-weight: bold;
+                                color: @bgWhite;
+                                padding:10px;
+                                box-sizing: border-box;
+                            }
+                            h3{
+                                color: @bgWhite;
+                                letter-spacing: 1px;
+                            }
+                        }
+                        .btn{
+                            width:80%;
+                            margin:auto;
+                            margin-top:30px;
+                            z-index:1;
+                            button{
+                                width:40%;
+                                border-radius: 10px;
+                                background-color: @bgWhite;
+                                padding:25px;
+                                box-sizing: border-box;
+                                cursor: pointer;
+                                transition: .3s;
+                                border:1px solid @bgPrimary;
+                                z-index:1;
+                                span{
+                                    color: @bgDark;
+                                    font-size: 18px;
+                                    color: @bgDark;
+                                    font-weight: 100;
+                                } 
+                            }
+                        }
+                    }
+                }
+            }
+            .whiteOtherServiceForYourBusiness{
+                height:auto;
+                padding:40px 0px;
+                box-sizing: border-box;
+                background-color: @bgWhite;
+
+                .divServices{
+                    width:90%;
+                    margin:auto;
+
+                    .top{
+                        width:100%;
+                        text-align: center;
+                        padding:10px;
+                        box-sizing: border-box;
+                        button{
+                            width:20%;
+                            margin:auto;
+                            background-color: @bgBtnOpacity;
+                            border:1px solid @bgBtnOpacity;
+                            padding:10px;
+                            border-radius: 20px;
+                            span{
+                                color: @bgColorTextPrimary;
+                            }
+                        }
+                    }
+
+                    .titleAndDesc{
+                        margin:40px auto;
+                        text-align: center;
+                        width:70%;
+                        h1{
+                            font-size: 42px;
+                            margin:20px 0px;
+                            font-weight: 100;
+                            strong{
+                                background: linear-gradient(90deg, #2f57ef, #b966e7);;
+                                -webkit-background-clip: text;
+                                background-clip: text;
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+                            }
+                        }
+                        h3{
+                            font-weight: 100;
+                            color: @txtColorDark;
+                        }
+                    }
+                    .list-our-helps{
+                        margin-top:20px;
+
+                        .large{
+                            width:100%;
+                            border-radius: 10px;
+                            
+                            .containerLarge{
+                                margin-top:20px;
+                                display: flex;
+                                justify-content: space-between;
+                                flex-wrap: wrap;
+                                box-sizing: border-box;
+                                .box{
+                                    width:30%;
+                                    padding:10px 0px;
+                                    padding-bottom: 0px;
+                                    box-sizing: border-box;
+                                    vertical-align: top;
+
+                                    border-radius: 10px;
+                                    background: linear-gradient(90deg, #8DA9FC 0%, #B48DD5 100%);;
+                                    box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+                                    
+                                    .header{
+                                        padding:40px 0px;
+                                        box-sizing: border-box;
+                                        width:90%;
+                                        margin-left: auto;
+
+                                        h3{
+                                            font-weight: 100;
+                                            font-size: 16px;
+                                            color: @bgWhite;
+                                            strong{
+                                                font-weight: bold;
+                                                color: @bgWhite;
+                                            }
+                                        }
+                                    }
+                                    .wallpaper{
+                                        width:100%;
+                                        position:relative;
+                                        padding:0px;
+                                        margin:none;
+                                        img{
+                                            padding:0px;
+                                            margin:0px;
+                                            width:100%;
+                                            box-sizing: border-box;
+                                            object-fit: contain;
+                                        }
+                                    }
+                                }
+                                .box.Dark{
+                                    background: #3B3B46;
+                                }
+                            }
+                            .twoLarge{
+                                margin-top:40px;
+
+                                .containerBox{
+                                    margin-top:30px;
+                                    box-sizing: border-box;
+                                    display: flex;
+                                    justify-content: space-between;
+                                    .small{
+                                        vertical-align: top;
+                                        border:1px solid black;
+                                        width:30%;
+                                        background:#111113;
+                                        border-radius: 20px;
+                                        .wallpaper{
+                                            width:100%;
+                                            img{
+                                                width:100%;
+                                                height:auto;
+                                                object-fit: cover;
+                                                border-radius: 20px;
+                                            }
+                                        }
+                                        .titleAndDesc{
+                                            text-align: left;
+                                            width:80%;
+                                            margin:auto;
+                                            padding:40px 0px;
+                                            h3{
+                                                font-weight: 100;
+                                                font-size: 16px;
+                                                color: @bgWhite;
+                                                letter-spacing:1px;
+                                                color: rgba(255, 255, 255, 0.8352941176);
+                                                strong{
+                                                    font-weight: bold;
+                                                    color: @bgWhite;
+                                                }
+                                            
+                                            }
+
+                                        }
+                                    }
+                                    .largeBox{
+                                        vertical-align: top;
+                                        width:65%;
+                                        border-radius: 20px;
+                                        background-color: @bgWhite;
+                                        box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+                                        .containerLargeBox{
+                                            display: flex;
+                                            justify-content: space-between;
+                                            align-items: center;
+                                            padding:0px 30px; 
+                                            box-sizing: border-box;
+
+                                            .left{
+                                                width:40%;
+                                                box-sizing: border-box;
+
+                                                .containerInfo{
+                                                    width:100%;
+                                                    .titleAndDesc{
+                                                        width:100%;
+                                                        text-align: left;
+
+                                                        h1{
+                                                            font-size: 28px;
+                                                            background: linear-gradient(90deg, #2f57ef,#b966e7);
+                                                            -webkit-background-clip: text;
+                                                            background-clip: text;
+                                                            -webkit-background-clip: text;
+                                                            -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+                                                            font-weight: bold;
+                                                        }
+                                                        h3{
+                                                            color: @txtColorDark;
+                                                            font-size: 16px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                            .wallpaperRight{
+                                                width:60%;
+
+                                                img{
+                                                    width:100%;
+                                                    height:auto;
+                                                    box-sizing: border-box;
+                                                    object-fit: cover;
+                                                }
+                                            }
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .componentOpinion{
+                background-color: @bgWhite;
+                height:auto;
+                width:100%;
+                padding:50px 0px;
+                box-sizing: border-box;
+
+                .containerDivAboutOpinions{
+                    padding:40px 0px;
+                    .generalSeccion{
+                        .top{
+                            width:100%;
+                            text-align: center;
+                            padding:10px;
+                            box-sizing: border-box;
+                            button{
+                                width:20%;
+                                margin:auto;
+                                background-color: @bgBtnOpacity;
+                                border:1px solid @bgBtnOpacity;
+                                padding:10px;
+                                border-radius: 20px;
+                                span{
+                                    color: @bgColorTextPrimary;
+                                }
+                            }
+                        }
+                        .title{
+                            width:60%;
+                            margin:30px 0px;
+                            margin:auto;
+                            text-align: center;
+
+                            h1{
+                                margin:30px 0px;
+                                font-size: 42px;
+                                color: @txtColorDark;
+                                font-weight: 100;
+                            }
+                        }
+                    }
+                    .allOpinions{
+                        padding:40px 0px;
+
+                        .containerOpinions{
+                            margin:40px 0px;
+                            box-sizing: border-box;
+
+                            .marquee {
+                                position: relative;
+                                overflow: hidden;
+                                height: 300px;
+                                margin-bottom: 30px;
+                              }
+                              
+                              .marquee .wrapper {
+                                position: absolute;
+                                overflow: hidden;
+                                width: 200%;
+                                animation: marquee 19s linear infinite;
+                                display: flex;
+                                padding:10px;
+                                box-sizing: border-box;
+                              }
+                              .marquee .wrapper.Right{
+                                animation-direction:reverse;
+
+                              }
+                              
+                              .marquee .wrapper .opi {
+                                width: 20%;
+                                margin: 0px 2%;
+                                box-sizing: border-box;
+                                border-radius: 20px;
+                                box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+                                background-color: @bgWhite;
+                                padding: 40px 20px;
+                                box-sizing: border-box;
+                                .opinion{
+                                    width:100%;
+                                    box-sizing: border-box;
+                                    .top{
+                                        width:20%;
+                                        margin:auto;
+                                        text-align: center;
+                                        height: auto;
+                                        img{
+                                            width:100%;
+                                            height:auto;
+                                        }
+                                    }
+                                    .message{
+                                        padding:20px 0px;
+                                        box-sizing: border-box;
+                                        width: 90%;
+                                        margin:auto;
+                                        h3{
+                                            font-weight: 100;
+                                            color: @txtColorDark;  
+                                            font-size: 16px;
+                                            letter-spacing: 1px;
+                                            strong{
+                                                font-weight: bold;
+                                            }
+                                        }
+                                    }
+                                    .Dark{
+                                        h3{
+                                            color: @bgWhite;
+                                        }
+                                    }
+                                }
+                              }
+                              .Dark{
+                                background: linear-gradient(218.15deg, #b966e7 0%, #2f57ef 100%);
+
+                              }
+                              
+                              @keyframes marquee {
+                                0% {
+                                  left: 0;
+                                }
+                                100% {
+                                  left: -100%;
+                                }
+                              }
+                        }
+                    }
+                }
+            }
+            .other{
+                height:100%;
+                background-color: @bgWhite;
+                .circle{
+                    width: 240px;
+                    top: -96px;
+                    height: 240px;
+                    right: -96px;
+                    margin: 0 auto;
+                    background-image: linear-gradient(90deg, #CFA2E8, @bgPrimary);
+                    opacity: 0.09;
+                    border-radius: 100%;
+                
+                }
+            }
+            .otherComponentServices{
+                height:auto;
+                padding:10px;
+                box-sizing: border-box;
+                margin:40px 0px;
+                background-color: white;
+                .container{
+                    width:90%;
+                    box-sizing: border-box;
+                    margin:auto;
+
+                    .titleComponente{
+                        text-align: center;
+                        padding:20px 0px;
+
+                        h1{
+                            color:@colorDark;
+                        }
+                    }
+                    .componentSolution{
+                        padding:60px 10px;
+                        box-sizing: border-box;
+                        display: flex;
+                        align-items: center;
+                        justify-content: space-between;
+
+                        .lade.Text{
+                            width:40%;
+                            padding:10px;
+                            box-sizing: border-box;
+
+                            .icon{
+                                width:15%;
+
+                                img{
+                                    width:100%;
+                                    object-fit: contain;
+                                }
+                            }
+                            h2{
+                                color: @colorDark;
+                                margin:10px 0px;
+                                font-size: 36px;
+                                font-weight: 100;
+                            }
+                            span{
+                                color: @colorOpacity;
+                                font-size: 16px;
+                                letter-spacing: 1px;
+                                font-weight: 100;
+                            }
+                            .goToAction{
+                                margin-top:20px;
+                                padding:10px 0px;
+                                box-sizing: border-box;
+                                width:100%;
+                                text-align: right;
+                            
+                                button{
+                                    padding:10px;
+                                    box-sizing: border-box;
+                                    border-radius: 20px;
+                                    border:1px solid @bgPrimary;
+                                    background-color: @bgPrimary;
+                                    cursor: pointer;
+                                    width:40%;
+                                    transition: .3s;
+                                    span{
+                                        font-size: 14px;
+                                        color: @bgWhite;
+                                    }
+                                }
+                                button:hover{
+                                    transform: translateX(-10%);
+                                }
+                            }
+
+                        }
+                        .lade.Img{
+                            width:50%;
+                            text-align: center;
+                            box-sizing: border-box;
+
+                            .img{
+                                width:100%;
+                                object-fit: cover;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width: 900px){
+        
+        .container-noah{
+            .home{
+                .firstComponentHome{
+                    .left-div{
+
+                        .text{
+                            h1{
+                                font-size: 42px;
+                            }
+                            h3{
+                                font-size: 14px;
+                            }
+                        }
+                        .go-toAction{
+                            button{
+                                padding:10px 0px;
+                                span{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                }
+                .componentResponsiveServices{
+                    .containerRelative{
+                        .containerServices{
+                            .containerInfoServices{
+                                width:50%;
+    
+                                .titleAndDesc{
+                                    width:100%;
+                                    h1{
+                                        font-size: 24px;
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                    }
+                                }
+                                .someOptions{
+                                    width:50%;
+                                }
+                                .listBeneficiosList{
+                                    width:100%;
+
+                                    .list-div{
+                                        nav{
+                                            ul{
+                                                li{
+                                                    div{
+                                                        .icon{
+                                                            font-size: 16px;
+                                                        }
+                                                        span{
+                                                            font-size: 14px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .other{
+                    .containerOtherServices{
+                        .designServices{
+                            width:70%;
+
+                            .containerS{
+
+                                .top{
+                                    button{
+                                        width:50%;
+                                    }
+                                }
+
+                                .titleAndDesc{
+                                    width:90%;
+
+                                    h3{
+                                        font-size: 24px;
+                                    }
+                                    span{
+                                        font-size: 14px;
+                                    }
+
+                                }
+
+                                .navDesignOptions{
+                                    nav{
+                                        ul{
+                                            li{
+                                                div{
+                                                    .icon{
+                                                        font-size: 14px;
+                                                    }
+                                                    span{
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }   
+                                    }
+                                }
+                                
+                            }
+                        }
+                    }
+                }
+
+                .componentBlueBig{
+                    .wallpaperDiv{
+
+                        .containerInfoBlue{
+                            .title{
+                                h1{
+                                    font-size: 42px;
+                                }
+                                h3{
+                                    font-size: 18px;
+                                }
+                            }
+                            .btn{
+                                button{
+                                    width:70%;
+                                
+                                    span{
+                                        font-size: 16px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+
+    // MAXWIDTH 800
+    @media screen and (max-width: 800px){
+        
+        .container-noah{
+            .home{
+                .firstComponentHome{
+                    .left-div{
+                        width:100%;
+                        box-sizing: b;
+                        .text{
+                            h1{
+                                font-size: 42px;
+                            }
+                            h3{
+                                font-size: 14px;
+                            }
+                        }
+                        .go-toAction{
+                            button{
+                                padding:10px 0px;
+                                span{
+                                    font-size: 12px;
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+                .componentResponsiveServices{
+                    display: none;
+                    height:100%;
+                    border-bottom: 1px solid #eee;
+                    padding:30px 0px;
+                    .containerRelative{
+                        .containerServices{
+                            width:90%;
+                            margin:auto;
+                            .wallpaperLeft{
+                                display:none;
+                            }
+                            .containerInfoServices{
+                                width:100%;
+    
+                                .titleAndDesc{
+                                    width:100%;
+                                    h1{
+                                        font-size: 24px;
+                                    }
+                                    span{
+                                        display: none;
+                                        font-size: 14px;
+                                    }
+                                }
+                                .someOptions{
+                                    width:50%;
+                                    display: none;
+                                }
+                                .listBeneficiosList{
+                                    width:100%;
+                                    .title{
+                                        display: none;
+                                    }
+                                    .list-div{
+                                        nav{
+                                            ul{
+                                                li{
+                                                    div{
+                                                        .icon{
+                                                            font-size: 16px;
+                                                        }
+                                                        span{
+                                                            font-size: 14px;
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+
+                }
+
+                .other{
+                    display: none;
+                    height:auto;
+                    padding:40px 0px;
+                    border-bottom: 1px solid #eee;
+                    .containerOtherServices{
+                        .designServices{
+
+                            width:90%;
+                            margin:auto;
+                            .containerS{
+                                width:100%;
+                                .top{
+                                    button{
+                                        width:50%;
+                                    }
+                                }
+
+                                .titleAndDesc{
+                                    width:90%;
+                                    margin-bottom: 20px;
+                                    h3{
+                                        margin:10px 0px;
+                                        font-size: 24px;
+                                    }
+                                    span{
+                                        display: none;
+                                        font-size: 14px;
+                                    }
+
+                                }
+                                .title{
+                                    display: none;
+                                }
+
+                                .navDesignOptions{
+                                    nav{
+                                        ul{
+                                            li{
+                                                div{
+                                                    .icon{
+                                                        font-size: 14px;
+                                                    }
+                                                    span{
+                                                        font-size: 12px;
+                                                    }
+                                                }
+                                            }
+                                        }   
+                                    }
+                                }
+                                
+                            }
+                        }
+                        .imgWallpaper{
+                            display: none;
+                        }
+                    }
+                }
+
+                .componentBlueBig{
+                    .wallpaperDiv{
+                        width:90%;
+                        .containerInfoBlue{
+
+                            .title{
+                                width:100%;
+                                h1{
+                                    font-size: 32px;
+                                }
+                                h3{
+                                    font-size: 18px;
+                                }
+                            }
+                            .btn{
+                                button{
+                                    width:100%;
+                                    padding:15px;
+                                    span{
+                                        font-size: 14px;
+                                        display: block;
+                                    }
+                                }
+
+                                span{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+                .whiteOtherServiceForYourBusiness{
+                    .divServices{
+                        .top{
+                            button{
+                                width:90%;
+                            }
+                        }
+                        .titleAndDesc{
+                            width:90%;
+                        }
+                        .list-our-helps{
+                            .large{
+                                .containerLarge{
+                                    .box{
+                                        width:100%;
+                                        padding:20px 0px;
+                                        box-sizing: border-box;
+                                        margin-bottom: 30px;
+                                        .header{
+                                            height:auto;
+                                            strong{
+                                                display: block;
+                                            }
+
+                                            
+                                        }
+                                        .wallpaper{
+                                            height:150px;
+                                            width:100%;
+                                        }
+                                    }
+                                }
+
+                                .twoLarge{
+
+                                    .containerBox{
+                                        flex-wrap: wrap;
+
+                                        .small{
+                                            width:100%;
+                                            
+                                            
+                                        }
+                                        .largeBox{
+                                            width:100%;
+                                            margin-top:30px;
+                                            .containerLargeBox{
+                                                .left{
+                                                    width:100%;
+                                                }
+                                                .wallpaperRight{
+                                                    display: none;
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                           
+                        }
+
+                    }
+                }
+
+                .componentOpinion{
+                    padding-bottom: 0px;
+                    .containerDivAboutOpinions{
+                        padding-bottom: 0px;
+                        .generalSeccion{
+                            .top{
+                                button{
+                                    width:90%;
+                                }
+                            }
+
+                            .title{
+                                width:90%;
+                                
+                                h1{
+                                    margin:20px 0px;
+                                }
+                            }
+                        }
+                        .allOpinions{
+                            padding:10px 0px;
+
+                            .containerOpinions{
+                                margin:10px 0px;
+
+                                .marquee .wrapper{
+                                    animation:none;
+                                    width:100%;
+                                    flex-wrap: wrap;
+                                    display: flex;
+                                }
+                                
+                                .marquee .wrapper .opi{
+                                    padding:40px 10px;
+                                    margin:0px 1%;
+                                    width:48%;
+                                    .opinion{
+                                        .top{
+                                            width:50%;
+                                        }
+                                        .message{
+                                            width:100%;
+                                        
+                                            h3{
+                                                font-size: 14px;
+                                            
+                                            }
+                                        }
+                                    }
+                                }
+                                .marquee .wrapper .opi.Responsive{
+                                    display: none;
+                                }
+                                .marquee.Responsive{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }   
+            }
+
+        }
+    }
+
+    
+}

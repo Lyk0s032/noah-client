@@ -1,0 +1,321 @@
+.navNoah{
+    box-sizing: border-box;
+    height:14%;
+    display: flex;
+    align-items: center;
+    
+    .navigation-container{
+        width:100%;
+        display: flex;
+        align-items: center;
+        height:100%;
+        box-sizing: border-box;
+        justify-content: space-between;
+        background-color: white;
+        .left-nav{
+            align-items: center;
+            display: flex;
+            height:auto;
+            margin-left:2%;
+            width:20%;
+            padding:10px;
+            box-sizing: border-box;
+            
+            img{
+                width:100%;
+                object-fit: contain;
+            }
+        }
+        .navigation-options{
+            margin-right: 2%;
+            nav{
+                ul, li{
+                    list-style: none;
+                }
+                ul{
+                    display: flex;
+                    justify-content: center;
+                    .li{
+                        padding:0px 10px;
+                        display: flex;
+                        align-items: center;
+                        cursor: pointer;
+                        transition: .3s;
+                        font-size: 14px;
+                        border-bottom:2px solid white;
+                        box-sizing: border-box;
+                        align-items: center;
+                        margin:0px 10px;
+                        span{
+                            height: auto;
+                            color: @colorDark;
+                            font-size: 15px;
+                        }
+                    }
+                    .li:hover{
+                        border-bottom:2px solid black;
+                    }
+                    .GoAction{
+                        align-items: center;
+                        button{
+                            height:auto;
+                            padding:10px 40px;
+                            box-sizing: border-box;
+                            border-radius: 20px;
+                            margin:0px 10px;
+                            border:1px solid @bgPrimary;
+                            background-color: @bgWhite;
+                            cursor: pointer;
+                            span{
+                                font-size: 12px;
+                                color: @bgPrimary;
+                            }
+                        }
+                    }
+                    .goAction:hover{
+                        border-bottom: 2px solid white;
+                    }
+                }
+            }
+            nav > li{
+                float:left;
+                display: block;
+            }
+
+            nav ul li .subBox{
+                display: none;
+                position:fixed;
+                top:14%;
+    
+                height:auto;
+                box-sizing: border-box;
+                background-color: @bgWhite;
+                z-index: 2;
+
+                li{
+                    padding:10px;
+                }
+
+            }
+            .subBox{
+                cursor: default;
+                margin:0px auto;
+                padding:0px;
+                min-width:50%;
+                right: 10%;
+                float:left;
+                border:1px solid #eee;
+                border-radius: 10px;
+                transition: .3s;
+
+                .navigation{
+                    width:100%;
+                    .header-nav{
+                        background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/course/category-10.png');
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        object-fit: cover;
+                        padding:40px 30px;
+                        box-sizing: border-box;
+                        width:100%;
+
+                        .textAndDesc{
+                            width:40%;
+                            h3{
+                                color: @bgWhite;
+                                margin:5px 0px;
+                            }
+                            span{
+                                font-size: 12px;
+                                color: @bgWhite;
+                            }
+                        }
+                        
+                    }
+                    .subOptions{
+                        padding:20px;
+                        box-sizing: border-box;
+                        width:100%;
+                        display: flex;
+                        justify-content: space-between;
+                        .subOptionsNav{
+                            width:40%;
+                            .titleSubOptions{
+                                border-bottom: 1px solid #eee;
+                                padding:10px 0px;
+                                box-sizing: border-box;
+                                h3{
+                                    font-weight: 100;
+                                    color: @txtColorDark;
+                                    font-size: 14px;
+                                }
+                            }
+                            .optionsList{
+                                ul{
+                                    display: block;
+                                    li{
+                                        display:inline-flex;
+                                        width:100%;
+                                        cursor: pointer;
+                                        padding:15px 5px;
+                                        transition: .3s;
+                                        span{
+                                            font-size: 12px;
+                                            color: @txtColorDark;
+                                            font-weight: 500;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .subBox.Small{
+                min-width: auto;
+                left:auto;
+                right: 10%;
+            }
+            .subBox.Blog{
+                width:80%;
+                left:10%;
+                right:10%;
+            }
+            .hidden{
+                display: none;
+            }
+            nav ul > .li:hover > .subBox{
+                display: block;
+            }
+        }
+
+        .responsiveBtn{
+            height: auto;
+            display: none;
+            button{
+                background-color: transparent;
+                border: none;
+                cursor: pointer;
+                padding:5px;
+                box-sizing: border-box;
+                height: auto;
+                .icon{
+                    font-size: 32px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:900px) {
+        .navigation-container{
+            .left-nav{
+                width:40%;
+                height:100%;
+
+                img{
+                    object-fit: cover;
+                }
+            }
+            .navigation-options{
+                margin:0px;            
+                background-color: @bgWhite;
+                width: 100%;
+                position: absolute;
+                z-index: 2;
+                top:14%;
+                height:86%;
+                left:0;
+                right: 0;
+                box-sizing: border-box;
+                overflow-y: auto;
+                transition: .3s;
+                transform: translateX(-100%);
+                nav{
+                    height: auto;
+                    ul{
+                        display: block;
+
+                        .li{
+                            position:relative;
+                            height: auto;
+                            display: block;
+                            padding:20px 10px;
+                            box-sizing: border-box;
+                            border-bottom: 1px solid #eee;
+                            margin-bottom: 10px;
+                            cursor: default;
+                            span{
+                                font-size: 14px;
+                                font-weight: bold;
+                            }
+                        }
+                        
+                        .li:hover{
+                            border-bottom:2px solid @bgWhite;
+                        }
+                        li{
+                            position:relative;
+                            height: auto;
+                        }
+                    }
+
+                }   
+
+                nav > li{
+                    float:none;
+                }
+                nav ul li .subBox{
+                    display: block;
+                    position: relative;
+                    top:0px;
+
+                    
+                }
+
+                .subBox{
+                    width:100%;
+                    right:0px;
+                    margin-top:10px;
+                    border:none;
+                    float: none;
+                    padding: 0px 20px;
+                    box-sizing: border-box;
+                    .navigation{
+                        .header-nav{
+                            display: none;
+                        }
+                        .subOptions{
+                            padding:0px;
+                            display: block;
+                            .subOptionsNav{
+                                width:100%;
+                            
+                                .titleSubOptions{
+                                    display: none;
+                                }
+                            }
+                        
+                        }
+                    }
+                }
+                .subBox.Small{
+                    right:0px;
+                }
+                .subBox.Blog{
+                    right:0px;
+                    left:0px;
+                    width:100%;
+                }
+            }
+            .navigation-optionsActive{
+                transform: translateX(0%);
+            }
+            .responsiveBtn{
+                display: block;
+            }
+        }
+        .navigation-containerActive{
+            position:fixed;
+        }
+    }
+}

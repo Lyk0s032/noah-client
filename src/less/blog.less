@@ -1,0 +1,634 @@
+.blog{
+    background: @bgWhite;
+
+    .default{
+        box-sizing: border-box;
+
+        .homeDefault{
+            height:100%;
+            box-sizing: border-box;
+            border:1px solid @bgWhite;
+            display: flex;
+            align-items: center;
+            .container{
+                width:80%;
+                margin:auto;
+                height: auto;
+
+                .bigName{
+                    width:100%;
+                    text-align: center;
+                    h1{
+                        font-size: 200px;
+                    }
+                }
+
+                .small{
+                    width:100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    margin:40px 0px;
+                    .leftText{
+                        width:60%;
+                        box-sizing: border-box;
+                    
+                        h3{
+                            font-weight: 100;
+                            font-size: 20px;
+                            margin:10px 0px;
+                        }
+                        span{
+                            color: @bgDark;
+                        }
+                        
+                    }
+                    .rightText{
+                        width:30%;
+                        box-sizing: border-box;
+                    
+                        .img{
+                            width:100%;
+
+                            img{
+                                width:20%;
+                                border-radius: 100%;
+                            }
+                            
+                        }
+                        .textMisionBlog{
+                            
+                            span{
+                                font-size: 14px;
+                                color: @bgDark;
+                            }
+                        }
+                    }
+                }
+            }
+        } 
+        
+        .defaultBlogSection{
+            height: auto;
+            background-color: @bgWhite;
+
+            .containerSections{
+                width:90%;
+                margin:auto;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: start;
+
+                .leftSection{
+                    width:70%;
+                    box-sizing: border-box;
+                    padding:0px 40px;
+                    .containerLeft{
+                        width:100%;
+                        box-sizing: border-box;
+
+                        .navSectionsSearch{
+                            display: flex;
+                            align-items: center;
+                            padding:30px 0px;
+                            box-sizing: border-box;
+
+                            .noah{
+                                width:10%;
+                                text-align: center;
+                                box-sizing: border-box;
+                            }
+                            .navigationBlog{
+                                width:90%;
+                                box-sizing: border-box;
+                                border-bottom: 2px solid #eee;
+                                height:40px;
+                                nav{
+                                    width:100%;
+                                    height:100%;
+                                    ul{
+                                        display: flex;
+                                        align-items: center;
+                                        justify-content: space-around;
+                                        height: 100%;
+                                        li{
+                                            height: 42px;
+                                            display: flex;
+                                            align-items: center;
+                                            box-sizing: border-box;
+                                            padding:0px 10px;
+                                            transition: .3s;
+                                            cursor: pointer;
+                                            border-bottom: 2px solid #eee;
+                                            span{
+                                                font-size: 13px;
+                                                color: @txtColorDark;
+                                            }
+                                        }
+                                        li:hover{
+                                            border-bottom: 2px solid @bgPrimary;
+                                        }
+                                        li.active{
+                                            border-bottom: 2px solid @bgPrimary;
+
+                                        }
+                                    }
+                                }
+                            }
+                        }
+
+                        .containerNews{
+                        
+                            .containerN{
+                                .divideNews{
+                                    display: flex;
+                                    justify-content: space-between;
+                                    align-items: start;
+
+                                    .leftBig{
+                                        width:50%;
+                                        box-sizing: border-box;
+                                        padding:0px 10px;
+
+                                        .new{
+                                            width:100%;
+                                            border-radius: 10px;
+                                            .wallpaper{
+                                                img{
+                                                    width:100%;
+                                                    border-radius: 10px 10px 0px 0px;
+
+                                                }
+                                            }
+                                            .descNew{
+                                                width:100%;
+                                                border-radius: 0px 0px 10px 10px;
+                                                padding:10px;
+                                                box-sizing: border-box;
+
+                                                h3{
+                                                    font-size: 16px;
+                                                    margin-bottom: 10px;
+                                                }
+                                                .note{
+                                                    font-size: 14px;
+                                                    color: @txtColorDark;
+                                                }
+                                                .time{
+                                                    font-size: 12px;
+                                                    color: @txtColorDark;
+                                                }
+                                            }
+                                        }
+                                        
+                                    }
+                                    .rightSmallNew{
+                                        width:50%;
+                                        padding:0px 10px;
+                                        box-sizing: border-box;
+
+                                        .news{
+                                            width:100%;
+
+                                            .new{
+                                                width:100%;
+                                                height:80px;
+                                                margin-bottom: 20px;
+                                                cursor: pointer;
+                                                .containerNew{
+                                                    width:100%;
+                                                    display: flex;
+                                                    justify-content: space-between;
+                                                    align-items: center;
+                                                    height:80px;
+                                                    .img{
+                                                        width:30%;
+                                                        height: 100%;
+                                                        img{
+                                                            width:100%;
+                                                            object-fit: cover;                                                            
+                                                        }
+                                                    }
+                                                    .desc{
+                                                        width:70%;
+                                                        height: auto;
+                                                        padding:0px 10px;
+                                                        box-sizing: border-box;
+
+                                                        h3{
+                                                            color: @bgDark;
+                                                            font-size: 14px;
+                                                            font-weight: 600;
+                                                            margin-bottom: 10px;
+                                                        }
+
+                                                        .atTime{
+                                                            font-size: 12px;
+                                                            color: @txtColorDark;
+                                                        }
+                                                    }
+                                                }
+                                                transition: .3s;
+                                            }
+                                            .new:hover{
+                                                transform: scale(1.05);
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+                .rightContainerBlog{
+                    width:30%;
+                    border-left: 1px solid #eee;
+                    padding:20px;
+                    box-sizing: border-box;
+
+                    .containerSmallNews{
+                        width:100%;
+                        box-sizing: border-box;
+                        .topDiv{
+                            padding:10px 0px;
+                            border-bottom: 1px solid #eee;
+
+                            .title{
+                                padding:10px 0px;
+                                border-bottom: 2px solid #eee;
+                            
+                                h3{
+                                    font-size: 16px;
+                                    color: @bgDark;
+                                }
+                            }
+                            .desc{
+                                padding:10px 0px;
+                                span{
+                                    font-size: 14px;
+                                    color: @txtColorDark;
+                                }
+                            }
+                        }
+                        .recentsNews{
+                            padding:10px 0px;
+                            border-bottom: 1px solid #eee;
+                            box-sizing: border-box;
+                            margin:10px 0px;
+                            .title{
+                                padding:10px 0px;
+                                border-bottom: 2px solid #eee;
+                            
+                                h3{
+                                    font-size: 16px;
+                                    color: @bgDark;
+                                }
+                            }
+
+                            .containerSmallNewsRecents{
+                                padding:10px 0px;
+                                .newRecent{
+                                    width:100%;
+                                    box-sizing: border-box;
+                                    height:70px;
+                                    transition: .3s;
+                                    cursor: pointer;
+                                    .container{
+                                        width:100%;
+                                        display: flex;
+                                        height: 70px;
+                                        align-items: center;
+
+                                        .img{
+                                            width:25%;
+                                            box-sizing: border-box;
+                                            img{
+                                                width: 100%;
+                                                object-fit: cover;
+                                            }
+                                        }
+                                        .newDesc{
+                                            padding:10px;
+                                            height: auto;
+                                            box-sizing: border-box;
+                                            width:75%;
+                                            strong{
+                                                font-size: 12px;
+                                            }
+                                            span{
+                                                font-size: 12px;
+                                                color: @txtColorDark; 
+                                            }
+                                        }
+                                    }
+                                }
+
+                                .newRecent:hover{
+                                    transform: translateX(5%);
+                                }
+                                border-bottom: 1px solid #eee;
+                            }
+
+                            .ourSocialNetwork{
+                                margin:20px 0px;
+                            
+                                .networks{
+                                    .horizontalNetwork{
+                                        display: flex;
+                                        justify-content: space-around;
+                                        padding:20px 0px;
+                                        button{
+                                            background-color: transparent;
+                                            cursor: pointer;
+                                            transition: .3s;
+                                            border:none;
+                                            
+                                            .icon{
+                                                font-size: 20px;
+                                            }
+                                        }
+                                        button:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+        }
+    }
+
+    .article{
+        border:1px solid @bgWhite;
+        height:auto;
+        background: @bgWhite;
+        .containerArticle{
+            width:70%;
+            height:auto;
+            margin:100px auto;
+        
+            .titlePrincipal{
+                margin:20px 0px;
+
+                .date{
+                    margin:10px 0px;
+                    span{
+                        font-size: 12px;
+                        color: @bgPrimary;
+                    }
+                }
+                .title{
+                    margin:20px 0px;
+                    width:90%;
+                    h1{
+                        font-size: 62px;
+                        color: @bgDark;
+                    }
+                }
+            }
+
+            .descArticle{
+                margin:30px 0px;
+                
+                .text{
+                    width:100%;
+                    margin:10px 0px;
+                    span{
+                        font-size: 14px;
+                        font-weight: 100;
+                        color: @txtColorDark;
+                        letter-spacing: 1px;
+                    }
+                    
+                    .subtitle{
+                        margin-top:50px;
+                        margin-bottom: 20px;
+                        font-size: 16px;
+                        color: @bgDark;
+                    }
+                    .cita{
+                        width:100%;
+
+                        padding:20px 30px;
+                        border-left:2px solid @bgPrimary;
+                        margin:50px 0px; 
+
+                        .textCita{
+                            margin:10px 0px;
+                            span{
+                                font-weight: 600;
+                            }
+                        }
+                        .author{
+                            span{
+                                font-size: 12px;    
+                            }
+                        }
+                    }
+                }
+
+                
+            }
+            .tags{
+                margin-top:20px;
+                width:100%;
+                padding:30px 0px;
+                border-bottom: 1px solid #eee;
+            
+                .listTags{
+                    width:auto;
+
+                    button{
+                        margin:0px 10px;
+                        background-color: transparent;
+                        cursor: pointer;
+                        border:1px solid #eee;
+                        border-radius: 10px;
+                        padding:10px;
+                        cursor: pointer;
+                        transition: .3s;
+                        span{
+                            font-size: 12px;
+                            
+                            color: @bgPrimary;
+                        }
+                    }
+                    button:hover{
+                        transform: translateY(-5%);
+                    }
+                }
+            }
+            .dateBottom{
+                margin:20px 0px;
+                text-align: right;
+                span{
+                    font-size: 12px;
+                    color: @txtColorDark;
+                    letter-spacing: 1px;
+                }
+            }
+        }
+    }
+
+    @media screen and (max-width:900px){
+        
+        .default{
+            .homeDefault{
+                height:auto;
+            }
+            .defaultBlogSection{
+                .containerSections{
+                    flex-wrap: wrap;
+
+                    .leftSection{
+                        width:100%;
+                    } 
+                    .rightContainerBlog{
+                        width:100%;
+                    }
+                }
+            }
+        }
+
+        .article{
+            .containerArticle{
+                width:80%;
+                margin:auto;
+                .titlePrincipal{
+                    .title{
+                        h1{
+                            font-size: 42px;
+                        }
+                    }
+                }
+                .descArticle{
+                    .text{
+                        span{
+                            font-weight: 500;
+                            font-size: 12px;
+                        }
+
+                        .cita{
+                            box-sizing: border-box;
+                        }
+                    }
+
+                }
+                .tags{
+                    .listTags{
+                        button{
+                            margin:5px 10px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+    @media screen and (max-width:800px){
+        
+        .default{
+            .homeDefault{
+                height:auto;
+
+                .container{
+                    width:90%;
+                    box-sizing: border-box;
+
+                    .bigName{
+                        h1{
+                            margin:20px 0px;
+                            font-size: 62px;
+                            letter-spacing: 2px;
+                        }
+                    }
+                    .small{
+                        margin:10px 0px;
+                        flex-wrap: wrap;
+
+                        .leftText{
+                            width:100%;
+                            h3{
+                                font-weight: 400;
+                                
+                                font-size: 14px;
+                            }
+                            span{
+                                font-size: 14px;
+                            }
+                        }
+                        .rightText{
+                            display: none;
+                        }
+                    }
+                }
+            }
+            .defaultBlogSection{
+                .containerSections{
+                    flex-wrap: wrap;
+                    width: 90%;
+                    .leftSection{
+                        width:100%;
+                        padding:0px;
+                        .containerLeft{
+                            width:100%;
+                            .navSectionsSearch{
+                                width:100%;
+                                height: auto;
+                                padding:30px 0px;
+                                .noah{
+                                    width:20%;
+                                    display: none;
+                                }
+                                .navigationBlog{
+                                    width:100%;
+                                    overflow-x: auto;
+                                    overflow-y: hidden;
+
+                                    nav{
+                                        
+                                            width:100%;
+                                        ul{
+                                            display: flex;
+                                            justify-content: start;
+                                            
+                                            align-items: center;
+                                            li{
+                                                display: inline-block;
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+
+                            .containerNews{
+                                .containerN{
+                                    .divideNews{
+                                        flex-wrap: wrap;
+                                        .leftBig{
+                                            width:100%;
+                                            border-bottom: 1px solid #eee;
+                                        }
+                                        .rightSmallNew{
+                                            width:100%;
+                                            border-bottom: 1px solid #eee;
+                                            margin:10px 0px;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    } 
+                    .rightContainerBlog{
+                        width:100%;
+                    }
+                }
+            }
+        }
+    }
+}

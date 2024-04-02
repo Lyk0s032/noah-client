@@ -1,0 +1,5131 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: SF Pro Display, SF Pro Icons, AOS Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+  scrollbar-width: thin;
+  scrollbar-color: #6F7E8C;
+  height: 100%;
+}
+.noah-app {
+  box-sizing: border-box;
+  height: 100%;
+}
+.noah-app .container-noah {
+  height: 86%;
+  box-sizing: border-box;
+  overflow-x: auto;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.noah-app .container-noah .home {
+  position: relative;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .firstComponentHome {
+  width: 100%;
+  height: auto;
+  position: relative;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  z-index: 1;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div {
+  width: 40%;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-left: 5%;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .text h1 {
+  font-size: 62px;
+  color: #141414;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .text h3 {
+  color: #666;
+  font-weight: 100;
+  font-size: 16px;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button {
+  width: 48%;
+  border-radius: 20px;
+  padding: 15px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  cursor: pointer;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .principal {
+  background-color: #2a7de1;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .principal span {
+  color: white;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .principal:hover {
+  transform: scale(1.1);
+  background-color: white;
+  border: 1px solid #2a7de1;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .principal:hover span {
+  color: #2a7de1;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .normal {
+  border: 1px solid white;
+  background-color: white;
+  transition: 0.3s;
+}
+.noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .normal:hover {
+  transform: translateX(5%);
+  border: 1px solid #ccc;
+}
+.noah-app .container-noah .home .componentResponsiveServices {
+  box-sizing: border-box;
+  height: auto;
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative {
+  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/left-right-line-small.svg');
+  object-fit: cover;
+  background-position: bottom;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .wallpaperLeft {
+  width: 40%;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .wallpaperLeft img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 1px solid #eee;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices {
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .top {
+  padding: 10px 0px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .top button {
+  width: 40%;
+  border-radius: 20px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #2f57ef21;
+  background-color: #2f57ef21;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .top button span {
+  color: #2f57ef;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .top button:hover {
+  transform: translateX(5%);
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc {
+  box-sizing: border-box;
+  padding: 10px 0px;
+  width: 80%;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc h1 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #141414;
+  margin: 10px 0px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc span {
+  font-size: 16px;
+  color: #6b7385;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 10px 0px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions .img {
+  width: 100%;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions .img img {
+  width: 100%;
+  transition: 0.3s;
+  border-radius: 20px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions .img img:hover {
+  transform: translateX(-5%);
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList {
+  width: 90%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .title {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .title h3 {
+  color: #141414;
+  font-size: 16px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div {
+  width: 100%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav {
+  width: 100%;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li {
+  width: 48%;
+  display: flex;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div .icon {
+  color: #2a7de1;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div span {
+  font-size: 16px;
+  color: #6b7385;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .other {
+  height: 100%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .other .containerOtherServices {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices {
+  height: auto;
+  width: 60%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS {
+  width: 90%;
+  margin-left: auto;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top {
+  width: 100%;
+  padding: 10px 0px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top button {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 40%;
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top button span {
+  color: #2f57ef;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top button:hover {
+  transform: translateX(5%);
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc {
+  padding: 10px 0px;
+  width: 80%;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc h3 {
+  font-weight: 700;
+  color: #141414;
+  font-size: 32px;
+  margin: 10px 0px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc span {
+  color: #6b7385;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .title {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .title h3 {
+  color: #141414;
+  font-size: 16px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions {
+  width: 100%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav {
+  width: 100%;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li {
+  width: 48%;
+  display: flex;
+  margin: 8px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div .icon {
+  color: #2a7de1;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div span {
+  font-size: 16px;
+  color: #6b7385;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .other .containerOtherServices .imgWallpaper {
+  width: 40%;
+  box-sizing: border-box;
+  height: auto;
+}
+.noah-app .container-noah .home .other .containerOtherServices .imgWallpaper img {
+  width: 100%;
+  border-radius: 20px;
+  border: 1px solid #eee;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentBlueBig {
+  height: 100%;
+  background: linear-gradient(270deg, #9e77ff 100%, #4460ff 100%);
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv {
+  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/icons/map.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-attachment: fixed;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title {
+  width: 90%;
+  margin: auto;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h3 {
+  color: white;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  z-index: 1;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #2a7de1;
+  z-index: 1;
+}
+.noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button span {
+  font-size: 18px;
+  color: #141414;
+  font-weight: 100;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness {
+  height: auto;
+  padding: 40px 0px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices {
+  width: 90%;
+  margin: auto;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .top {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .top button {
+  width: 20%;
+  margin: auto;
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  padding: 10px;
+  border-radius: 20px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .top button span {
+  color: #2f57ef;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .titleAndDesc {
+  margin: 40px auto;
+  text-align: center;
+  width: 70%;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .titleAndDesc h1 {
+  font-size: 42px;
+  margin: 20px 0px;
+  font-weight: 100;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .titleAndDesc h1 strong {
+  background: linear-gradient(90deg, #2f57ef, #b966e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .titleAndDesc h3 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps {
+  margin-top: 20px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large {
+  width: 100%;
+  border-radius: 10px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box {
+  width: 30%;
+  padding: 10px 0px;
+  padding-bottom: 0px;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 10px;
+  background: linear-gradient(90deg, #8DA9FC 0%, #B48DD5 100%);
+  box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .header {
+  padding: 40px 0px;
+  box-sizing: border-box;
+  width: 90%;
+  margin-left: auto;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .header h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: white;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .header h3 strong {
+  font-weight: bold;
+  color: white;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .wallpaper {
+  width: 100%;
+  position: relative;
+  padding: 0px;
+  margin: none;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .wallpaper img {
+  padding: 0px;
+  margin: 0px;
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: contain;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box.Dark {
+  background: #3B3B46;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge {
+  margin-top: 40px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox {
+  margin-top: 30px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small {
+  vertical-align: top;
+  border: 1px solid black;
+  width: 30%;
+  background: #111113;
+  border-radius: 20px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small .wallpaper {
+  width: 100%;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small .wallpaper img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small .titleAndDesc {
+  text-align: left;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small .titleAndDesc h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: white;
+  letter-spacing: 1px;
+  color: rgba(255, 255, 255, 0.83529412);
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small .titleAndDesc h3 strong {
+  font-weight: bold;
+  color: white;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox {
+  vertical-align: top;
+  width: 65%;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 30px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left {
+  width: 40%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left .containerInfo {
+  width: 100%;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left .containerInfo .titleAndDesc {
+  width: 100%;
+  text-align: left;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left .containerInfo .titleAndDesc h1 {
+  font-size: 28px;
+  background: linear-gradient(90deg, #2f57ef, #b966e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+  font-weight: bold;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left .containerInfo .titleAndDesc h3 {
+  color: #6b7385;
+  font-size: 16px;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .wallpaperRight {
+  width: 60%;
+}
+.noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .wallpaperRight img {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+.noah-app .container-noah .home .componentOpinion {
+  background-color: white;
+  height: auto;
+  width: 100%;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions {
+  padding: 40px 0px;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .top {
+  width: 100%;
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .top button {
+  width: 20%;
+  margin: auto;
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  padding: 10px;
+  border-radius: 20px;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .top button span {
+  color: #2f57ef;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .title {
+  width: 60%;
+  margin: 30px 0px;
+  margin: auto;
+  text-align: center;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .title h1 {
+  margin: 30px 0px;
+  font-size: 42px;
+  color: #6b7385;
+  font-weight: 100;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions {
+  padding: 40px 0px;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions {
+  margin: 40px 0px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee {
+  position: relative;
+  overflow: hidden;
+  height: 300px;
+  margin-bottom: 30px;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper {
+  position: absolute;
+  overflow: hidden;
+  width: 200%;
+  animation: marquee 19s linear infinite;
+  display: flex;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper.Right {
+  animation-direction: reverse;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi {
+  width: 20%;
+  margin: 0px 2%;
+  border-radius: 20px;
+  box-shadow: 0 13px 48px 0 rgba(215, 216, 222, 0.44);
+  background-color: white;
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion {
+  width: 100%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .top {
+  width: 20%;
+  margin: auto;
+  text-align: center;
+  height: auto;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .top img {
+  width: 100%;
+  height: auto;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .message {
+  padding: 20px 0px;
+  box-sizing: border-box;
+  width: 90%;
+  margin: auto;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .message h3 {
+  font-weight: 100;
+  color: #6b7385;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .message h3 strong {
+  font-weight: bold;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .Dark h3 {
+  color: white;
+}
+.noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .Dark {
+  background: linear-gradient(218.15deg, #b966e7 0%, #2f57ef 100%);
+}
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+.noah-app .container-noah .home .other {
+  height: 100%;
+  background-color: white;
+}
+.noah-app .container-noah .home .other .circle {
+  width: 240px;
+  top: -96px;
+  height: 240px;
+  right: -96px;
+  margin: 0 auto;
+  background-image: linear-gradient(90deg, #CFA2E8, #2a7de1);
+  opacity: 0.09;
+  border-radius: 100%;
+}
+.noah-app .container-noah .home .otherComponentServices {
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 40px 0px;
+  background-color: white;
+}
+.noah-app .container-noah .home .otherComponentServices .container {
+  width: 90%;
+  box-sizing: border-box;
+  margin: auto;
+}
+.noah-app .container-noah .home .otherComponentServices .container .titleComponente {
+  text-align: center;
+  padding: 20px 0px;
+}
+.noah-app .container-noah .home .otherComponentServices .container .titleComponente h1 {
+  color: rgba(10, 30, 54, 0.84);
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution {
+  padding: 60px 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text {
+  width: 40%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .icon {
+  width: 15%;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .icon img {
+  width: 100%;
+  object-fit: contain;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text h2 {
+  color: rgba(10, 30, 54, 0.84);
+  margin: 10px 0px;
+  font-size: 36px;
+  font-weight: 100;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text span {
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 100;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .goToAction {
+  margin-top: 20px;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: right;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .goToAction button {
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: 1px solid #2a7de1;
+  background-color: #2a7de1;
+  cursor: pointer;
+  width: 40%;
+  transition: 0.3s;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .goToAction button span {
+  font-size: 14px;
+  color: white;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Text .goToAction button:hover {
+  transform: translateX(-10%);
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Img {
+  width: 50%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .otherComponentServices .container .componentSolution .lade.Img .img {
+  width: 100%;
+  object-fit: cover;
+}
+@media screen and (max-width: 900px) {
+  .noah-app .container-noah .home .firstComponentHome .left-div .text h1 {
+    font-size: 42px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .text h3 {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button {
+    padding: 10px 0px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button span {
+    font-size: 12px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices {
+    width: 50%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc h1 {
+    font-size: 24px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc span {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions {
+    width: 50%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div .icon {
+    font-size: 16px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div span {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices {
+    width: 70%;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top button {
+    width: 50%;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc h3 {
+    font-size: 24px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc span {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div .icon {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div span {
+    font-size: 12px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h1 {
+    font-size: 42px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h3 {
+    font-size: 18px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
+    width: 70%;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button span {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .noah-app .container-noah .home .firstComponentHome .left-div {
+    width: 100%;
+    box-sizing: b;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .text h1 {
+    font-size: 42px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .text h3 {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button {
+    padding: 10px 0px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button span {
+    font-size: 12px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices {
+    display: none;
+    height: 100%;
+    border-bottom: 1px solid #eee;
+    padding: 30px 0px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices {
+    width: 90%;
+    margin: auto;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .wallpaperLeft {
+    display: none;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc h1 {
+    font-size: 24px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc span {
+    display: none;
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .someOptions {
+    width: 50%;
+    display: none;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .title {
+    display: none;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div .icon {
+    font-size: 16px;
+  }
+  .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .listBeneficiosList .list-div nav ul li div span {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other {
+    display: none;
+    height: auto;
+    padding: 40px 0px;
+    border-bottom: 1px solid #eee;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices {
+    width: 90%;
+    margin: auto;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .top button {
+    width: 50%;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc {
+    width: 90%;
+    margin-bottom: 20px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc h3 {
+    margin: 10px 0px;
+    font-size: 24px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc span {
+    display: none;
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .title {
+    display: none;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div .icon {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .navDesignOptions nav ul li div span {
+    font-size: 12px;
+  }
+  .noah-app .container-noah .home .other .containerOtherServices .imgWallpaper {
+    display: none;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h1 {
+    font-size: 32px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .title h3 {
+    font-size: 18px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
+    width: 100%;
+    padding: 15px;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button span {
+    font-size: 14px;
+    display: block;
+  }
+  .noah-app .container-noah .home .componentBlueBig .wallpaperDiv .containerInfoBlue .btn span {
+    display: none;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .top button {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .titleAndDesc {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box {
+    width: 100%;
+    padding: 20px 0px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .header {
+    height: auto;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .header strong {
+    display: block;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .containerLarge .box .wallpaper {
+    height: 150px;
+    width: 100%;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox {
+    flex-wrap: wrap;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .small {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .left {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .whiteOtherServiceForYourBusiness .divServices .list-our-helps .large .twoLarge .containerBox .largeBox .containerLargeBox .wallpaperRight {
+    display: none;
+  }
+  .noah-app .container-noah .home .componentOpinion {
+    padding-bottom: 0px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions {
+    padding-bottom: 0px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .top button {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .title {
+    width: 90%;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .generalSeccion .title h1 {
+    margin: 20px 0px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions {
+    padding: 10px 0px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions {
+    margin: 10px 0px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper {
+    animation: none;
+    width: 100%;
+    flex-wrap: wrap;
+    display: flex;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi {
+    padding: 40px 10px;
+    margin: 0px 1%;
+    width: 48%;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .top {
+    width: 50%;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .message {
+    width: 100%;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi .opinion .message h3 {
+    font-size: 14px;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee .wrapper .opi.Responsive {
+    display: none;
+  }
+  .noah-app .container-noah .home .componentOpinion .containerDivAboutOpinions .allOpinions .containerOpinions .marquee.Responsive {
+    display: none;
+  }
+}
+.specific .mobile {
+  background-color: white;
+}
+.specific .mobile .firstSeccion {
+  box-sizing: border-box;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/left-right-line-small.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.specific .mobile .firstSeccion .leftContain {
+  width: 40%;
+  margin: auto;
+  height: auto;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .titleAndDesc h1 {
+  font-weight: 100;
+  font-size: 42px;
+  color: #141414;
+  margin: 10px 0px;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .titleAndDesc h1 strong {
+  background: linear-gradient(90deg, #2f57ef, #b966e7);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0.001);
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .titleAndDesc h3 {
+  color: #6b7385;
+  font-weight: 100;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .avaliable {
+  width: 100%;
+  display: flex;
+  margin-top: 30px;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .avaliable button {
+  width: 30%;
+  margin-right: 5%;
+  padding: 0px;
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .avaliable button img {
+  width: 100%;
+  border-radius: 10px;
+}
+.specific .mobile .firstSeccion .right-div {
+  width: 50%;
+  height: auto;
+}
+.specific .mobile .firstSeccion .right-div .wallpaperRight {
+  background: url('http://landrick.react.themesbrand.com/static/media/Startup_SVG.d6335a121e2537da0d9613dbf9852729.svg');
+  background-repeat: no-repeat;
+}
+.specific .mobile .twoParams {
+  background-size: cover;
+  background-attachment: fixed;
+  height: 200%;
+  border: 1px solid white;
+  background-color: white;
+  position: relative;
+}
+.specific .mobile .twoParams .titleSeccion {
+  margin: auto;
+  height: auto;
+  border: 1px solid white;
+  margin: 40px auto;
+  width: 80%;
+  text-align: center;
+}
+.specific .mobile .twoParams .titleSeccion h1 {
+  color: #6b7385;
+  font-weight: 100;
+}
+.specific .mobile .twoParams .firstPosibility {
+  width: 80%;
+  height: 45%;
+  margin: auto;
+  padding: 20px 0px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.specific .mobile .twoParams .firstPosibility .img {
+  width: 50%;
+  height: auto;
+}
+.specific .mobile .twoParams .firstPosibility .img img {
+  width: 100%;
+  object-fit: cover;
+}
+.specific .mobile .twoParams .firstPosibility .txt {
+  width: 40%;
+  height: auto;
+}
+.specific .mobile .twoParams .firstPosibility .txt .descAndTitle {
+  width: 100%;
+}
+.specific .mobile .twoParams .firstPosibility .txt .descAndTitle h1 {
+  font-weight: 100;
+  font-size: 32px;
+  color: #141414;
+  margin: 15px 0px;
+}
+.specific .mobile .twoParams .firstPosibility .txt .descAndTitle h3 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.specific .mobile .herramientasCircleDivs {
+  height: auto;
+  background-color: white;
+  border: 1px solid white;
+  box-sizing: border-box;
+}
+.specific .mobile .herramientasCircleDivs .someOptions {
+  height: auto;
+  margin: 30px auto;
+  box-sizing: border-box;
+  width: 80%;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .title {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .title button {
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  width: 20%;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .title button span {
+  color: #2f57ef;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .title h1 {
+  margin: 20px 0px;
+  font-size: 32px;
+  font-weight: 100;
+  color: #6b7385;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option {
+  width: 14%;
+  margin: 30px 10px;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .icon {
+  width: 100%;
+  border-radius: 100%;
+  position: relative;
+  text-align: center;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .icon img {
+  width: 80%;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc {
+  text-align: center;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc h3 {
+  color: #141414;
+  font-weight: bold;
+  margin: 5px 0px;
+  margin-bottom: 20px;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc span {
+  color: #6b7385;
+  font-size: 12px;
+  padding: 8px;
+  background-color: #2f57ef21;
+  border-radius: 10px;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .Top {
+  vertical-align: top;
+}
+.specific .mobile .herramientasCircleDivs .someOptions .containerOptions .Bottom {
+  margin-top: 50px;
+}
+.specific .web .homeWeb {
+  height: 100%;
+}
+.specific .web .homeWeb .seccion01 {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(-45deg, #9c27b0 20%, #6a1b9a 70%);
+  z-index: 1;
+}
+.specific .web .homeWeb .seccion01 .container {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc {
+  width: 40%;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .desc h1 {
+  font-size: 62px;
+  color: white;
+  margin: 0px;
+  letter-spacing: 1px;
+  margin: 10px 0px;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .desc span {
+  font-size: 22px;
+  color: white;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .btns {
+  margin-top: 30px;
+  width: 100%;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .btns button {
+  width: 40%;
+  margin-right: 2%;
+  border-radius: 20px;
+  padding: 10px 0px;
+  cursor: pointer;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .btns .comunication {
+  background-color: #2f57ef;
+  border: 1px solid #2f57ef;
+  color: white;
+}
+.specific .web .homeWeb .seccion01 .container .txtAndDesc .btns .price {
+  background-color: transparent;
+  border: none;
+  color: white;
+  width: 20%;
+}
+.specific .web .homeWeb .seccion01 .container .wallpaperImg {
+  width: 40%;
+}
+.specific .web .homeWeb .seccion01 .container .wallpaperImg img {
+  width: 100%;
+}
+.specific .web .otherHome {
+  height: 100%;
+  background-color: white;
+}
+.specific .web .otherHome .containerOtherHome {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+  justify-content: space-between;
+}
+.specific .web .otherHome .containerOtherHome .wallpaperImg {
+  height: auto;
+  width: 40%;
+}
+.specific .web .otherHome .containerOtherHome .wallpaperImg img {
+  width: 100%;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc {
+  width: 50%;
+  height: auto;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc h1 {
+  margin: 20px 0px;
+  font-size: 32px;
+  color: #141414;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc h3 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc button {
+  margin-top: 20px;
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+  background: linear-gradient(-45deg, #9c27b0 20%, #6a1b9a 70%);
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc button span {
+  color: white;
+}
+.specific .web .otherHome .containerOtherHome .textAndDesc button:hover {
+  transform: translateX(5%);
+}
+.specific .web .homeWebListServices {
+  border: 1px solid white;
+  min-height: 100%;
+  background-color: white;
+}
+.specific .web .homeWebListServices .container {
+  border: 1px solid white;
+  height: auto;
+  margin: 60px auto;
+  width: 90%;
+}
+.specific .web .homeWebListServices .container .titleSeccion {
+  width: 100%;
+  text-align: center;
+}
+.specific .web .homeWebListServices .container .titleSeccion button {
+  width: 30%;
+  border-radius: 20px;
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  padding: 10px;
+}
+.specific .web .homeWebListServices .container .titleSeccion button span {
+  color: #2f57ef;
+}
+.specific .web .homeWebListServices .container .titleSeccion .titleText {
+  margin: 40px 0px;
+}
+.specific .web .homeWebListServices .container .titleSeccion .titleText h1 {
+  font-weight: 100;
+}
+.specific .web .homeWebListServices .container .containerOptions {
+  width: 100%;
+  margin: 30px 0px;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.specific .web .homeWebListServices .container .containerOptions .options {
+  width: 12%;
+  margin-bottom: 20px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.specific .web .homeWebListServices .container .containerOptions .options .img {
+  width: 100%;
+  border-radius: 100%;
+}
+.specific .web .homeWebListServices .container .containerOptions .options .img img {
+  width: 100%;
+  border-radius: 100%;
+}
+.specific .web .homeWebListServices .container .containerOptions .options .desc {
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 10px 0px;
+}
+.specific .web .homeWebListServices .container .containerOptions .options .desc h3 {
+  font-size: 16px;
+  color: #141414;
+  margin: 5px 0px;
+}
+.specific .web .homeWebListServices .container .containerOptions .options .desc span {
+  font-size: 14px;
+  color: #2f57ef;
+}
+.specific .web .homeWebListServices .container .containerOptions .options:hover {
+  transform: scale(1.1);
+}
+.specific .web .differentServicesForWebDesign {
+  background-color: white;
+  border: 1px solid white;
+  min-height: 130%;
+}
+.specific .web .differentServicesForWebDesign .title {
+  height: auto;
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  border-bottom: 1px solid #eee;
+}
+.specific .web .differentServicesForWebDesign .title h1 {
+  font-weight: 100;
+  color: #141414;
+  margin: 10px 0px;
+}
+.specific .web .differentServicesForWebDesign .title h3 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent {
+  padding: 40px 0px;
+  box-sizing: border-box;
+  width: 95%;
+  margin: 30px 0px;
+  margin-left: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 100%;
+  align-items: top;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context {
+  width: 40%;
+  border-radius: 10px;
+  height: auto;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .infoBig {
+  padding: 30px;
+  box-sizing: border-box;
+  height: auto;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .infoBig h1 {
+  font-weight: 100;
+  color: #2f57ef;
+  margin: 10px 0px;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .infoBig h3 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .btns {
+  width: 100%;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: auto;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .btns button {
+  padding: 5px 0px;
+  width: 30%;
+  border-radius: 20px;
+  background-color: white;
+  border: 2px solid #2a7de1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .btns button .icon {
+  font-size: 32px;
+  color: #2a7de1;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .context .btns button:hover {
+  transform: scale(1.1);
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .imgRelation {
+  width: 40%;
+  height: 70%;
+}
+.specific .web .differentServicesForWebDesign .containerDifferent .imgRelation img {
+  width: 100%;
+}
+.specific .web .componentBlueBig {
+  height: 100%;
+  background: linear-gradient(270deg, #9e77ff 100%, #4460ff 100%);
+  box-sizing: border-box;
+}
+.specific .web .componentBlueBig .wallpaperDiv {
+  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/icons/map.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 80%;
+  margin: auto;
+  background-attachment: fixed;
+  padding: 10px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue {
+  width: 100%;
+  text-align: center;
+  height: auto;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .title {
+  width: 90%;
+  margin: auto;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .title h1 {
+  font-size: 64px;
+  font-weight: bold;
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .title h3 {
+  color: white;
+  letter-spacing: 1px;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .btn {
+  width: 80%;
+  margin: auto;
+  margin-top: 30px;
+  z-index: 1;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
+  width: 40%;
+  border-radius: 10px;
+  background-color: white;
+  padding: 25px;
+  box-sizing: border-box;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 1px solid #2a7de1;
+  z-index: 1;
+}
+.specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button span {
+  font-size: 18px;
+  color: #141414;
+  font-weight: 100;
+}
+@media screen and (max-width: 800px) {
+  .specific .web .homeWeb .seccion01 .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0px 20px;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc {
+    width: 100%;
+    order: 2;
+    float: right;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc .desc h1 {
+    font-size: 32px;
+    font-weight: 300;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc .desc span {
+    font-size: 16px;
+    font-weight: 200;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc .btns {
+    margin-top: 40px;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc .btns button {
+    width: 45%;
+  }
+  .specific .web .homeWeb .seccion01 .container .txtAndDesc .btns .price {
+    width: 40%;
+  }
+  .specific .web .homeWeb .seccion01 .container .wallpaperImg {
+    flex-wrap: 1;
+    float: left;
+    display: none;
+    width: 30%;
+    margin: 20px 0px;
+  }
+  .specific .web .otherHome {
+    padding: 40px 0px;
+    height: auto;
+  }
+  .specific .web .otherHome .containerOtherHome {
+    width: 90%;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #eee;
+    padding: 20px 0px;
+    box-sizing: border-box;
+  }
+  .specific .web .otherHome .containerOtherHome .wallpaperImg {
+    width: 60%;
+    margin: auto;
+  }
+  .specific .web .otherHome .containerOtherHome .textAndDesc {
+    width: 100%;
+  }
+  .specific .web .otherHome .containerOtherHome .textAndDesc h1 {
+    font-size: 24px;
+  }
+  .specific .web .otherHome .containerOtherHome .textAndDesc h3 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .specific .web .otherHome .containerOtherHome .textAndDesc button {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .specific .web .otherHome .containerOtherHome.Reverse .textAndDesc {
+    order: 2;
+  }
+  .specific .web .otherHome .containerOtherHome.Reverse .wallpaperImg {
+    order: 1;
+  }
+  .specific .web .homeWebListServices {
+    height: auto;
+  }
+  .specific .web .homeWebListServices .container {
+    margin: 10px auto;
+  }
+  .specific .web .homeWebListServices .container .titleSeccion button {
+    width: 70%;
+  }
+  .specific .web .homeWebListServices .container .titleSeccion .titleText h1 {
+    font-weight: 300;
+    font-size: 24px;
+  }
+  .specific .web .homeWebListServices .container .containerOptions {
+    margin: 10px 0px;
+    flex-wrap: wrap;
+  }
+  .specific .web .homeWebListServices .container .containerOptions .options {
+    width: 30%;
+    margin: 20px 0px;
+  }
+  .specific .web .homeWebListServices .container .containerOptions .options .desc h3 {
+    font-size: 14px;
+  }
+  .specific .web .homeWebListServices .container .containerOptions .options .img {
+    width: 70%;
+    margin: auto;
+  }
+  .specific .web .differentServicesForWebDesign {
+    min-height: auto;
+    height: auto;
+  }
+  .specific .web .differentServicesForWebDesign .title {
+    width: 80%;
+  }
+  .specific .web .differentServicesForWebDesign .containerDifferent {
+    flex-wrap: wrap;
+    padding: 0px;
+  }
+  .specific .web .differentServicesForWebDesign .containerDifferent .context {
+    order: 2;
+    width: 100%;
+  }
+  .specific .web .differentServicesForWebDesign .containerDifferent .context .infoBig h1 {
+    font-size: 28px;
+  }
+  .specific .web .differentServicesForWebDesign .containerDifferent .context .infoBig h3 {
+    font-size: 16px;
+    font-weight: 300;
+  }
+  .specific .web .differentServicesForWebDesign .containerDifferent .imgRelation {
+    width: 50%;
+    margin: auto;
+  }
+  .specific .web .componentBlueBig {
+    height: 100%;
+  }
+  .specific .web .componentBlueBig .wallpaperDiv {
+    width: 90%;
+    padding: 20px 0px;
+  }
+  .specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .title h1 {
+    font-size: 32px;
+  }
+  .specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .title h3 {
+    font-size: 16px;
+  }
+  .specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
+    width: 100%;
+    padding: 10px 0px;
+  }
+  .specific .mobile .firstSeccion {
+    background: white;
+    flex-wrap: wrap;
+  }
+  .specific .mobile .firstSeccion .leftContain {
+    width: 90%;
+    margin: auto;
+  }
+  .specific .mobile .firstSeccion .leftContain .containerDiv .titleAndDesc h3 {
+    font-weight: 300;
+  }
+  .specific .mobile .firstSeccion .right-div {
+    display: none;
+  }
+  .specific .mobile .twoParams {
+    height: auto;
+    box-sizing: border-box;
+  }
+  .specific .mobile .twoParams .titleSeccion {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .specific .mobile .twoParams .titleSeccion h1 {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  .specific .mobile .twoParams .firstPosibility {
+    width: 90%;
+    box-sizing: border-box;
+    height: auto;
+    flex-wrap: wrap;
+    padding: 20px 0px;
+  }
+  .specific .mobile .twoParams .firstPosibility .img {
+    width: 50%;
+    margin: 30px auto;
+  }
+  .specific .mobile .twoParams .firstPosibility .txt {
+    width: 100%;
+  }
+  .specific .mobile .twoParams .firstPosibility .txt .descAndTitle h1 {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .specific .mobile .twoParams .firstPosibility .txt .descAndTitle h3 {
+    font-weight: 300;
+    font-size: 14px;
+  }
+  .specific .mobile .twoParams .firstPosibility.Reverse {
+    margin: 50px auto;
+  }
+  .specific .mobile .twoParams .firstPosibility.Reverse .img {
+    order: 1;
+    width: 80%;
+  }
+  .specific .mobile .twoParams .firstPosibility.Reverse .txt {
+    order: 2;
+  }
+  .specific .mobile .herramientasCircleDivs {
+    box-sizing: border-box;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions {
+    width: 90%;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .title button {
+    width: 40%;
+    padding: 5px;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .title h1 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions {
+    flex-wrap: wrap;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option {
+    width: 25%;
+    box-sizing: border-box;
+    margin: 10px 10px;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .icon {
+    width: 80%;
+    margin: auto;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc {
+    padding: 20px 0px;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc h3 {
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .option .titleAndDesc span {
+    display: none;
+  }
+}
+.direct {
+  background-color: white;
+}
+.direct .automatizacion .homeAutomation {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  margin: auto;
+}
+.direct .automatizacion .homeAutomation .Description {
+  width: 40%;
+  height: auto;
+}
+.direct .automatizacion .homeAutomation .Description .title {
+  margin: 20px 0px;
+}
+.direct .automatizacion .homeAutomation .Description .title h1 {
+  font-size: 52px;
+  color: #141414;
+}
+.direct .automatizacion .homeAutomation .Description .desc {
+  width: 100%;
+}
+.direct .automatizacion .homeAutomation .Description .desc span {
+  font-weight: 100;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #6b7385;
+  font-size: 18px;
+}
+.direct .automatizacion .homeAutomation .Description .btn {
+  margin: 30px 0px;
+}
+.direct .automatizacion .homeAutomation .Description .btn button {
+  width: 60%;
+  border-radius: 20px;
+  padding: 10px 0px;
+  background-color: #2a7de1;
+  border: 1px solid #2a7de1;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .automatizacion .homeAutomation .Description .btn button span {
+  color: white;
+  font-size: 14px;
+}
+.direct .automatizacion .homeAutomation .Description .btn button:hover {
+  transform: scale(1.1);
+}
+.direct .automatizacion .homeAutomation .wallpaper {
+  width: 50%;
+}
+.direct .automatizacion .homeAutomation .wallpaper img {
+  width: 100%;
+  object-fit: contain;
+}
+.direct .automatizacion .goodOptions {
+  height: auto;
+  background-color: white;
+  padding: 40px 0px;
+}
+.direct .automatizacion .goodOptions .containerGood {
+  width: 90%;
+  margin: auto;
+  height: auto;
+}
+.direct .automatizacion .goodOptions .containerGood .title {
+  text-align: center;
+  margin: 60px 0px;
+}
+.direct .automatizacion .goodOptions .containerGood .title h1 {
+  font-weight: 100;
+  color: #141414;
+  font-size: 42px;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox {
+  margin: 100px 0px;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood {
+  width: 25%;
+  text-align: center;
+  padding: 50px 0px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood .drawTipos {
+  width: 50%;
+  margin: auto;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood .drawTipos img {
+  width: 100%;
+  object-fit: contain;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood .titleAndDesc {
+  width: 90%;
+  margin: auto;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood .titleAndDesc h1 {
+  color: #141414;
+  font-size: 18px;
+  margin: 10px 0px;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood .titleAndDesc h3 {
+  font-weight: 100;
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood:hover {
+  transform: scale(1.1);
+  border-radius: 10px;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood.Color {
+  background-color: #2a7de1;
+}
+.direct .automatizacion .goodOptions .containerGood .containerBox .container .optionGood.Color .titleAndDesc h3 {
+  color: white;
+}
+.direct .automatizacion .componentMethods {
+  height: auto;
+  padding: 50px 0px;
+  background-color: white;
+}
+.direct .automatizacion .componentMethods .containerMethods {
+  width: 90%;
+  border-radius: 10px;
+  margin: auto;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top {
+  text-align: center;
+  padding: 30px 0px;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top button {
+  padding: 10px 0px;
+  width: 30%;
+  background-color: #2f57ef21;
+  border-radius: 20px;
+  border: 1px solid #2f57ef21;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion {
+  padding: 20px 0px;
+  width: 70%;
+  margin: auto;
+  margin-top: 40px;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion h1 {
+  color: #141414;
+  margin: 10px 0px;
+  font-size: 42px;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion h1 strong {
+  color: #2a7de1;
+}
+.direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion span {
+  font-size: 18px;
+  color: #6b7385;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions {
+  margin: 20px 0px;
+  margin-bottom: 0px;
+  border-radius: 10px;
+  background-color: #2f57ef21;
+  padding: 20px 0px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container {
+  display: flex;
+  justify-content: space-between;
+  padding: 80px 60px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions {
+  width: 40%;
+  padding: 0px 20px;
+  box-sizing: border-box;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .onTop button {
+  width: 60%;
+  border-radius: 20px;
+  background-color: #2f57ef21;
+  padding: 10px 0px;
+  border: 1px solid #2f57ef21;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .onTop button span {
+  color: #2a7de1;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .onTop .smallText {
+  padding: 20px 0px;
+  margin: 10px 0px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain {
+  height: auto;
+  margin: 30px 0px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option {
+  border: 1px solid rgba(207, 207, 207, 0.24);
+  background-color: rgba(207, 207, 207, 0.24);
+  border-radius: 10px;
+  padding: 14px 10px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option .containerOption {
+  display: flex;
+  align-items: center;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option .containerOption .icon {
+  width: 30%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option .containerOption .icon .iconD {
+  font-size: 18px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option .containerOption .Text {
+  width: 70%;
+  display: flex;
+  height: 100%;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions .optionsMain .option .containerOption .Text h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .wallpaperExplication {
+  width: 60%;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .wallpaperExplication .boxContainer {
+  width: 100%;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .wallpaperExplication .boxContainer img {
+  width: 100%;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav {
+  width: 70%;
+  margin: auto;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav ul li {
+  display: flex;
+  align-items: center;
+  padding: 10px 0px;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav ul li div {
+  display: flex;
+  align-items: center;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav ul li div .icon {
+  color: green;
+}
+.direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .bottomGreen nav ul li div strong {
+  margin: 0px 10px;
+  font-weight: 500;
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .automatizacion .whyUsSeccion {
+  height: auto;
+  padding: 80px 0px;
+  background-color: white;
+  box-sizing: border-box;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  height: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .wallpaper {
+  width: 45%;
+  position: relative;
+  height: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .wallpaper img {
+  width: 100%;
+  object-fit: contain;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer {
+  width: 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .top span {
+  color: #2a7de1;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .response {
+  margin-top: 10px;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .response h1 {
+  font-size: 32px;
+  font-weight: 100;
+  margin-bottom: 10px;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .response h3 {
+  font-size: 16px;
+  color: #6b7385;
+  font-weight: 100;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .btn {
+  margin-top: 30px;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .btn button {
+  width: 40%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #2f57ef21;
+  background-color: #2f57ef21;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .btn button span {
+  color: #2a7de1;
+  font-size: 14px;
+}
+.direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .btn button:hover {
+  transform: translateX(5%);
+}
+.direct .comunication {
+  background: white;
+}
+.direct .comunication .homeComunication {
+  padding: 40px 0px;
+  height: auto;
+}
+.direct .comunication .homeComunication .containerHome {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer {
+  width: 50%;
+  height: auto;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle {
+  width: 100%;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle button {
+  width: 50%;
+  border-radius: 20px;
+  padding: 10px;
+  border: 1px solid #db709321;
+  background-color: #db709321;
+  cursor: pointer;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle button span {
+  color: #db7093;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig {
+  margin: 30px 0px;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig h1 {
+  font-weight: 100;
+  color: #141414;
+  font-size: 60px;
+  margin: 20px 0px;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars {
+  margin: 20px 0px;
+  width: 100%;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box {
+  width: 100%;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .stars {
+  width: 30%;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .stars img {
+  width: auto;
+  object-fit: cover;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral .imgs {
+  width: 30%;
+  display: flex;
+  justify-content: start;
+  padding: 10px 0px;
+  align-items: center;
+  box-sizing: border-box;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral .imgs img {
+  width: 30%;
+  border: 2px solid white;
+  border-radius: 100%;
+  object-fit: cover;
+  margin-right: -10px;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral .opi {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral .opi h3 {
+  margin: 5px 0px;
+  font-size: 16px;
+}
+.direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral .opi span {
+  font-size: 16px;
+  color: #6b7385;
+  font-weight: 100;
+}
+.direct .comunication .homeComunication .containerHome .RightForm {
+  width: 50%;
+  height: auto;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv {
+  width: 80%;
+  margin-left: auto;
+  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+  padding: 40px 60px;
+  box-sizing: border-box;
+  border-radius: 20px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .titleCenter {
+  padding: 20px 0px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .titleCenter h2 {
+  color: #141414;
+  font-size: 30px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form {
+  padding: 10px 0px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDiv {
+  padding: 10px 0px;
+  margin: 20px 0px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDiv input {
+  width: 100%;
+  outline: 0px;
+  border: none;
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDiv input:focus {
+  border-bottom: 1px solid #2a7de1;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDivBtn {
+  margin: 30px 0px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDivBtn button {
+  width: 90%;
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  background-image: linear-gradient(to right, #2f57ef, #b966e7, #b966e7, #2f57ef);
+  background-size: 300% 100%;
+  margin-left: 5%;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDivBtn button span {
+  font-size: 16px;
+  color: white;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDivBtn button:hover {
+  transform: scale(1.1);
+}
+.direct .comunication .homeSocialNetwork {
+  height: auto;
+  background-color: white;
+  border: 1px solid white;
+  padding: 30px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork {
+  width: 90%;
+  margin: 30px auto;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box {
+  width: 30%;
+  border-radius: 10px;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 20px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle {
+  width: 100%;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .bigTitle h1 {
+  font-size: 32px;
+  font-weight: 100;
+  color: #141414;
+  margin: 15px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .bigTitle span {
+  font-size: 16px;
+  font-weight: 100;
+  color: #6b7385;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .btn {
+  width: 100%;
+  margin: 20px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .btn button {
+  width: 90%;
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  background-image: linear-gradient(to right, #2f57ef, #b966e7, #b966e7, #2f57ef);
+  background-size: 300% 100%;
+  transition: 0.3s;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .btn button span {
+  font-size: 16px;
+  color: white;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .btn button:hover {
+  transform: translateX(5%);
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .iconBig {
+  width: 20%;
+  margin: 20px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .iconBig img {
+  width: 100%;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .titleSmall {
+  margin: 10px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .titleSmall h3 {
+  font-weight: 100;
+  color: #141414;
+  margin: 10px 0px;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .titleSmall span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box.Important {
+  padding: 50px 20px;
+  box-sizing: border-box;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .ColorPrimary {
+  background-color: hsla(45, 96%, 78%, 0.459) !important;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .ColorSecundary {
+  background-color: rgba(255, 219, 225, 0.459) !important;
+}
+.direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .ColorOther {
+  background-color: rgba(200, 255, 233, 0.459) !important;
+}
+.direct .comunication .containerFixedBox {
+  height: auto;
+  border: 1px solid white;
+  background-color: white;
+  padding: 40px 0px;
+}
+.direct .comunication .containerFixedBox .containerFixed {
+  width: 70%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: auto;
+}
+.direct .comunication .containerFixedBox .containerFixed .titleAndDesc {
+  width: 100%;
+  margin: 30px 0px;
+}
+.direct .comunication .containerFixedBox .containerFixed .titleAndDesc h1 {
+  font-weight: 100;
+  color: #141414;
+  font-size: 32px;
+  margin: 10px 0px;
+}
+.direct .comunication .containerFixedBox .containerFixed .titleAndDesc span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .comunication .containerFixedBox .containerFixed .containersSmallOptions {
+  padding: 30px 0px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall {
+  width: 45%;
+  border-radius: 10px;
+  padding: 10px 0px;
+  margin: 10px 0px;
+}
+.direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall .titleDesc {
+  margin: 10px 0px;
+}
+.direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall .titleDesc h1 {
+  font-weight: 100;
+  font-size: 26px;
+  margin: 10px 0px;
+  color: #141414;
+}
+.direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall .titleDesc span {
+  color: #6b7385;
+  font-size: 16px;
+}
+.direct .comunication .AboutServices {
+  width: 100%;
+  background-color: white;
+  border: 1px solid white;
+  padding: 40px 0px;
+  box-sizing: border-box;
+  height: auto;
+}
+.direct .comunication .AboutServices .containerServices {
+  width: 80%;
+  margin: auto;
+}
+.direct .comunication .AboutServices .containerServices .titleServices {
+  padding: 30px 0px;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+}
+.direct .comunication .AboutServices .containerServices .titleServices h1 {
+  color: #141414;
+  font-weight: 100;
+  margin: 20px 0px;
+  font-size: 42px;
+}
+.direct .comunication .AboutServices .containerServices .titleServices span {
+  color: #6b7385;
+  font-size: 16px;
+  font-weight: 100;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer {
+  margin: 30px 0px;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs {
+  width: 100%;
+  display: flex;
+  box-sizing: border-box;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left {
+  width: 40%;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft {
+  width: 100%;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options {
+  padding: 30px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 15px 0px;
+  transition: 0.3s;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options h3 {
+  color: #141414;
+  font-size: 18px;
+  margin: 10px 0px;
+  font-weight: bold;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options:hover {
+  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options.Active {
+  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .rightWallpaper {
+  width: 60%;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .rightWallpaper .containerWallpaper {
+  width: 90%;
+  height: 400px;
+  margin: auto;
+}
+.direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .rightWallpaper .containerWallpaper img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: contain;
+}
+.direct .comunication .comunicateHome {
+  height: 100%;
+  background-color: white;
+  border: none;
+  border: px solid black;
+  box-sizing: border-box;
+  position: relative;
+}
+.direct .comunication .comunicateHome .containerComunicate {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  box-sizing: border-box;
+  background: linear-gradient(90deg, hsla(0, 0%, 100%, 0.15), rgba(251, 199, 226, 0.15), rgba(220, 217, 254, 0.15));
+}
+.direct .comunication .comunicateHome .containerComunicate .cont {
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .wallp {
+  position: absolute;
+  width: 50%;
+  margin-left: 49%;
+  box-sizing: border-box;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .wallp img {
+  width: 100%;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form {
+  height: auto;
+  width: 50%;
+  margin: 150px auto;
+  margin-left: 10%;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .titleDescComunicate {
+  margin: 30px 0px;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .titleDescComunicate h1 {
+  font-size: 52px;
+  font-weight: 100;
+  color: #141414;
+  margin: 10px 0px;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .titleDescComunicate span {
+  font-size: 18px;
+  color: #6b7385;
+  font-weight: 100;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .btn button {
+  width: 50%;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  border: none;
+  background-image: linear-gradient(to right, #2f57ef, #b966e7, #b966e7, #2f57ef);
+  background-size: 300% 100%;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .btn button span {
+  font-size: 16px;
+  color: white;
+}
+.direct .comunication .comunicateHome .containerComunicate .cont .form .btn button:hover {
+  transform: scale(1.1);
+}
+.direct .sells {
+  background-color: white;
+}
+.direct .sells .homeSells {
+  height: 100%;
+  box-sizing: border-box;
+  background-image: -webkit-linear-gradient(139deg, #642b73 0%, #c6426e 100%);
+}
+.direct .sells .homeSells .containerHome {
+  justify-content: space-between;
+  width: 90%;
+  height: 90%;
+  margin: 0px 0px;
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome {
+  width: 50%;
+  height: auto;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer {
+  width: 80%;
+  height: auto;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleStarst {
+  width: 100%;
+  padding: 10px 0px;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleStarst span {
+  color: white;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleStarst button {
+  width: 20%;
+  background-color: transparent;
+  border: none;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleAndDesc {
+  padding: 10px 0px;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleAndDesc h1 {
+  color: white;
+  margin: 10px 0px;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleAndDesc span {
+  color: white;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .btns {
+  padding: 10px 0px;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .btns button {
+  width: 30%;
+  border-radius: 20px;
+  margin: 0px 20px;
+  margin-left: 0px;
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid white;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .btns button span {
+  font-size: 14px;
+}
+.direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .containerSmallDivs {
+  margin-top: 10px;
+}
+.direct .sells .homeSells .containerHome .rightContainerHome {
+  width: 50%;
+  height: 90%;
+}
+.direct .sells .homeSells .containerHome .rightContainerHome img {
+  object-fit: contain;
+  width: 100%;
+}
+.direct .sells .homeSells .bottomDesc {
+  height: 10%;
+  margin: 0px;
+  text-align: center;
+}
+.direct .sells .sellsNoahWhyChooseOur {
+  border: 1px solid white;
+  background-color: white;
+  height: auto;
+  box-sizing: border-box;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs {
+  width: 90%;
+  margin: 60px auto;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .titleAndDesc {
+  width: 100%;
+  text-align: center;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .titleAndDesc button {
+  background-color: transparent;
+  border: none;
+  cursor: default;
+  padding: 10px 0px;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .titleAndDesc button span {
+  font-size: 16px;
+  color: #2a7de1;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .titleAndDesc h1 {
+  font-weight: 100;
+  font-size: 32px;
+  color: #141414;
+  margin: 30px 0px;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions {
+  margin: 60px 0px;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions {
+  display: flex;
+  justify-content: space-between;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .iconContainer {
+  width: 30%;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .iconContainer img {
+  width: 100%;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .descTitle {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .descTitle h3 {
+  font-weight: 100;
+  font-size: 18px;
+  color: #141414;
+  margin-bottom: 10px;
+}
+.direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .descTitle span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .sells .homeOptionsDivide {
+  border: 1px solid white;
+  height: 130%;
+  background-color: white;
+  box-sizing: border-box;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide {
+  width: 90%;
+  margin: 40px auto;
+  height: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .wallpaperImg {
+  width: 40%;
+  text-align: right;
+  height: 100%;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .wallpaperImg img {
+  width: 60%;
+  object-fit: contain;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo {
+  width: 45%;
+  height: auto;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container {
+  margin: 60px 0px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .title {
+  margin: 10px 0px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .title h2 {
+  font-weight: 100;
+  margin: 10px 0px;
+  font-size: 32px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .title span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists {
+  margin: 30px 0px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList {
+  width: 100%;
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .icon {
+  width: 15%;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .icon img {
+  width: 100%;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .desc {
+  width: 50%;
+  margin: 0px 10px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .desc h3 {
+  font-weight: 100;
+  color: #141414;
+  font-size: 18px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .desc span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete {
+  width: 90%;
+  margin-left: 10%;
+  position: relative;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc {
+  width: 40%;
+  height: auto;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDesc {
+  width: 100%;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDesc button {
+  padding: 10px 0px;
+  box-sizing: border-box;
+  border: none;
+  background-color: transparent;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDesc button span {
+  font-size: 16px;
+  color: #2a7de1;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDesc .titleDiv h1 {
+  margin: 20px 0px;
+  font-weight: 100;
+  color: #141414;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDesc .titleDiv span {
+  font-size: 16px;
+  font-weight: 100;
+  color: #6b7385;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .btns {
+  margin: 40px 0px;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .btns button {
+  background-image: -webkit-linear-gradient(139deg, #642b73 0%, #c6426e 100%);
+  border: none;
+  padding: 15px 0px;
+  width: 60%;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .btns button span {
+  font-size: 16px;
+  color: white;
+  font-weight: 100;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .btns button:hover {
+  transform: scale(1.1);
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigWallpaper {
+  width: 50%;
+  height: 100%;
+  text-align: right;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigWallpaper .container {
+  width: 100%;
+  height: 100%;
+}
+.direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigWallpaper .container img {
+  width: 100%;
+  object-fit: cover;
+}
+.direct .sells .homeSellIncluded {
+  height: auto;
+  background-color: white;
+}
+.direct .sells .homeSellIncluded .includesDivide {
+  width: 90%;
+  height: auto;
+  margin: auto;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .homeSellIncluded .includesDivide .title {
+  text-align: center;
+  margin: 0px auto;
+  width: 80%;
+  margin: auto;
+  padding: 40px 0px;
+}
+.direct .sells .homeSellIncluded .includesDivide .title h1 {
+  font-weight: 100;
+  color: #141414;
+  margin: 10px 0px;
+}
+.direct .sells .homeSellIncluded .includesDivide .title span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide {
+  margin: 30px 0px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions {
+  width: 30%;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option {
+  width: 100%;
+  margin: 20px 0px;
+  display: flex;
+  align-items: start;
+  padding: 40px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .icon {
+  width: 20%;
+  text-align: center;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .icon img {
+  margin: auto;
+  width: 50%;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .DescTitle {
+  width: 70%;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .DescTitle h1 {
+  font-weight: 100;
+  color: #141414;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .DescTitle span {
+  font-weight: 100;
+  color: #6b7385;
+}
+.direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions img {
+  width: 100%;
+}
+.direct .sells .homeSellsIncludeSpecifity {
+  height: auto;
+  background-color: white;
+  border: 1px solid white;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude {
+  width: 90%;
+  margin: 60px auto;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer {
+  width: 50%;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .titleAndDesc {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 20px 0px;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .titleAndDesc h1 {
+  font-size: 42px;
+  color: #141414;
+  margin: 10px 0px;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .titleAndDesc span {
+  font-size: 14px;
+  color: #6b7385;
+  font-weight: 100;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions {
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option {
+  width: 100%;
+  padding: 10px 0px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .icon {
+  width: 20%;
+  text-align: center;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .icon .iconA {
+  font-size: 30px;
+  color: #2a7de1;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .txtSpan {
+  padding: 10px;
+  width: 80%;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .txtSpan span {
+  font-size: 16px;
+  color: #6b7385;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn {
+  width: 90%;
+  box-sizing: border-box;
+  margin: 30px 0px;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn button {
+  width: 60%;
+  border-radius: 20px;
+  padding: 15px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  background-image: -webkit-linear-gradient(139deg, #642b73 0%, #c6426e 100%);
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn button span {
+  font-size: 16px;
+  color: white;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn button:hover {
+  transform: scale(1.1);
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .wallpaperRight {
+  width: 50%;
+  text-align: center;
+  padding: 20px 0px;
+}
+.direct .sells .homeSellsIncludeSpecifity .containerInclude .wallpaperRight img {
+  width: 50%;
+}
+.direct .sells .homeSellOpinions {
+  height: auto;
+  background-color: white;
+  border: 1px solid white;
+}
+.direct .sells .homeSellOpinions .containersOpinions {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px 0px;
+}
+.direct .sells .homeSellOpinions .containersOpinions .vigeButton {
+  width: 10%;
+  height: 100%;
+  text-align: center;
+}
+.direct .sells .homeSellOpinions .containersOpinions .vigeButton button {
+  border-radius: 100%;
+  padding: 20px 15px;
+  border: 1px solid #eee;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .sells .homeSellOpinions .containersOpinions .vigeButton button span {
+  font-size: 12px;
+  color: #6b7385;
+}
+.direct .sells .homeSellOpinions .containersOpinions .vigeButton button:hover {
+  transform: scale(1.1);
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments {
+  width: 90%;
+  text-align: center;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas {
+  width: 80%;
+  margin: auto;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .img {
+  width: 15%;
+  margin: 20px auto;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .img img {
+  width: 100%;
+  border-radius: 100%;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .titleNameStarsDesc {
+  padding: 10px 0px;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .titleNameStarsDesc h3 {
+  font-weight: 100;
+  color: #141414;
+  margin: 5px;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .titleNameStarsDesc span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .titleNameStarsDesc .stars {
+  width: 10%;
+  margin: auto;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .titleNameStarsDesc .stars img {
+  width: 100%;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .description {
+  padding: 10px;
+  box-sizing: border-box;
+  width: 80%;
+  margin: auto;
+}
+.direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas .description span {
+  font-weight: 100;
+  color: #6b7385;
+}
+.direct .sells .subscribeFree {
+  width: 100%;
+  height: auto;
+  box-sizing: border-box;
+  border: 1px solid #09142e;
+  background-color: #09142e;
+}
+.direct .sells .subscribeFree .containerForms {
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 70px auto;
+}
+.direct .sells .subscribeFree .containerForms .descInfo {
+  width: 40%;
+}
+.direct .sells .subscribeFree .containerForms .descInfo h3 {
+  margin: 10px 0px;
+  color: white;
+}
+.direct .sells .subscribeFree .containerForms .descInfo span {
+  color: white;
+}
+.direct .sells .subscribeFree .containerForms .forms {
+  width: 50%;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms {
+  width: 100%;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms input {
+  width: 70%;
+  padding: 15px;
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  font-size: 16px;
+  outline: 0px;
+  color: white;
+  transition: 0.3s;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms input:focus {
+  border-bottom: 1px solid #2a7de1;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms button {
+  width: 24%;
+  border: white;
+  background-color: white;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms button span {
+  font-size: 16px;
+  color: #141414;
+}
+.direct .sells .subscribeFree .containerForms .forms .containerForms button:hover {
+  transform: translateX(5%);
+}
+@media screen and (max-width: 900px) {
+  .direct .automatizacion .homeAutomation {
+    width: 90%;
+    flex-wrap: wrap;
+    height: auto;
+    margin: auto;
+    padding: 80px 0px;
+    padding-bottom: 30px;
+  }
+  .direct .automatizacion .homeAutomation .Description {
+    width: 100%;
+  }
+  .direct .automatizacion .homeAutomation .Description .title {
+    margin: 20px 0px;
+  }
+  .direct .automatizacion .homeAutomation .Description .title h1 {
+    font-size: 42px;
+  }
+  .direct .automatizacion .homeAutomation .Description .desc {
+    margin: 10px 0px;
+  }
+  .direct .automatizacion .homeAutomation .Description .desc span {
+    font-size: 16px;
+  }
+  .direct .automatizacion .homeAutomation .Description .btn {
+    margin: 40px 0px;
+  }
+  .direct .automatizacion .homeAutomation .Description .btn button {
+    width: 100%;
+  }
+  .direct .automatizacion .homeAutomation .wallpaper {
+    display: none;
+  }
+  .direct .automatizacion .goodOptions {
+    display: none;
+  }
+  .direct .automatizacion .componentMethods {
+    padding: 10px 0px;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .header .top button {
+    width: 50%;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion h1 {
+    font-size: 32px;
+    margin: 0px;
+    margin-bottom: 10px;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .header .top .titleSeccion span {
+    font-size: 14px;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .slidersAndOptions {
+    width: 100%;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container {
+    padding: 20px;
+    display: block;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .leftOptions {
+    width: 100%;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .slidersAndOptions .box-container .wallpaperExplication {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .direct .automatizacion .componentMethods .containerMethods .bottomGreen {
+    display: none;
+  }
+  .direct .automatizacion .whyUsSeccion .containerWhyUs {
+    display: block;
+  }
+  .direct .automatizacion .whyUsSeccion .containerWhyUs .wallpaper {
+    width: 100%;
+  }
+  .direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer {
+    width: 100%;
+    margin: 30px 0px;
+  }
+  .direct .automatizacion .whyUsSeccion .containerWhyUs .InfoContainer .btn button {
+    width: 80%;
+  }
+  .direct .comunication {
+    height: auto;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer {
+    width: 40%;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle button {
+    width: 70%;
+    padding: 5px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig h1 {
+    font-size: 32px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig span {
+    font-size: 14px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .stars {
+    width: 10%;
+  }
+  .direct .comunication .homeComunication .containerHome .RightForm {
+    width: 60%;
+  }
+  .direct .sells .homeSells .containerHome {
+    display: block;
+    margin: auto;
+    width: 90%;
+    padding: 30px 0px;
+    box-sizing: border-box;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome {
+    width: 100%;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer {
+    width: 100%;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleAndDesc h1 {
+    margin: 20px 0px;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .titleAndDesc span {
+    font-size: 14px;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .btns {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .btns button {
+    width: 45%;
+    margin: 0px;
+  }
+  .direct .sells .homeSells .containerHome .leftContainerHome .leftContainer .containerSmallDivs {
+    display: none;
+  }
+  .direct .sells .homeSells .containerHome .rightContainerHome {
+    display: none;
+  }
+  .direct .sells .homeSells .bottomDesc {
+    display: none;
+  }
+  .direct .sells .sellsNoahWhyChooseOur {
+    height: auto;
+    position: relative;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs {
+    height: auto;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions {
+    margin: 20px 0px;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions {
+    flex-wrap: wrap;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options {
+    width: 49%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .direct .comunication .homeComunication .containerHome {
+    display: block;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer {
+    width: 100%;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome {
+    text-align: center;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle button {
+    width: 40%;
+    padding: 5px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .btnTitle button span {
+    font-size: 12px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig h1 {
+    font-size: 32px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .titleBig span {
+    font-size: 14px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box {
+    margin: 50px 0px;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .stars {
+    margin: auto;
+    width: 10%;
+  }
+  .direct .comunication .homeComunication .containerHome .leftContainer .containerInfoHome .smallStars .box .lateral {
+    margin: auto;
+    width: 60%;
+  }
+  .direct .comunication .homeComunication .containerHome .RightForm {
+    width: 100%;
+    margin-top: 40px;
+  }
+  .direct .comunication .homeComunication .containerHome .RightForm .formDiv {
+    text-align: center;
+    width: 100%;
+    margin: auto;
+  }
+  .direct .comunication .homeComunication .containerHome .RightForm .formDiv .titleCenter h2 {
+    font-weight: 100;
+  }
+  .direct .comunication .homeSocialNetwork {
+    width: 95%;
+    margin: auto;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork {
+    width: 100%;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork {
+    justify-content: space-around;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box {
+    width: 100%;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .bigTitle h1 {
+    font-size: 26px;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .bigTitle span {
+    font-size: 14px;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .principalTitle .btn button span {
+    font-size: 14px;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .titleSmall h3 {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  .direct .comunication .homeSocialNetwork .containerSocialNetwork .listContainerNetwork .box .containerBox .titleSmall span {
+    font-size: 14px;
+  }
+  .direct .comunication .containerFixedBox {
+    padding: 0px 0px;
+  }
+  .direct .comunication .containerFixedBox .containerFixed {
+    width: 90%;
+  }
+  .direct .comunication .containerFixedBox .containerFixed .titleAndDesc h1 {
+    font-size: 26px;
+  }
+  .direct .comunication .containerFixedBox .containerFixed .titleAndDesc span {
+    font-size: 14px;
+  }
+  .direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall {
+    width: 100%;
+  }
+  .direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall .titleDesc h1 {
+    font-weight: 100;
+    font-size: 18px;
+  }
+  .direct .comunication .containerFixedBox .containerFixed .containersSmallOptions .boxSmall .titleDesc span {
+    font-size: 14px;
+  }
+  .direct .comunication .AboutServices {
+    padding: 0px 0px;
+  }
+  .direct .comunication .AboutServices .containerServices {
+    width: 90%;
+  }
+  .direct .comunication .AboutServices .containerServices .titleServices {
+    width: 100%;
+  }
+  .direct .comunication .AboutServices .containerServices .titleServices h1 {
+    font-size: 32px;
+  }
+  .direct .comunication .AboutServices .containerServices .titleServices span {
+    font-size: 14px;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer {
+    margin: 10px 0px;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs {
+    display: block;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left {
+    width: 100%;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft {
+    display: flex;
+    justify-content: space-around;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options {
+    width: 20%;
+    text-align: center;
+    padding: 5px 10px;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options h3 {
+    font-size: 14px;
+    font-weight: 100;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .left .containerLeft .options span {
+    display: none;
+  }
+  .direct .comunication .AboutServices .containerServices .sliderContainer .containerBoxs .rightWallpaper {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .direct .comunication .comunicateHome {
+    margin-top: 30px;
+  }
+  .direct .comunication .comunicateHome .containerComunicate .cont .wallp {
+    width: 100%;
+    margin-left: 0px;
+  }
+  .direct .comunication .comunicateHome .containerComunicate .cont .form {
+    width: 70%;
+  }
+  .direct .comunication .comunicateHome .containerComunicate .cont .form .titleDescComunicate h1 {
+    font-size: 32px;
+  }
+  .direct .comunication .comunicateHome .containerComunicate .cont .form .titleDescComunicate span {
+    font-size: 14px;
+  }
+  .direct .sells .homeOptionsDivide {
+    height: auto;
+    position: relative;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide {
+    width: 90%;
+    display: block;
+    height: auto;
+    margin: 10px auto;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide .wallpaperImg {
+    width: 100%;
+    text-align: center;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide .wallpaperImg img {
+    width: 50%;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo {
+    width: 100%;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList {
+    width: 90%;
+    margin: auto;
+    padding: 30px 0px;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide .containerDescInfo .container .optionsLists .optionsList .desc {
+    width: 100%;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc {
+    width: 100%;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigDesc .titleDiv {
+    width: 90%;
+  }
+  .direct .sells .homeOptionsDivide .containerOptionsDivide.Complete .bigWallpaper {
+    width: 100%;
+    text-align: right;
+  }
+  .direct .sells .homeSellIncluded .includesDivide {
+    padding: 0px 0px;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .title {
+    width: 90%;
+    padding: 10px 0px;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .title span {
+    font-size: 14px;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide {
+    margin: 0px 0px;
+    display: block;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions {
+    width: 100%;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option {
+    margin: 10px 0px;
+    padding: 20px 0px;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .icon img {
+    display: block;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide .VigeOptions .option .DescTitle {
+    width: 100%;
+  }
+  .direct .sells .homeSellIncluded .includesDivide .divide img {
+    display: none;
+  }
+  .direct .sells .homeSellsIncludeSpecifity {
+    padding: 0px 0px;
+    margin: 0px 0px;
+    box-sizing: border-box;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude {
+    display: block;
+    margin: 0px auto;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer {
+    width: 100%;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .titleAndDesc {
+    margin: 0px 0px;
+    text-align: center;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .titleAndDesc h1 {
+    font-size: 32px;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option {
+    padding: 10px 0px;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .icon {
+    width: 30%;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .txtSpan {
+    width: 70%;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .option .txtSpan span {
+    font-size: 14px;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn {
+    width: 100%;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .leftContainer .containerListOptions .btn button {
+    width: 100%;
+  }
+  .direct .sells .homeSellsIncludeSpecifity .containerInclude .wallpaperRight {
+    display: none;
+  }
+  .direct .sells .homeSellOpinions {
+    box-sizing: border-box;
+  }
+  .direct .sells .homeSellOpinions .containersOpinions {
+    display: block;
+  }
+  .direct .sells .homeSellOpinions .containersOpinions .vigeButton {
+    display: none;
+  }
+  .direct .sells .homeSellOpinions .containersOpinions .comments {
+    width: 100%;
+  }
+  .direct .sells .homeSellOpinions .containersOpinions .comments .containerCommentas {
+    width: 100%;
+  }
+  .direct .sells .subscribeFree .containerForms {
+    display: block;
+    margin: 10px 0px;
+    width: 90%;
+    margin: 50px auto;
+  }
+  .direct .sells .subscribeFree .containerForms .descInfo {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+  }
+  .direct .sells .subscribeFree .containerForms .forms {
+    padding: 0px;
+    width: 100%;
+    margin: auto;
+  }
+  .direct .sells .subscribeFree .containerForms .forms .containerForms {
+    padding: 0px;
+  }
+  .direct .sells .subscribeFree .containerForms .forms .containerForms input {
+    width: 65%;
+  }
+  .direct .sells .subscribeFree .containerForms .forms .containerForms button {
+    border-radius: 0px;
+    padding: 18px;
+  }
+}
+.contact .contactHome {
+  height: 100%;
+  background-color: white;
+}
+.contact .contactHome .container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.contact .contactHome .container .descContact {
+  height: auto;
+  width: 40%;
+}
+.contact .contactHome .container .descContact .desc .desc h1 {
+  font-weight: 100;
+  color: #6b7385;
+}
+.contact .contactHome .container .descContact .desc .wallpaper {
+  width: 60%;
+  padding: 10px 0px;
+  margin: auto;
+}
+.contact .contactHome .container .descContact .desc .wallpaper img {
+  width: 100%;
+  transition: 0.8s;
+}
+.contact .contactHome .container .descContact .desc .wallpaper img:hover {
+  transform: rotateY(30deg);
+}
+.contact .contactHome .container .formContact {
+  width: 50%;
+  height: auto;
+}
+.contact .contactHome .container .formContact .divForm {
+  padding: 10px;
+  width: 90%;
+  box-sizing: border-box;
+}
+.contact .contactHome .container .formContact .divForm .header h3 {
+  font-weight: 100;
+  color: #2f57ef;
+  font-size: 32px;
+  margin: 15px 0px;
+}
+.contact .contactHome .container .formContact .divForm .header span {
+  font-size: 16px;
+  color: #6b7385;
+  font-weight: 100;
+  letter-spacing: 1px;
+}
+.contact .contactHome .container .formContact .divForm .form {
+  padding: 10px 0px;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm {
+  width: 100%;
+  box-sizing: border-box;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp {
+  width: 100%;
+  margin: 40px 0px;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp input {
+  width: 90%;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #eee;
+  color: #6b7385;
+  outline: 0px;
+  font-size: 14px;
+  font-weight: 100;
+  transition: 0.3s;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp input:focus {
+  border-bottom: 1px solid #6b7385;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp button {
+  width: 100%;
+  border-radius: 5px;
+  padding: 20px;
+  box-sizing: border-box;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  background-color: #6a1b9a;
+  border: 1px solid #6a1b9a;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp button span {
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp button:hover {
+  background: white;
+}
+.contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp button:hover span {
+  color: #6a1b9a;
+  margin-left: 5%;
+}
+@media screen and (max-width: 800px) {
+  .contact .contactHome .container {
+    width: 95;
+    flex-wrap: wrap;
+  }
+  .contact .contactHome .container .descContact {
+    width: 100%;
+  }
+  .contact .contactHome .container .descContact .desc .wallpaper {
+    padding: 0px;
+    width: 20%;
+  }
+  .contact .contactHome .container .formContact {
+    width: 100%;
+  }
+  .contact .contactHome .container .formContact .divForm {
+    width: 100%;
+  }
+  .contact .contactHome .container .formContact .divForm .header h3 {
+    font-size: 26px;
+    font-weight: 400;
+  }
+  .contact .contactHome .container .formContact .divForm .header span {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .contact .contactHome .container .formContact .divForm .form {
+    padding: 0px;
+  }
+  .contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp {
+    margin: 30px 0px;
+  }
+  .contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp input {
+    width: 100%;
+    border-radius: 0px;
+    border-bottom: 1px solid #ccc;
+    font-weight: 400;
+  }
+  .contact .contactHome .container .formContact .divForm .form .containerForm .inputCamp button {
+    padding: 15px;
+  }
+}
+.us .homeUs {
+  height: 100%;
+}
+.us .homeUs .container {
+  height: 100%;
+  position: relative;
+  border: 1px solid transparent;
+  background-color: black;
+}
+.us .homeUs .container .wallpaper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+  background: url('https://histudy-nextjs.vercel.app/_next/static/media/bg-image-11.09086418.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.6;
+}
+.us .homeUs .container .Box {
+  z-index: 1;
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.us .homeUs .container .Box .txt {
+  height: auto;
+  text-align: center;
+}
+.us .homeUs .container .Box .txt .top {
+  padding: 10px;
+  box-sizing: border-box;
+  margin: 30px 0px;
+  margin-bottom: 60px;
+}
+.us .homeUs .container .Box .txt .top button {
+  background-color: #2f57ef21;
+  padding: 10px;
+  border-radius: 20px;
+  border: 1px solid #2f57ef21;
+  width: 30%;
+}
+.us .homeUs .container .Box .txt .top button span {
+  color: #2f57ef;
+}
+.us .homeUs .container .Box .txt h1 {
+  font-size: 42px;
+  color: white;
+}
+.us .homeUs .container .Box .txt .contact {
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: transparent;
+  border: 1px solid #2a7de1;
+  width: 30%;
+  margin: 50px 0px;
+  border-radius: 5px;
+}
+.us .homeUs .container .Box .txt .contact span {
+  font-size: 16px;
+  color: #2f57ef;
+}
+.us .ourMision {
+  height: auto;
+  background-color: white;
+}
+.us .ourMision .containerMision {
+  height: auto;
+  width: 95%;
+  padding: 100px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.us .ourMision .containerMision .containersPictures {
+  width: 50%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.us .ourMision .containerMision .containersPictures .imgLeft {
+  width: 60%;
+  background-size: cover;
+}
+.us .ourMision .containerMision .containersPictures .imgLeft img {
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+}
+.us .ourMision .containerMision .containersPictures .imgsRight {
+  width: 60%;
+  margin-left: -10%;
+  object-fit: contain;
+  margin-top: 40px;
+}
+.us .ourMision .containerMision .containersPictures .imgsRight .top {
+  width: 90%;
+  margin-left: 10%;
+}
+.us .ourMision .containerMision .containersPictures .imgsRight .top img {
+  width: 100%;
+  border-radius: 10px;
+}
+.us .ourMision .containerMision .containersPictures .imgsRight .bottom {
+  margin-top: 30px;
+}
+.us .ourMision .containerMision .containersPictures .imgsRight .bottom img {
+  width: 100%;
+  border-radius: 10px;
+}
+.us .ourMision .containerMision .boxDesc {
+  width: 45%;
+  margin-left: 2%;
+  height: auto;
+}
+.us .ourMision .containerMision .boxDesc .boxs {
+  height: auto;
+}
+.us .ourMision .containerMision .boxDesc .boxs .top {
+  width: 100%;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.us .ourMision .containerMision .boxDesc .boxs .top button {
+  width: 40%;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+}
+.us .ourMision .containerMision .boxDesc .boxs .top button span {
+  font-size: 12px;
+  color: #2f57ef;
+}
+.us .ourMision .containerMision .boxDesc .boxs .title {
+  width: 90%;
+}
+.us .ourMision .containerMision .boxDesc .boxs .title h1 {
+  font-size: 42px;
+  color: #2f57ef;
+  margin: 10px 0px;
+}
+.us .ourMision .containerMision .boxDesc .boxs .title h3 {
+  color: #6b7385;
+  font-weight: 100;
+  font-size: 14px;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones {
+  margin-top: 30px;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .icon {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .icon button {
+  border-radius: 100%;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  background-color: #db709321;
+  border: 1px solid #db709321;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .icon button .iconD {
+  font-size: 18px;
+  color: #db7093;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .icon button.Impar {
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .icon button.Impar .iconD {
+  color: #2f57ef;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .Desc {
+  width: 90%;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .Desc h3 {
+  color: rgba(10, 30, 54, 0.84);
+  margin: 10px 0px;
+  font-size: 16px;
+}
+.us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .Desc span {
+  color: #6b7385;
+  font-size: 14px;
+  font-weight: 100;
+}
+.us .ourVision {
+  height: 100%;
+  background-color: white;
+  padding: 50px 0px;
+  box-sizing: border-box;
+}
+.us .ourVision .containerVision {
+  height: auto;
+}
+.us .ourVision .containerVision .descriptionVision {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+.us .ourVision .containerVision .descriptionVision .vision {
+  width: 50%;
+}
+.us .ourVision .containerVision .descriptionVision .vision .top {
+  width: 100%;
+  padding: 10px 0px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .top button {
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+  padding: 10px;
+  border-radius: 20px;
+  width: 30%;
+  cursor: pointer;
+}
+.us .ourVision .containerVision .descriptionVision .vision .top button span {
+  color: #2f57ef;
+}
+.us .ourVision .containerVision .descriptionVision .vision .title {
+  padding: 10px 0px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .title h1 {
+  font-weight: 100;
+  color: #141414;
+  margin: 10px 0px;
+  font-size: 42px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .title h3 {
+  font-weight: 100;
+  font-size: 16px;
+  color: #6b7385;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones {
+  margin-top: 30px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px 0px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .icon {
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .icon button {
+  border-radius: 100%;
+  box-sizing: border-box;
+  width: 45px;
+  height: 45px;
+  background-color: #db709321;
+  border: 1px solid #db709321;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .icon button .iconD {
+  font-size: 18px;
+  color: #db7093;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .icon button.Impar {
+  background-color: #2f57ef21;
+  border: 1px solid #2f57ef21;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .icon button.Impar .iconD {
+  color: #2f57ef;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .Desc {
+  width: 90%;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .Desc h3 {
+  color: rgba(10, 30, 54, 0.84);
+  margin: 10px 0px;
+  font-size: 16px;
+}
+.us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .Desc span {
+  color: #6b7385;
+  font-size: 14px;
+  font-weight: 100;
+}
+.us .subscription {
+  height: 100%;
+  background: linear-gradient(-45deg, #9c27b0 20%, #6a1b9a 70%);
+}
+.us .subscription .contextSubscription {
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.us .subscription .contextSubscription .containerSub {
+  height: auto;
+  width: 70%;
+  margin: auto;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.us .subscription .contextSubscription .containerSub .top {
+  text-align: center;
+  padding: 30px 0px;
+}
+.us .subscription .contextSubscription .containerSub .top button {
+  width: 40%;
+  border-radius: 20px;
+  background-color: #2f57ef21;
+  border: none;
+  padding: 10px;
+}
+.us .subscription .contextSubscription .containerSub .top button span {
+  color: #2f57ef;
+}
+.us .subscription .contextSubscription .containerSub .title {
+  padding: 10px 0px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.us .subscription .contextSubscription .containerSub .title h1 {
+  font-size: 38px;
+  color: white;
+  margin: 20px 0px;
+}
+.us .subscription .contextSubscription .containerSub .title h3 {
+  color: white;
+  font-weight: 100;
+  font-size: 16px;
+}
+.us .subscription .contextSubscription .containerSub .form {
+  margin: 30px 0px;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+.us .subscription .contextSubscription .containerSub .form .formWhite {
+  border-radius: 5px;
+  background-color: white;
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.us .subscription .contextSubscription .containerSub .form .formWhite input {
+  width: 70%;
+  padding: 15px 10px;
+  background-color: white;
+  outline: 0px;
+  border: none;
+}
+.us .subscription .contextSubscription .containerSub .form .formWhite button {
+  width: 25%;
+  border: 1px solid black;
+  padding: 15px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: black;
+}
+.us .subscription .contextSubscription .containerSub .form .formWhite button span {
+  color: white;
+}
+.us .subscription .contextSubscription .containerSub .form .smallMessage {
+  margin-top: 30px;
+}
+.us .subscription .contextSubscription .containerSub .form .smallMessage span {
+  color: white;
+  font-size: 12px;
+}
+@media screen and (max-width: 800px) {
+  .us .homeUs .container .Box {
+    width: 90%;
+    margin: auto;
+    right: 0px;
+    left: 0px;
+  }
+  .us .homeUs .container .Box .txt {
+    text-align: left;
+  }
+  .us .homeUs .container .Box .txt .top {
+    text-align: center;
+    margin: 20px 0px;
+  }
+  .us .homeUs .container .Box .txt .top button {
+    width: 90%;
+    border: 1px solid white;
+  }
+  .us .homeUs .container .Box .txt .top button span {
+    color: white;
+  }
+  .us .homeUs .container .Box .txt h1 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .us .homeUs .container .Box .txt .contact {
+    background-color: white;
+    width: 70%;
+    border: 1px solid white;
+    padding: 10px;
+    margin: 20px 0px;
+  }
+  .us .ourMision {
+    box-sizing: border-box;
+  }
+  .us .ourMision .containerMision {
+    flex-wrap: wrap;
+  }
+  .us .ourMision .containerMision .containersPictures {
+    width: 90%;
+    margin: auto;
+  }
+  .us .ourMision .containerMision .containersPictures .imgLeft {
+    width: 40%;
+  }
+  .us .ourMision .containerMision .containersPictures .imgsRight {
+    width: 80%;
+  }
+  .us .ourMision .containerMision .containersPictures .imgsRight .bottom {
+    display: none;
+  }
+  .us .ourMision .containerMision .boxDesc {
+    width: 90%;
+    margin: auto;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs {
+    width: 100%;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .top {
+    width: 100%;
+    text-align: center;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .title {
+    width: 100%;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .title h1 {
+    font-size: 26px;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .title h3 {
+    font-weight: 400;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .Desc {
+    width: 70%;
+  }
+  .us .ourMision .containerMision .boxDesc .boxs .listOptionsSubMisiones .option .Desc span {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .us .ourVision {
+    height: auto;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision {
+    width: 100%;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .top {
+    text-align: center;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .top button {
+    width: 60%;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .title {
+    width: 80%;
+    margin: auto;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .title h1 {
+    font-weight: 400;
+    font-size: 32px;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .title h3 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .Desc {
+    width: 70%;
+  }
+  .us .ourVision .containerVision .descriptionVision .vision .listOptionsSubMisiones .option .Desc span {
+    font-weight: 400;
+  }
+  .us .ourVision .containerVision .descriptionVision img {
+    display: none;
+  }
+  .us .subscription {
+    height: auto;
+  }
+  .us .subscription .contextSubscription .containerSub {
+    width: 90%;
+  }
+  .us .subscription .contextSubscription .containerSub .top {
+    padding: 20px 0px;
+  }
+  .us .subscription .contextSubscription .containerSub .top button {
+    width: 80%;
+    background-color: transparent;
+    border: 1px solid white;
+  }
+  .us .subscription .contextSubscription .containerSub .top button span {
+    font-size: 14px;
+    color: white;
+  }
+  .us .subscription .contextSubscription .containerSub .title h1 {
+    font-size: 24px;
+  }
+  .us .subscription .contextSubscription .containerSub .title h3 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+}
+.blog {
+  background: white;
+}
+.blog .default {
+  box-sizing: border-box;
+}
+.blog .default .homeDefault {
+  height: 100%;
+  box-sizing: border-box;
+  border: 1px solid white;
+  display: flex;
+  align-items: center;
+}
+.blog .default .homeDefault .container {
+  width: 80%;
+  margin: auto;
+  height: auto;
+}
+.blog .default .homeDefault .container .bigName {
+  width: 100%;
+  text-align: center;
+}
+.blog .default .homeDefault .container .bigName h1 {
+  font-size: 200px;
+}
+.blog .default .homeDefault .container .small {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 40px 0px;
+}
+.blog .default .homeDefault .container .small .leftText {
+  width: 60%;
+  box-sizing: border-box;
+}
+.blog .default .homeDefault .container .small .leftText h3 {
+  font-weight: 100;
+  font-size: 20px;
+  margin: 10px 0px;
+}
+.blog .default .homeDefault .container .small .leftText span {
+  color: #141414;
+}
+.blog .default .homeDefault .container .small .rightText {
+  width: 30%;
+  box-sizing: border-box;
+}
+.blog .default .homeDefault .container .small .rightText .img {
+  width: 100%;
+}
+.blog .default .homeDefault .container .small .rightText .img img {
+  width: 20%;
+  border-radius: 100%;
+}
+.blog .default .homeDefault .container .small .rightText .textMisionBlog span {
+  font-size: 14px;
+  color: #141414;
+}
+.blog .default .defaultBlogSection {
+  height: auto;
+  background-color: white;
+}
+.blog .default .defaultBlogSection .containerSections {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection {
+  width: 70%;
+  box-sizing: border-box;
+  padding: 0px 40px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft {
+  width: 100%;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch {
+  display: flex;
+  align-items: center;
+  padding: 30px 0px;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .noah {
+  width: 10%;
+  text-align: center;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog {
+  width: 90%;
+  box-sizing: border-box;
+  border-bottom: 2px solid #eee;
+  height: 40px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav {
+  width: 100%;
+  height: 100%;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 100%;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul li {
+  height: 42px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0px 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  border-bottom: 2px solid #eee;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul li span {
+  font-size: 13px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul li:hover {
+  border-bottom: 2px solid #2a7de1;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul li.active {
+  border-bottom: 2px solid #2a7de1;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig {
+  width: 50%;
+  box-sizing: border-box;
+  padding: 0px 10px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new {
+  width: 100%;
+  border-radius: 10px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new .wallpaper img {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new .descNew {
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new .descNew h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new .descNew .note {
+  font-size: 14px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig .new .descNew .time {
+  font-size: 12px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew {
+  width: 50%;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news {
+  width: 100%;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new {
+  width: 100%;
+  height: 80px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew .img {
+  width: 30%;
+  height: 100%;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew .img img {
+  width: 100%;
+  object-fit: cover;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew .desc {
+  width: 70%;
+  height: auto;
+  padding: 0px 10px;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew .desc h3 {
+  color: #141414;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new .containerNew .desc .atTime {
+  font-size: 12px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew .news .new:hover {
+  transform: scale(1.05);
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog {
+  width: 30%;
+  border-left: 1px solid #eee;
+  padding: 20px;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews {
+  width: 100%;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .topDiv {
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .topDiv .title {
+  padding: 10px 0px;
+  border-bottom: 2px solid #eee;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .topDiv .title h3 {
+  font-size: 16px;
+  color: #141414;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .topDiv .desc {
+  padding: 10px 0px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .topDiv .desc span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews {
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+  margin: 10px 0px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .title {
+  padding: 10px 0px;
+  border-bottom: 2px solid #eee;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .title h3 {
+  font-size: 16px;
+  color: #141414;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents {
+  padding: 10px 0px;
+  border-bottom: 1px solid #eee;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent {
+  width: 100%;
+  box-sizing: border-box;
+  height: 70px;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container {
+  width: 100%;
+  display: flex;
+  height: 70px;
+  align-items: center;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container .img {
+  width: 25%;
+  box-sizing: border-box;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container .img img {
+  width: 100%;
+  object-fit: cover;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container .newDesc {
+  padding: 10px;
+  height: auto;
+  box-sizing: border-box;
+  width: 75%;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container .newDesc strong {
+  font-size: 12px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent .container .newDesc span {
+  font-size: 12px;
+  color: #6b7385;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .containerSmallNewsRecents .newRecent:hover {
+  transform: translateX(5%);
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .ourSocialNetwork {
+  margin: 20px 0px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .ourSocialNetwork .networks .horizontalNetwork {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .ourSocialNetwork .networks .horizontalNetwork button {
+  background-color: transparent;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .ourSocialNetwork .networks .horizontalNetwork button .icon {
+  font-size: 20px;
+}
+.blog .default .defaultBlogSection .containerSections .rightContainerBlog .containerSmallNews .recentsNews .ourSocialNetwork .networks .horizontalNetwork button:hover {
+  transform: scale(1.1);
+}
+.blog .article {
+  border: 1px solid white;
+  height: auto;
+  background: white;
+}
+.blog .article .containerArticle {
+  width: 70%;
+  height: auto;
+  margin: 100px auto;
+}
+.blog .article .containerArticle .titlePrincipal {
+  margin: 20px 0px;
+}
+.blog .article .containerArticle .titlePrincipal .date {
+  margin: 10px 0px;
+}
+.blog .article .containerArticle .titlePrincipal .date span {
+  font-size: 12px;
+  color: #2a7de1;
+}
+.blog .article .containerArticle .titlePrincipal .title {
+  margin: 20px 0px;
+  width: 90%;
+}
+.blog .article .containerArticle .titlePrincipal .title h1 {
+  font-size: 62px;
+  color: #141414;
+}
+.blog .article .containerArticle .descArticle {
+  margin: 30px 0px;
+}
+.blog .article .containerArticle .descArticle .text {
+  width: 100%;
+  margin: 10px 0px;
+}
+.blog .article .containerArticle .descArticle .text span {
+  font-size: 14px;
+  font-weight: 100;
+  color: #6b7385;
+  letter-spacing: 1px;
+}
+.blog .article .containerArticle .descArticle .text .subtitle {
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  color: #141414;
+}
+.blog .article .containerArticle .descArticle .text .cita {
+  width: 100%;
+  padding: 20px 30px;
+  border-left: 2px solid #2a7de1;
+  margin: 50px 0px;
+}
+.blog .article .containerArticle .descArticle .text .cita .textCita {
+  margin: 10px 0px;
+}
+.blog .article .containerArticle .descArticle .text .cita .textCita span {
+  font-weight: 600;
+}
+.blog .article .containerArticle .descArticle .text .cita .author span {
+  font-size: 12px;
+}
+.blog .article .containerArticle .tags {
+  margin-top: 20px;
+  width: 100%;
+  padding: 30px 0px;
+  border-bottom: 1px solid #eee;
+}
+.blog .article .containerArticle .tags .listTags {
+  width: auto;
+}
+.blog .article .containerArticle .tags .listTags button {
+  margin: 0px 10px;
+  background-color: transparent;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.blog .article .containerArticle .tags .listTags button span {
+  font-size: 12px;
+  color: #2a7de1;
+}
+.blog .article .containerArticle .tags .listTags button:hover {
+  transform: translateY(-5%);
+}
+.blog .article .containerArticle .dateBottom {
+  margin: 20px 0px;
+  text-align: right;
+}
+.blog .article .containerArticle .dateBottom span {
+  font-size: 12px;
+  color: #6b7385;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 900px) {
+  .blog .default .homeDefault {
+    height: auto;
+  }
+  .blog .default .defaultBlogSection .containerSections {
+    flex-wrap: wrap;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection {
+    width: 100%;
+  }
+  .blog .default .defaultBlogSection .containerSections .rightContainerBlog {
+    width: 100%;
+  }
+  .blog .article .containerArticle {
+    width: 80%;
+    margin: auto;
+  }
+  .blog .article .containerArticle .titlePrincipal .title h1 {
+    font-size: 42px;
+  }
+  .blog .article .containerArticle .descArticle .text span {
+    font-weight: 500;
+    font-size: 12px;
+  }
+  .blog .article .containerArticle .descArticle .text .cita {
+    box-sizing: border-box;
+  }
+  .blog .article .containerArticle .tags .listTags button {
+    margin: 5px 10px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .blog .default .homeDefault {
+    height: auto;
+  }
+  .blog .default .homeDefault .container {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .blog .default .homeDefault .container .bigName h1 {
+    margin: 20px 0px;
+    font-size: 62px;
+    letter-spacing: 2px;
+  }
+  .blog .default .homeDefault .container .small {
+    margin: 10px 0px;
+    flex-wrap: wrap;
+  }
+  .blog .default .homeDefault .container .small .leftText {
+    width: 100%;
+  }
+  .blog .default .homeDefault .container .small .leftText h3 {
+    font-weight: 400;
+    font-size: 14px;
+  }
+  .blog .default .homeDefault .container .small .leftText span {
+    font-size: 14px;
+  }
+  .blog .default .homeDefault .container .small .rightText {
+    display: none;
+  }
+  .blog .default .defaultBlogSection .containerSections {
+    flex-wrap: wrap;
+    width: 90%;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection {
+    width: 100%;
+    padding: 0px;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft {
+    width: 100%;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch {
+    width: 100%;
+    height: auto;
+    padding: 30px 0px;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .noah {
+    width: 20%;
+    display: none;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog {
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav {
+    width: 100%;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .navSectionsSearch .navigationBlog nav ul li {
+    display: inline-block;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews {
+    flex-wrap: wrap;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .leftBig {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+  }
+  .blog .default .defaultBlogSection .containerSections .leftSection .containerLeft .containerNews .containerN .divideNews .rightSmallNew {
+    width: 100%;
+    border-bottom: 1px solid #eee;
+    margin: 10px 0px;
+  }
+  .blog .default .defaultBlogSection .containerSections .rightContainerBlog {
+    width: 100%;
+  }
+}
+.navNoah {
+  box-sizing: border-box;
+  height: 14%;
+  display: flex;
+  align-items: center;
+}
+.navNoah .navigation-container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  box-sizing: border-box;
+  justify-content: space-between;
+  background-color: white;
+}
+.navNoah .navigation-container .left-nav {
+  align-items: center;
+  display: flex;
+  height: auto;
+  margin-left: 2%;
+  width: 20%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+.navNoah .navigation-container .left-nav img {
+  width: 100%;
+  object-fit: contain;
+}
+.navNoah .navigation-container .navigation-options {
+  margin-right: 2%;
+}
+.navNoah .navigation-container .navigation-options nav ul,
+.navNoah .navigation-container .navigation-options nav li {
+  list-style: none;
+}
+.navNoah .navigation-container .navigation-options nav ul {
+  display: flex;
+  justify-content: center;
+}
+.navNoah .navigation-container .navigation-options nav ul .li {
+  padding: 0px 10px;
+  display: flex;
+  cursor: pointer;
+  transition: 0.3s;
+  font-size: 14px;
+  border-bottom: 2px solid white;
+  box-sizing: border-box;
+  align-items: center;
+  margin: 0px 10px;
+}
+.navNoah .navigation-container .navigation-options nav ul .li span {
+  height: auto;
+  color: rgba(10, 30, 54, 0.84);
+  font-size: 15px;
+}
+.navNoah .navigation-container .navigation-options nav ul .li:hover {
+  border-bottom: 2px solid black;
+}
+.navNoah .navigation-container .navigation-options nav ul .GoAction {
+  align-items: center;
+}
+.navNoah .navigation-container .navigation-options nav ul .GoAction button {
+  height: auto;
+  padding: 10px 40px;
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 0px 10px;
+  border: 1px solid #2a7de1;
+  background-color: white;
+  cursor: pointer;
+}
+.navNoah .navigation-container .navigation-options nav ul .GoAction button span {
+  font-size: 12px;
+  color: #2a7de1;
+}
+.navNoah .navigation-container .navigation-options nav ul .goAction:hover {
+  border-bottom: 2px solid white;
+}
+.navNoah .navigation-container .navigation-options nav > li {
+  float: left;
+  display: block;
+}
+.navNoah .navigation-container .navigation-options nav ul li .subBox {
+  display: none;
+  position: fixed;
+  top: 14%;
+  height: auto;
+  box-sizing: border-box;
+  background-color: white;
+  z-index: 2;
+}
+.navNoah .navigation-container .navigation-options nav ul li .subBox li {
+  padding: 10px;
+}
+.navNoah .navigation-container .navigation-options .subBox {
+  cursor: default;
+  margin: 0px auto;
+  padding: 0px;
+  min-width: 50%;
+  right: 10%;
+  float: left;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation {
+  width: 100%;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .header-nav {
+  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/course/category-10.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  width: 100%;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .header-nav .textAndDesc {
+  width: 40%;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .header-nav .textAndDesc h3 {
+  color: white;
+  margin: 5px 0px;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .header-nav .textAndDesc span {
+  font-size: 12px;
+  color: white;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions {
+  padding: 20px;
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav {
+  width: 40%;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .titleSubOptions {
+  border-bottom: 1px solid #eee;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .titleSubOptions h3 {
+  font-weight: 100;
+  color: #6b7385;
+  font-size: 14px;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .optionsList ul {
+  display: block;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .optionsList ul li {
+  display: inline-flex;
+  width: 100%;
+  cursor: pointer;
+  padding: 15px 5px;
+  transition: 0.3s;
+}
+.navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .optionsList ul li span {
+  font-size: 12px;
+  color: #6b7385;
+  font-weight: 500;
+}
+.navNoah .navigation-container .navigation-options .subBox.Small {
+  min-width: auto;
+  left: auto;
+  right: 10%;
+}
+.navNoah .navigation-container .navigation-options .subBox.Blog {
+  width: 80%;
+  left: 10%;
+  right: 10%;
+}
+.navNoah .navigation-container .navigation-options .hidden {
+  display: none;
+}
+.navNoah .navigation-container .navigation-options nav ul > .li:hover > .subBox {
+  display: block;
+}
+.navNoah .navigation-container .responsiveBtn {
+  height: auto;
+  display: none;
+}
+.navNoah .navigation-container .responsiveBtn button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  box-sizing: border-box;
+  height: auto;
+}
+.navNoah .navigation-container .responsiveBtn button .icon {
+  font-size: 32px;
+}
+@media screen and (max-width: 900px) {
+  .navNoah .navigation-container .left-nav {
+    width: 40%;
+    height: 100%;
+  }
+  .navNoah .navigation-container .left-nav img {
+    object-fit: cover;
+  }
+  .navNoah .navigation-container .navigation-options {
+    margin: 0px;
+    background-color: white;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    top: 14%;
+    height: 86%;
+    left: 0;
+    right: 0;
+    box-sizing: border-box;
+    overflow-y: auto;
+    transition: 0.3s;
+    transform: translateX(-100%);
+  }
+  .navNoah .navigation-container .navigation-options nav {
+    height: auto;
+  }
+  .navNoah .navigation-container .navigation-options nav ul {
+    display: block;
+  }
+  .navNoah .navigation-container .navigation-options nav ul .li {
+    position: relative;
+    height: auto;
+    display: block;
+    padding: 20px 10px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+    cursor: default;
+  }
+  .navNoah .navigation-container .navigation-options nav ul .li span {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .navNoah .navigation-container .navigation-options nav ul .li:hover {
+    border-bottom: 2px solid white;
+  }
+  .navNoah .navigation-container .navigation-options nav ul li {
+    position: relative;
+    height: auto;
+  }
+  .navNoah .navigation-container .navigation-options nav > li {
+    float: none;
+  }
+  .navNoah .navigation-container .navigation-options nav ul li .subBox {
+    display: block;
+    position: relative;
+    top: 0px;
+  }
+  .navNoah .navigation-container .navigation-options .subBox {
+    width: 100%;
+    right: 0px;
+    margin-top: 10px;
+    border: none;
+    float: none;
+    padding: 0px 20px;
+    box-sizing: border-box;
+  }
+  .navNoah .navigation-container .navigation-options .subBox .navigation .header-nav {
+    display: none;
+  }
+  .navNoah .navigation-container .navigation-options .subBox .navigation .subOptions {
+    padding: 0px;
+    display: block;
+  }
+  .navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav {
+    width: 100%;
+  }
+  .navNoah .navigation-container .navigation-options .subBox .navigation .subOptions .subOptionsNav .titleSubOptions {
+    display: none;
+  }
+  .navNoah .navigation-container .navigation-options .subBox.Small {
+    right: 0px;
+  }
+  .navNoah .navigation-container .navigation-options .subBox.Blog {
+    right: 0px;
+    left: 0px;
+    width: 100%;
+  }
+  .navNoah .navigation-container .navigation-optionsActive {
+    transform: translateX(0%);
+  }
+  .navNoah .navigation-container .responsiveBtn {
+    display: block;
+  }
+  .navNoah .navigation-containerActive {
+    position: fixed;
+  }
+}
