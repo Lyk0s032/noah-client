@@ -1071,12 +1071,241 @@
 .specific .mobile {
   background-color: white;
 }
+.specific .mobile .modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.specific .mobile .modal .containerModal {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 10px;
+}
+.specific .mobile .modal .containerModal .box {
+  height: auto;
+}
+.specific .mobile .modal .containerModal .box .header {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.specific .mobile .modal .containerModal .box .header .nav {
+  display: flex;
+  padding: 20px 0px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: end;
+}
+.specific .mobile .modal .containerModal .box .header .nav .btn {
+  width: 10%;
+  text-align: center;
+}
+.specific .mobile .modal .containerModal .box .header .nav .btn button {
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.specific .mobile .modal .containerModal .box .header .nav .btn button .icon {
+  font-size: 24px;
+  transition: 0.3s;
+  color: #6b7385;
+}
+.specific .mobile .modal .containerModal .box .header .nav .btn button:hover {
+  transform: scale(1.1);
+}
+.specific .mobile .modal .containerModal .box .header .nav .btn button:hover .icon {
+  color: #141414;
+}
+.specific .mobile .modal .containerModal .box .header .zone {
+  width: 100%;
+  box-sizing: border-box;
+}
+.specific .mobile .modal .containerModal .box .header .zone ul li {
+  display: inline-block;
+  width: 50%;
+  border-bottom: 2px solid #eee;
+}
+.specific .mobile .modal .containerModal .box .header .zone ul li.active {
+  border-bottom: 2px solid #141414;
+}
+.specific .mobile .modal .containerModal .box .containerBox {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc {
+  width: 80%;
+  margin: auto;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .bigTitle {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .bigTitle h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 10px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .bigTitle span {
+  font-size: 14px;
+  color: #141414;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility {
+  width: 100%;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price {
+  padding: 40px 0px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  margin: auto;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 {
+  font-size: 42px;
+  color: #2a7de1;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 strong {
+  font-size: 22px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns {
+  width: 100%;
+  padding: 10px 0px;
+  padding-top: 30px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  border: 1px solid #2a7de1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button .icon {
+  color: #2a7de1;
+  font-size: 20px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button span {
+  margin-right: 10px;
+  color: #2a7de1;
+  font-size: 16px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button:hover {
+  transform: scale(1.1);
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li {
+  width: 50%;
+  display: inline-block;
+  padding: 7px 0px;
+  display: flex;
+  align-items: center;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li .icon {
+  color: #2a7de1;
+}
+.specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li span {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #6b7385;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption {
+  padding: 10px 0px;
+  width: 70%;
+  margin: auto;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .smallImg {
+  width: 40%;
+  margin: auto;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .smallImg img {
+  width: 100%;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs {
+  width: 100%;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs span {
+  font-size: 14px;
+  color: #2a7de1;
+  letter-spacing: 1px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0px;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #eee;
+  outline: none;
+  transition: 0.3s;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input:focus {
+  transform: scale(1.1);
+  border-bottom: 1px solid #2a7de1;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button {
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #2a7de1;
+  background-color: transparent;
+  transition: 0.3s;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+  font-size: 16px;
+  color: #2a7de1;
+  transition: 0.3s;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover {
+  transform: scale(1.1);
+  background-color: #2a7de1;
+}
+.specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover span {
+  color: white;
+}
 .specific .mobile .firstSeccion {
   box-sizing: border-box;
   height: 100%;
   display: flex;
   align-items: center;
-  background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/left-right-line-small.svg');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -1107,16 +1336,46 @@
   margin-top: 30px;
 }
 .specific .mobile .firstSeccion .leftContain .containerDiv .avaliable button {
-  width: 30%;
+  width: 20%;
   margin-right: 5%;
   padding: 0px;
   border: none;
   cursor: pointer;
+  background-color: transparent;
   border-radius: 10px;
+  transition: 0.3s;
 }
 .specific .mobile .firstSeccion .leftContain .containerDiv .avaliable button img {
   width: 100%;
   border-radius: 10px;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .avaliable button:hover {
+  transform: translateX(5%);
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .btns {
+  margin-top: 30px;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .btns button {
+  width: 70%;
+  padding: 15px 0px;
+  background-color: #2a7de1;
+  border: 1px solid #2a7de1;
+  transition: 0.3s;
+  cursor: pointer;
+  border-radius: 7px;
+  box-sizing: border-box;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .btns button span {
+  font-size: 16px;
+  color: white;
+  transition: 0.3s;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .btns button:hover {
+  transform: scale(1.1);
+  background-color: white;
+}
+.specific .mobile .firstSeccion .leftContain .containerDiv .btns button:hover span {
+  color: #2a7de1;
 }
 .specific .mobile .firstSeccion .right-div {
   width: 50%;
@@ -1261,6 +1520,236 @@
 }
 .specific .mobile .herramientasCircleDivs .someOptions .containerOptions .Bottom {
   margin-top: 50px;
+}
+.specific .web .modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+}
+.specific .web .modal .containerModal {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 10px;
+}
+.specific .web .modal .containerModal .box {
+  height: auto;
+}
+.specific .web .modal .containerModal .box .header {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.specific .web .modal .containerModal .box .header .nav {
+  display: flex;
+  padding: 20px 0px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: end;
+}
+.specific .web .modal .containerModal .box .header .nav .btn {
+  width: 10%;
+  text-align: center;
+}
+.specific .web .modal .containerModal .box .header .nav .btn button {
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.specific .web .modal .containerModal .box .header .nav .btn button .icon {
+  font-size: 24px;
+  transition: 0.3s;
+  color: #6b7385;
+}
+.specific .web .modal .containerModal .box .header .nav .btn button:hover {
+  transform: scale(1.1);
+}
+.specific .web .modal .containerModal .box .header .nav .btn button:hover .icon {
+  color: #141414;
+}
+.specific .web .modal .containerModal .box .header .zone {
+  width: 100%;
+  box-sizing: border-box;
+}
+.specific .web .modal .containerModal .box .header .zone ul li {
+  display: inline-block;
+  width: 50%;
+  border-bottom: 2px solid #eee;
+}
+.specific .web .modal .containerModal .box .header .zone ul li.active {
+  border-bottom: 2px solid #141414;
+}
+.specific .web .modal .containerModal .box .containerBox {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.specific .web .modal .containerModal .box .containerBox .desc {
+  width: 80%;
+  margin: auto;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .bigTitle {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .bigTitle h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 10px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .bigTitle span {
+  font-size: 14px;
+  color: #141414;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility {
+  width: 100%;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price {
+  padding: 40px 0px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  margin: auto;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 {
+  font-size: 42px;
+  color: #2a7de1;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 strong {
+  font-size: 22px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns {
+  width: 100%;
+  padding: 10px 0px;
+  padding-top: 30px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  border: 1px solid #2a7de1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button .icon {
+  color: #2a7de1;
+  font-size: 20px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button span {
+  margin-right: 10px;
+  color: #2a7de1;
+  font-size: 16px;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button:hover {
+  transform: scale(1.1);
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li {
+  width: 50%;
+  display: inline-block;
+  padding: 7px 0px;
+  display: flex;
+  align-items: center;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li .icon {
+  color: #2a7de1;
+}
+.specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li span {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #6b7385;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption {
+  padding: 10px 0px;
+  width: 70%;
+  margin: auto;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .smallImg {
+  width: 40%;
+  margin: auto;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .smallImg img {
+  width: 100%;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs {
+  width: 100%;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs span {
+  font-size: 14px;
+  color: #2a7de1;
+  letter-spacing: 1px;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0px;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #eee;
+  outline: none;
+  transition: 0.3s;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input:focus {
+  transform: scale(1.1);
+  border-bottom: 1px solid #2a7de1;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button {
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #2a7de1;
+  background-color: transparent;
+  transition: 0.3s;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+  font-size: 16px;
+  color: #2a7de1;
+  transition: 0.3s;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover {
+  transform: scale(1.1);
+  background-color: #2a7de1;
+}
+.specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover span {
+  color: white;
 }
 .specific .web .homeWeb {
   height: 100%;
@@ -2313,6 +2802,50 @@
 .direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form .inputDivBtn button:hover {
   transform: scale(1.1);
 }
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form.Loading .inputDiv input:disabled {
+  background-color: #eee;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .formDiv .containerForm .form.Loading .inputDivBtn.Loading button {
+  background: #eee;
+  cursor: default;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess {
+  width: 90%;
+  margin-left: auto;
+  border-radius: 10px;
+  padding: 40px 30px;
+  box-sizing: border-box;
+  box-shadow: 0px 6px 34px rgba(215, 216, 222, 0.41);
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .img {
+  width: 50%;
+  margin: auto;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .img img {
+  width: 100%;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .message {
+  margin-top: 30px;
+  width: 90%;
+  margin: auto;
+  padding: 30px 0px;
+  text-align: center;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .message h1 {
+  font-weight: 100;
+  margin-top: 30px;
+  color: #2a7de1;
+  font-size: 24px;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .message h3 {
+  margin: 20px 0px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #6b7385;
+}
+.direct .comunication .homeComunication .containerHome .RightForm .succesful .containerSucess .message h3 strong {
+  font-weight: bold;
+}
 .direct .comunication .homeSocialNetwork {
   height: auto;
   background-color: white;
@@ -2608,6 +3141,237 @@
 }
 .direct .sells {
   background-color: white;
+}
+.direct .sells .modal {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  z-index: 2;
+}
+.direct .sells .modal .containerModal {
+  width: 80%;
+  margin: auto;
+  height: auto;
+  margin-top: 2%;
+  background-color: white;
+  border-radius: 10px;
+}
+.direct .sells .modal .containerModal .box {
+  height: auto;
+}
+.direct .sells .modal .containerModal .box .header {
+  width: 100%;
+  border-radius: 10px 10px 0px 0px;
+}
+.direct .sells .modal .containerModal .box .header .nav {
+  display: flex;
+  padding: 20px 0px;
+  padding-bottom: 10px;
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: end;
+}
+.direct .sells .modal .containerModal .box .header .nav .btn {
+  width: 10%;
+  text-align: center;
+}
+.direct .sells .modal .containerModal .box .header .nav .btn button {
+  background-color: transparent;
+  border: none;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.direct .sells .modal .containerModal .box .header .nav .btn button .icon {
+  font-size: 24px;
+  transition: 0.3s;
+  color: #6b7385;
+}
+.direct .sells .modal .containerModal .box .header .nav .btn button:hover {
+  transform: scale(1.1);
+}
+.direct .sells .modal .containerModal .box .header .nav .btn button:hover .icon {
+  color: #141414;
+}
+.direct .sells .modal .containerModal .box .header .zone {
+  width: 100%;
+  box-sizing: border-box;
+}
+.direct .sells .modal .containerModal .box .header .zone ul li {
+  display: inline-block;
+  width: 50%;
+  border-bottom: 2px solid #eee;
+}
+.direct .sells .modal .containerModal .box .header .zone ul li.active {
+  border-bottom: 2px solid #141414;
+}
+.direct .sells .modal .containerModal .box .containerBox {
+  width: 90%;
+  margin: auto;
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc {
+  width: 80%;
+  margin: auto;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .bigTitle {
+  width: 100%;
+  padding: 10px 0px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .bigTitle h1 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 10px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .bigTitle span {
+  font-size: 14px;
+  color: #141414;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility {
+  width: 100%;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices {
+  width: 90%;
+  margin: 20px auto;
+  padding: 10px 30px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price {
+  padding: 40px 0px;
+  border-bottom: 1px solid #eee;
+  width: 100%;
+  margin: auto;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price span {
+  font-size: 14px;
+  color: #6b7385;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 {
+  font-size: 42px;
+  color: #2a7de1;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price h3 strong {
+  font-size: 22px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns {
+  width: 100%;
+  padding: 10px 0px;
+  padding-top: 30px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button {
+  padding: 10px 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-color: white;
+  border: 1px solid #2a7de1;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button .icon {
+  color: #2a7de1;
+  font-size: 20px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button span {
+  margin-right: 10px;
+  color: #2a7de1;
+  font-size: 16px;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button:hover {
+  transform: scale(1.1);
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions {
+  padding: 10px 0px;
+  box-sizing: border-box;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li {
+  width: 50%;
+  display: inline-block;
+  padding: 7px 0px;
+  display: flex;
+  align-items: center;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li .icon {
+  color: #2a7de1;
+}
+.direct .sells .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li span {
+  font-size: 12px;
+  margin-left: 10px;
+  color: #6b7385;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption {
+  padding: 10px 0px;
+  width: 70%;
+  margin: auto;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .smallImg {
+  width: 40%;
+  margin: auto;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .smallImg img {
+  width: 100%;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs {
+  width: 100%;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs span {
+  font-size: 14px;
+  color: #2a7de1;
+  letter-spacing: 1px;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0px;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+  width: 100%;
+  background-color: transparent;
+  padding: 10px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid #eee;
+  outline: none;
+  transition: 0.3s;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input:focus {
+  transform: scale(1.1);
+  border-bottom: 1px solid #2a7de1;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button {
+  width: 100%;
+  border-radius: 40px;
+  border: 1px solid #2a7de1;
+  background-color: transparent;
+  transition: 0.3s;
+  padding: 15px 0px;
+  cursor: pointer;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+  font-size: 16px;
+  color: #2a7de1;
+  transition: 0.3s;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover {
+  transform: scale(1.1);
+  background-color: #2a7de1;
+}
+.direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button:hover span {
+  color: white;
 }
 .direct .sells .homeSells {
   height: 100%;
@@ -3146,6 +3910,11 @@
 }
 .direct .sells .subscribeFree .containerForms .forms {
   width: 50%;
+  text-align: right;
+}
+.direct .sells .subscribeFree .containerForms .forms .thanks {
+  font-size: 18px;
+  color: white;
 }
 .direct .sells .subscribeFree .containerForms .forms .containerForms {
   width: 100%;

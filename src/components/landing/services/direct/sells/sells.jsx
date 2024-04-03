@@ -1,10 +1,13 @@
 import React, { useState } from 'react';
-import { MdOutlineAddShoppingCart, MdOutlineAdsClick, MdOutlineAllInbox, MdOutlineAutoAwesomeMosaic, MdOutlineFilterCenterFocus, MdOutlineLibraryBooks, MdOutlineMenuBook } from "react-icons/md";
+import { MdClose, MdOutlineAddShoppingCart, MdOutlineAdsClick, MdOutlineAllInbox, MdOutlineAutoAwesomeMosaic, MdOutlineFilterCenterFocus, MdOutlineLibraryBooks, MdOutlineMenuBook } from "react-icons/md";
 import { TbWorldWww } from "react-icons/tb";
 import { SiOpenai } from "react-icons/si";
+import * as actions from '../../../../../actions';
+import { useNavigate, useNavigation } from 'react-router-dom';
 
 export default function Sells(){
-    
+    // Navegación
+    const navigation = useNavigate();
     const [opinion, setOpinion] = useState(0);
     
     const opiniones = [
@@ -49,17 +52,161 @@ export default function Sells(){
 
     const [email, setEmail] = useState(null);
 
+    const [loading, setLoading] = useState(false);
+    const [form, setForm] = useState(false);
+
     const enterEmail = (mail) => {
         setEmail(mail);
     }
 
-    const sendSubscription = () => {
-        if(email){
-            setEmail('Enviado.');
+    const sendSubscription = async () => {
+        if(email && !loading){
+            setLoading(true);   
+            const sending = await actions.IWannaSubscribe(email)
+            .then(res => {
+                setLoading(false);
+                if(res == 201 || res == 200) return 201
+            })
+            .catch(err => {
+                setLoading(false);
+                return false
+            });
+
+            if(sending == 201){
+                setForm(true)
+            }else{
+                setForm(false)
+            }
         }
     }
+    const [modal, setModal] = useState(null);
+    const [name, setName] = useState(null); // Nombre
+    const [number, setNumber] = useState(null); // Phone
+
+    const changeValor = (type, val) => {
+        if(type == 'name'){
+            setName(val);
+        }else if(type == 'number'){
+            setNumber(val);
+        }
+    }
+
+    const sendComunication = async () => {
+        if(!loading){
+            if(name && number){
+                // Aca la función para ejecutar
+                setLoading(true);
+                const send =  await actions.IWannaComunicate(name, number, 'Impulsar ventas')
+                .then(res => {
+                    setLoading(false);
+                    setName(null);
+                    setNumber(null);
+                    document.querySelector("#name").value = name;
+                    document.querySelector("#phone").value = number;
+
+                    console.log(res);
+                    if(res == 201){
+                        setForm(true)
+                    }else if(res == 200){
+                        setForm(true)
+                    }else{
+                        setName('Ocurrio un error');
+                        setForm(false);
+                    }
+                })
+                .catch(err => {
+                    setLoading(false);
+                    return false;
+                })
+                
+            }
+        }
+    }
+
+    let mensaje =  `Hola, ¡Me gustaría obtener mi sitio web con ustedes!`;
     return (
         <div className='sells'>
+
+{
+                modal ?
+                <div className='modal'>
+                <div className='containerModal'>
+                    <div className='box'>
+                        <div className='header'>
+                            <div className='nav'>
+
+                                <div className='btn'>
+                                    <button onClick={() => setModal(!modal)}>
+                                        <MdClose className='icon' />
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='containerBox'>
+                            <div className='desc'>
+                                <div className='bigTitle'>
+                                    <h1>¡Manifestemos esa idea juntos!</h1>
+                                </div>
+
+                                
+                                <div className='formOption'>
+                                    <div className='smallImg'>
+                                        <img src="https://www.bitfire.com.mx/wp-content/uploads/2020/11/illus-webdesign-2-1.png" alt="" />
+                                    </div>
+                                    <div className='formsInputs'>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="name" defaultValue={name} 
+                                            onChange={(e) => {
+                                                changeValor('name', e.target.value)
+                                            }} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    console.log(e)
+                                                    document.querySelector('#number').focus()
+                                                }
+                                            }} placeholder='Nombre' />
+                                        </div>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="phone" placeholder='Número de teléfono' 
+                                            onChange={(e) => {
+                                                changeValor('number', e.target.value)
+                                            }} defaultValue={number} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    if(name && number){
+                                                        sendComunication()
+                                                    }
+                                                }
+                                            }}/>
+                                        </div>
+                                        <div className='inputDiv'>
+                                            {
+                                                form ?
+                                                    <span>¡Gracias! Pronto nos pondremos en contacto contigo</span>
+                                                :
+                                                loading ?
+                                                    <button >
+                                                        <span>
+                                                            Compartiendo datos...
+                                                        </span>
+                                                    </button>
+                                                :
+                                                <button  onClick={() => sendComunication()} >
+                                                    <span>¡Comenzar!</span>
+                                                </button>
+                                            }
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            :null
+            }
             <div className='homeSells'>
                 <div className='containerHome'>
                     <div className='leftContainerHome'>
@@ -91,8 +238,10 @@ export default function Sells(){
                             </div>
 
                             <div className='btns'>
-                                <button>
-                                    <span>Acción</span>
+                                <button onClick={() => {
+                                    setModal(!modal)
+                                }}>
+                                    <span>¡Comencemos!</span>
                                 </button>
 
                                 <button>
@@ -100,9 +249,7 @@ export default function Sells(){
                                 </button>
                             </div>
 
-                            <div className='containerSmallDivs'>
-                                <span>Some here images</span>
-                            </div>
+
                         </div>
                     </div>
                     <div className='rightContainerHome'>
@@ -255,7 +402,9 @@ export default function Sells(){
                         </div>
 
                         <div className='btns'>
-                            <button>
+                            <button onClick={() => {
+                                    setModal(!modal)
+                                }}>
                                 <span>Prueba gratis</span>
                             </button>
                         </div>
@@ -413,7 +562,7 @@ export default function Sells(){
                             
 
                             <div className='btn'>
-                                <button>
+                                <button onClick={() => navigation('/contact')}>
                                     <span>
                                         ¡Despeguemos!
                                     </span>
@@ -493,7 +642,7 @@ export default function Sells(){
                             </div>
 
                             <div className='btn'>
-                                <button>
+                                <button onClick={() => navigation('/contact')}>
                                     <span>
                                         ¡Despeguemos!
                                     </span>
@@ -555,16 +704,31 @@ export default function Sells(){
                 <div className='containerForms'>
                     <div className='descInfo'>
                         <h3>Si los resultados no son los esperados</h3>
-                        <span>¡Te devolvemos todo tu dinero! {email}</span>
+                        <span>¡Te devolvemos todo tu dinero!</span>
                     </div>
                     <div className='forms'>
-                        <div className='containerForms'>
-                            <input type="text" placeholder='Escribe tu correo'
-                            defaultValue={email} onChange={(e) => {
-                                enterEmail(e.target.value)
-                            }} />
-                            <button onClick={() => sendSubscription()}>¡Comenzar!</button>
-                        </div>
+                        {
+                            form ?
+                            <span className='thanks'>¡Gracias por tu subscripción!</span>
+                            :
+
+                            <div className='containerForms'>
+                                <input type="text" placeholder='Escribe tu correo'
+                                defaultValue={email} onChange={(e) => {
+                                    enterEmail(e.target.value)
+                                }} onKeyPress={(e) => {
+                                    if(e.code == 'Enter'){
+                                        sendSubscription();
+                                    }
+                                }} disabled={loading ? true : false} />
+                                {
+                                    
+                                    loading ? null : 
+                                    <button onClick={() => sendSubscription()}>¡Comenzar!</button>
+                                }
+                            </div>
+                        }
+                        
                     </div>
                 </div>
             </div>

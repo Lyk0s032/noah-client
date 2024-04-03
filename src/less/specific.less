@@ -2,12 +2,261 @@
     
     .mobile{
         background-color: @bgWhite;
+        .modal{
+            position:fixed;
+            top:0;
+            bottom:0;
+            left:0;
+            right: 0;
+            background-color: rgba(0,0,0,0.5) !important;
+
+            .containerModal{
+                width:80%;
+                margin:auto;
+                height:auto;
+                margin-top:2%;
+                background-color: @bgWhite;
+                border-radius: 10px;
+                
+                .box{
+                    height: auto;
+                    
+                    .header{
+                        width:100%;
+                        border-radius: 10px 10px 0px 0px;
+                        .nav{
+                            display: flex;
+                            padding:20px 0px;
+                            padding-bottom: 10px;
+                            box-sizing: border-box;
+                            align-items: center;
+                            justify-content: end;
+
+                           
+                            .btn{
+                                width:10%;
+                                text-align: center;
+                                button{
+                                    background-color: transparent;
+                                    border: none;
+                                    transition: .3s;
+                                    cursor: pointer;
+                                    .icon{
+                                        font-size: 24px;
+                                        transition: .3s;
+                                        color: @txtColorDark;
+                                    }
+                                }
+                                button:hover{
+                                    transform: scale(1.1);
+                                    .icon{
+                                        color: @bgDark;
+                                    }
+                                }
+                            }
+                        }
+                        .zone{
+                            width:100%;
+                            box-sizing: border-box;
+
+                            ul{
+                                li{
+                                    display: inline-block;
+                                    width:50%;
+                                    border-bottom: 2px solid #eee;
+                                }
+                                li.active{
+                                    border-bottom: 2px solid @bgDark;
+                                }
+                            }
+                        }
+                    }
+                    .containerBox{
+                        width:90%;
+                        margin:auto;
+                        padding:10px 0px;
+                        box-sizing: border-box;
+
+                        .desc{
+                            width:80%;
+                            margin:auto;
+                            .bigTitle{
+                                width:100%;
+                                padding:10px 0px;
+                                text-align: center;
+                                box-sizing: border-box;
+
+                                h1{
+                                    font-size: 26px;
+                                    font-weight: 400;
+                                    margin:10px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                    color: @bgDark;
+                                }
+                            }
+                            .posibility{
+                                width:100%;
+
+                                .boxPrices{
+                                    width:90%;
+                                    margin:20px auto;
+                                    padding:10px 30px;
+                                    box-sizing: border-box;
+                                    border-radius: 10px;
+
+                                    .price{
+                                        padding:40px 0px;
+                                        border-bottom: 1px solid #eee;
+                                        width:100%;
+                                        margin:auto;
+                                        span{
+                                            font-size: 14px;
+                                            color: @txtColorDark;
+                                        }
+                                        h3{
+                                            font-size: 42px;
+                                            color: @bgPrimary;
+                                            strong{
+                                                font-size: 22px;
+                                            }
+                                        }
+                                    }
+                                    .btns{
+                                        width:100%;
+                                        padding:10px 0px;
+                                        padding-top: 30px;
+                                        button{
+                                            padding:10px 30px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            width:50%;
+                                            background-color: @bgWhite;
+                                            border:1px solid @bgPrimary;
+                                            border-radius: 20px;
+                                            cursor: pointer;
+                                            transition: .3s;
+                                            .icon{
+                                                color: @bgPrimary;
+                                                font-size: 20px;
+                                            }
+                                            span{
+                                                margin-right:10px;
+                                                color: @bgPrimary;
+                                                font-size: 16px;
+                                                
+                                            }
+                                        }
+                                        button:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    .listOptions{
+                                        padding:10px 0px;
+                                        box-sizing: border-box;
+                                        nav{
+                                            ul{
+                                                display: flex;
+                                                justify-content: space-around;
+                                                align-items: center;
+                                                flex-wrap: wrap;
+
+                                                li{
+                                                    width:50%;
+                                                    display: inline-block;
+                                                    padding:7px 0px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    .icon{
+                                                        color: @bgPrimary;
+                                                    }
+                                                    span{
+                                                        font-size: 12px;
+                                                        margin-left:10px;
+                                                        color: @txtColorDark
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .formOption{
+                            padding:10px 0px;
+                            width:70%;
+                            margin:auto;
+
+                            .smallImg{
+                                width:40%;
+                                margin:auto;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                            .formsInputs{
+                                width:100%;
+                                span{
+                                    font-size: 14px;
+                                    color: @bgPrimary;
+                                    letter-spacing: 1px;
+                                }
+                                .inputDiv{
+                                    width:100%;
+                                    padding:14px;
+                                    margin:10px 0px;
+                                    input{
+                                        width:100%;
+                                        border:none;
+                                        background-color: transparent;
+                                        padding:10px;
+                                        box-sizing: border-box;
+                                        border:none;
+                                        border-bottom: 1px solid #eee;
+                                        outline: none;
+                                        transition: .3s;
+                                    }
+                                    input:focus{
+                                        transform: scale(1.1);
+                                        border-bottom: 1px solid @bgPrimary;
+                                    }
+                                    button{
+                                        width:100%;
+                                        border-radius: 40px;
+                                        border:1px solid @bgPrimary;
+                                        background-color: transparent;
+                                        transition: .3s;
+                                        padding:15px 0px;
+                                        cursor: pointer;
+                                        span{
+                                            font-size: 16px;
+                                            color: @bgPrimary;
+                                            transition: .3s;
+                                        }
+                                    }
+                                    button:hover{
+                                        transform: scale(1.1);
+                                        background-color: @bgPrimary;
+                                        
+                                        span{
+                                            color: @bgWhite;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
         .firstSeccion{
             box-sizing: border-box;
             height:100%;
             display: flex;
             align-items: center;
-            background: url('https://rainbowthemes.net/splash/react/histudy/assets/images/splash/bg/left-right-line-small.svg');
             background-size: cover;
             background-repeat: no-repeat;
             .leftContain{
@@ -42,16 +291,47 @@
                         display: flex;
                         margin-top:30px;
                         button{
-                            width:30%;
+                            width:20%;
                             margin-right: 5%;
                             padding:0px;
                             border:none;
                             cursor: pointer;
+                            background-color: transparent;
                             border-radius: 10px;
+                            transition: .3s;
                             img{
                                 width: 100%;
                                 border-radius: 10px;
 
+                            }
+                        }
+                        button:hover{
+                            transform: translateX(5%);
+                        }
+                    }
+                    .btns{
+                        margin-top:30px;
+                        button{
+                            width:70%;
+                            padding:15px 0px;
+                            background-color: @bgPrimary;
+                            border:1px solid @bgPrimary;
+                            transition: .3s;
+                            cursor: pointer;
+                            border-radius: 7px;
+                            box-sizing: border-box;
+                            span{
+                                font-size: 16px;
+                                color: @bgWhite;
+                                transition: .3s;
+                            }
+                        }
+                        button:hover{
+                            transform: scale(1.1);
+                            background-color: @bgWhite;
+
+                            span{
+                                color: @bgPrimary;
                             }
                         }
                     }
@@ -215,6 +495,256 @@
         }
     }
     .web{
+        .modal{
+            position:fixed;
+            top:0;
+            bottom:0;
+            left:0;
+            right: 0;
+            background-color: rgba(0,0,0,0.5) !important;
+
+            .containerModal{
+                width:80%;
+                margin:auto;
+                height:auto;
+                margin-top:2%;
+                background-color: @bgWhite;
+                border-radius: 10px;
+                
+                .box{
+                    height: auto;
+                    
+                    .header{
+                        width:100%;
+                        border-radius: 10px 10px 0px 0px;
+                        .nav{
+                            display: flex;
+                            padding:20px 0px;
+                            padding-bottom: 10px;
+                            box-sizing: border-box;
+                            align-items: center;
+                            justify-content: end;
+
+                           
+                            .btn{
+                                width:10%;
+                                text-align: center;
+                                button{
+                                    background-color: transparent;
+                                    border: none;
+                                    transition: .3s;
+                                    cursor: pointer;
+                                    .icon{
+                                        font-size: 24px;
+                                        transition: .3s;
+                                        color: @txtColorDark;
+                                    }
+                                }
+                                button:hover{
+                                    transform: scale(1.1);
+                                    .icon{
+                                        color: @bgDark;
+                                    }
+                                }
+                            }
+                        }
+                        .zone{
+                            width:100%;
+                            box-sizing: border-box;
+
+                            ul{
+                                li{
+                                    display: inline-block;
+                                    width:50%;
+                                    border-bottom: 2px solid #eee;
+                                }
+                                li.active{
+                                    border-bottom: 2px solid @bgDark;
+                                }
+                            }
+                        }
+                    }
+                    .containerBox{
+                        width:90%;
+                        margin:auto;
+                        padding:10px 0px;
+                        box-sizing: border-box;
+
+                        .desc{
+                            width:80%;
+                            margin:auto;
+                            .bigTitle{
+                                width:100%;
+                                padding:10px 0px;
+                                text-align: center;
+                                box-sizing: border-box;
+
+                                h1{
+                                    font-size: 26px;
+                                    font-weight: 400;
+                                    margin:10px;
+                                }
+                                span{
+                                    font-size: 14px;
+                                    color: @bgDark;
+                                }
+                            }
+                            .posibility{
+                                width:100%;
+
+                                .boxPrices{
+                                    width:90%;
+                                    margin:20px auto;
+                                    padding:10px 30px;
+                                    box-sizing: border-box;
+                                    border-radius: 10px;
+
+                                    .price{
+                                        padding:40px 0px;
+                                        border-bottom: 1px solid #eee;
+                                        width:100%;
+                                        margin:auto;
+                                        span{
+                                            font-size: 14px;
+                                            color: @txtColorDark;
+                                        }
+                                        h3{
+                                            font-size: 42px;
+                                            color: @bgPrimary;
+                                            strong{
+                                                font-size: 22px;
+                                            }
+                                        }
+                                    }
+                                    .btns{
+                                        width:100%;
+                                        padding:10px 0px;
+                                        padding-top: 30px;
+                                        button{
+                                            padding:10px 30px;
+                                            display: flex;
+                                            align-items: center;
+                                            justify-content: center;
+                                            width:50%;
+                                            background-color: @bgWhite;
+                                            border:1px solid @bgPrimary;
+                                            border-radius: 20px;
+                                            cursor: pointer;
+                                            transition: .3s;
+                                            .icon{
+                                                color: @bgPrimary;
+                                                font-size: 20px;
+                                            }
+                                            span{
+                                                margin-right:10px;
+                                                color: @bgPrimary;
+                                                font-size: 16px;
+                                                
+                                            }
+                                        }
+                                        button:hover{
+                                            transform: scale(1.1);
+                                        }
+                                    }
+                                    .listOptions{
+                                        padding:10px 0px;
+                                        box-sizing: border-box;
+                                        nav{
+                                            ul{
+                                                display: flex;
+                                                justify-content: space-around;
+                                                align-items: center;
+                                                flex-wrap: wrap;
+
+                                                li{
+                                                    width:50%;
+                                                    display: inline-block;
+                                                    padding:7px 0px;
+                                                    display: flex;
+                                                    align-items: center;
+                                                    .icon{
+                                                        color: @bgPrimary;
+                                                    }
+                                                    span{
+                                                        font-size: 12px;
+                                                        margin-left:10px;
+                                                        color: @txtColorDark
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        .formOption{
+                            padding:10px 0px;
+                            width:70%;
+                            margin:auto;
+
+                            .smallImg{
+                                width:40%;
+                                margin:auto;
+                                img{
+                                    width:100%;
+                                }
+                            }
+                            .formsInputs{
+                                width:100%;
+                                span{
+                                    font-size: 14px;
+                                    color: @bgPrimary;
+                                    letter-spacing: 1px;
+                                }
+                                .inputDiv{
+                                    width:100%;
+                                    padding:14px;
+                                    margin:10px 0px;
+                                    input{
+                                        width:100%;
+                                        border:none;
+                                        background-color: transparent;
+                                        padding:10px;
+                                        box-sizing: border-box;
+                                        border:none;
+                                        border-bottom: 1px solid #eee;
+                                        outline: none;
+                                        transition: .3s;
+                                    }
+                                    input:focus{
+                                        transform: scale(1.1);
+                                        border-bottom: 1px solid @bgPrimary;
+                                    }
+                                    button{
+                                        width:100%;
+                                        border-radius: 40px;
+                                        border:1px solid @bgPrimary;
+                                        background-color: transparent;
+                                        transition: .3s;
+                                        padding:15px 0px;
+                                        cursor: pointer;
+                                        span{
+                                            font-size: 16px;
+                                            color: @bgPrimary;
+                                            transition: .3s;
+                                        }
+                                    }
+                                    button:hover{
+                                        transform: scale(1.1);
+                                        background-color: @bgPrimary;
+                                        
+                                        span{
+                                            color: @bgWhite;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
         .homeWeb{
             height:100%;
             .seccion01{

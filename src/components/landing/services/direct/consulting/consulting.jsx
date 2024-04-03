@@ -1,11 +1,15 @@
 import React, { useState } from 'react';
+import * as actions from '../../../../../actions';
 
 export default function Consulting(){
 
 
     const [name, setName] = useState(null); // Nombre
     const [number, setNumber] = useState(null); // Phone
+    const [loading, setLoading] = useState(false);
+    const [form, setForm] = useState(false);
 
+    
     const changeValor = (type, val) => {
         if(type == 'name'){
             setName(val);
@@ -14,10 +18,32 @@ export default function Consulting(){
         }
     }
 
-    const sendComunication = () => {
-        if(name && number){
-            // Aca la función para ejecutar
-            setName('Enviado...');
+    const sendComunication = async () => {
+        if(!loading){
+            if(name && number){
+                // Aca la función para ejecutar
+                setLoading(true);
+                const send =  await actions.IWannaComunicate(name, number, 'consulting')
+                .then(res => {
+                    setLoading(false);
+                    setName(false);
+                    setNumber(false);
+                    console.log(res);
+                    if(res == 201){
+                        setForm(true)
+                    }else if(res == 200){
+                        setForm(true)
+                    }else{
+                        setName('Ocurrio un error');
+                        setForm(false);
+                    }
+                })
+                .catch(err => {
+                    setLoading(false);
+                    return false;
+                })
+                
+            }
         }
     }
     return (
@@ -62,36 +88,64 @@ export default function Consulting(){
                         </div>
                     </div>
                     <div className='RightForm'>
-                        <div className='formDiv'>
-                            <div className='titleCenter'>
-                                <h2>¡Nosotros nos comunicamos contigo! {name}</h2>
-                            </div>
-                            <div className='containerForm'>
-                                <div className='form'>
-                                    <div className='inputDiv'>
-                                        <input type="text" id="name" placeholder='Escribe tu nombre...'
-                                        defaultValue={name} onChange={(e) => {
-                                            changeValor('name', e.target.value)
-                                        }} />
+                    {
+                            form ? 
+                                <div className="succesful">
+                                    <div className='containerSucess'>
+                                        <div className='img'>
+                                            <img src="https://img.pikbest.com/element_our/20220318/bg/5fb45c2e62899.png!f305cw" alt="" />
+                                        </div>
+                                        <div className='message'>
+                                            <h1>¡Nos encanta tu decisión!</h1>
+                                            <h3>
+                                                Enseguida nos comunicamos contigo
+                                            </h3>
+                                        </div>
                                     </div>
-                                    <div className='inputDiv'>
-                                        <input type="text" placeholder='Escribe tu número de contacto...' 
-                                        defaultValue={number} 
-                                        
-                                        onChange={(e) => {
-                                            changeValor('number', e.target.value)
-                                        }}/>
-                                    </div>
-                                    <div className='inputDivBtn'>
-                                        <button onClick={() => sendComunication()}>
-                                            <span>
-                                                ¡Despeguemos!
-                                            </span>
-                                        </button>
+                                </div>
+                            :
+                            <div className='formDiv'>
+                                <div className='titleCenter'>
+                                    <h2>¡Nosotros nos comunicamos contigo! </h2>
+                                </div>
+                                <div className='containerForm'>
+                                    <div className={loading ? 'form Loading' : 'form'}>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="name" placeholder='Escribe tu nombre...'
+                                            defaultValue={name} onChange={(e) => {
+                                                changeValor('name', e.target.value)
+                                            }} disabled={loading ? true : false} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    console.log(e)
+                                                    document.querySelector('#phone').focus()
+                                                }
+                                            }} />
+                                        </div>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="phone" placeholder='Escribe tu número de contacto...' 
+                                            defaultValue={number} 
+                                            
+                                            onChange={(e) => {
+                                                changeValor('number', e.target.value)
+                                            }}  disabled={loading ? true : false} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    if(name && phone){
+                                                        sendComunication()
+                                                    }
+                                                }
+                                            }} />
+                                        </div>
+                                        <div className={loading ? 'inputDivBtn Loading' : 'inputDivBtn'}>
+                                            <button onClick={() => sendComunication()} >
+                                                <span>
+                                                    ¡Despeguemos!
+                                                </span>
+                                            </button>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        }
                     </div>
                 </div>
             </div>

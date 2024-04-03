@@ -2,9 +2,11 @@ import React, { useState } from 'react';
 
 import { FaCheckCircle, FaCodepen, FaCompress, FaThermometer, FaThermometerEmpty } from "react-icons/fa";
 import { IoKeypadOutline } from "react-icons/io5";
+import { useNavigate } from 'react-router-dom';
 
 export default function AutomatizacionServices(){
-
+    // Navegación
+    const navigation = useNavigate();
     const [method, setMethod] = useState(0);
 
     const methods = [
@@ -31,7 +33,7 @@ export default function AutomatizacionServices(){
                         <span>Llevamos los procesos de tu empresa otro nivel. Haciendo más efectivas tus operaciones. </span>
                     </div>
                     <div className='btn'>
-                        <button>
+                        <button onClick={() => navigation('/contact')}>
                             <span>¡Despeguemos!</span>
                         </button>
                     </div>
@@ -282,7 +284,7 @@ export default function AutomatizacionServices(){
                             </h3>
 
                             <div className='btn'>
-                                <button>
+                                <button onClick={() => navigation('/contact')}>
                                     <span>
                                         Contacta con nosotros
                                     </span>

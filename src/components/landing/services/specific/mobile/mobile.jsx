@@ -1,8 +1,140 @@
-import React from 'react';
+import React, { useState } from 'react';
+import * as actions from '../../../../../actions';
+import { MdClose } from 'react-icons/md';
 
 export default function Mobile(){
+
+    
+    const [name, setName] = useState(null); // Nombre
+    const [number, setNumber] = useState(null); // Phone
+    const [loading, setLoading] = useState(false);
+    const [form, setForm] = useState(false);
+    const [modal, setModal] = useState(false);
+
+    const changeValor = (type, val) => {
+        if(type == 'name'){
+            setName(val);
+        }else if(type == 'number'){
+            setNumber(val);
+        }
+    }
+
+    const sendComunication = async () => {
+        if(!loading){
+            if(name && number){
+                // Aca la función para ejecutar
+                setLoading(true);
+                const send =  await actions.IWannaComunicate(name, number, 'Desarrollo mobile')
+                .then(res => {
+                    setLoading(false);
+                    setName(null);
+                    setNumber(null);
+                    document.querySelector("#name").value = name;
+                    document.querySelector("#phone").value = number;
+
+                    console.log(res);
+                    if(res == 201){
+                        setForm(true)
+                    }else if(res == 200){
+                        setForm(true)
+                    }else{
+                        setName('Ocurrio un error');
+                        setForm(false);
+                    }
+                })
+                .catch(err => {
+                    setLoading(false);
+                    return false;
+                })
+                
+            }
+        }
+    }
+
+    let mensaje =  `Hola, ¡Me gustaría obtener mi sitio web con ustedes!`;
+    
     return (
         <div className='mobile'>
+            {
+            modal ?
+                <div className='modal'>
+                <div className='containerModal'>
+                    <div className='box'>
+                        <div className='header'>
+                            <div className='nav'>
+
+                                <div className='btn'>
+                                    <button onClick={() => setModal(!modal)}>
+                                        <MdClose className='icon' />
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div className='containerBox'>
+                            <div className='desc'>
+                                <div className='bigTitle'>
+                                    <h1>¡Manifestemos esa idea juntos!</h1>
+                                </div>
+
+                                
+                                <div className='formOption'>
+                                    <div className='smallImg'>
+                                        <img src="https://www.bitfire.com.mx/wp-content/uploads/2020/11/illus-webdesign-2-1.png" alt="" />
+                                    </div>
+                                    <div className='formsInputs'>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="name" defaultValue={name} 
+                                            onChange={(e) => {
+                                                changeValor('name', e.target.value)
+                                            }} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    console.log(e)
+                                                    document.querySelector('#number').focus()
+                                                }
+                                            }} placeholder='Nombre' />
+                                        </div>
+                                        <div className='inputDiv'>
+                                            <input type="text" id="phone" placeholder='Número de teléfono' 
+                                            onChange={(e) => {
+                                                changeValor('number', e.target.value)
+                                            }} defaultValue={number} onKeyPress={(e) => {
+                                                if(e.code == 'Enter'){
+                                                    if(name && number){
+                                                        sendComunication()
+                                                    }
+                                                }
+                                            }}/>
+                                        </div>
+                                        <div className='inputDiv'>
+                                            {
+                                                form ?
+                                                    <span>¡Gracias! Pronto nos pondremos en contacto contigo</span>
+                                                :
+                                                loading ?
+                                                    <button >
+                                                        <span>
+                                                            Compartiendo datos...
+                                                        </span>
+                                                    </button>
+                                                :
+                                                <button  onClick={() => sendComunication()} >
+                                                    <span>¡Comenzar!</span>
+                                                </button>
+                                            }
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+                </div>
+            :null
+            }
             <div className='firstSeccion'>
                 <div className='leftContain'>
                     <div className='containerDiv'>
@@ -17,6 +149,13 @@ export default function Mobile(){
                             </button>
                             <button>
                                 <img src="https://luxiren-mui5.vercel.app/images/mobile/play-store.png" alt="" />
+                            </button>
+                        </div>
+                        <div className='btns'>
+                            <button onClick={() => {
+                                    setModal(!modal)
+                                }}>
+                                <span>¡Me interesa!</span>
                             </button>
                         </div>
                     </div>
