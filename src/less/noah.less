@@ -858,6 +858,115 @@
             }
         }
     }
+    .burbuja{
+        height: auto;
+        position: fixed;
+        z-index: 2;
+        right:0;
+        bottom:0;
+        margin:2%;
+        transition: .3s;
+        width:15%;
+
+        .burb{
+            width:100%;
+            text-align: center;
+            border-radius: 10px;
+            .hiddeNav{
+                width:100%;
+                padding:40px 10px;
+                box-sizing: border-box;
+                border-radius: 10px;
+                background-color: @bgWhite;
+                box-shadow: 0px 6px 14px rgba(24, 24, 24, 0.41);
+                display: none;
+                nav{
+                    ul{
+                        li{
+                            padding:10px 0px;
+                            display: flex;
+                            align-items: center;
+                            cursor: pointer;
+                            button{
+                                margin:0px 10px;
+                                background-color: transparent;
+                                width:40px;
+                                height:40px;
+                                border-radius: 100%;
+                                border:none;
+                                transition: .3s;
+                                .icon{
+                                    transition: .3s;
+                                    font-size: 18px;
+                                    color: @bgWhite;
+                                }
+                            }
+
+                            button.WhatsApp{
+                                background-color: green;
+                                .icon{
+                                    color: @bgWhite;
+                                }
+                            }
+                            span.WhatsApp{
+                                color: green;
+                                font-size: 14px;
+                            }
+                            button.Messenger{
+                                background-color: @bgPrimary;
+                            }
+                            span.Messenger{
+                                color: @bgPrimary;
+                                font-size: 14px;
+                            }
+                            button.Web{
+                                background-color: #666;
+                            
+                            }
+                            span.Web{
+                                font-size: 14px;
+                                color: #666;
+                            }
+                        }
+
+                       
+                    }
+                    li:hover{
+                        button{
+                            transform: scale(1.1);
+                            .icon{
+                                transform: rotate(30deg);
+                            }
+                        }
+                    }
+                }
+                transition: .3s;
+            }
+            .hiddeNavActive{
+                display: block;
+            }
+            .btn{
+                padding:10px;
+                box-sizing: border-box;
+
+                button{
+                    border-radius: 100%;
+                    width:60px;
+                    height:60px;
+                    cursor: pointer;
+                    background-color: @bgPrimary;
+                    border:1px solid @bgPrimary;
+                    transition: .3s;
+                    .icon{
+                        color: @bgWhite;
+                    }
+                }
+                button:hover{
+                    transform: scale(1.1);
+                }
+            }
+        }
+    }
     
     @media screen and (max-width: 900px){
         

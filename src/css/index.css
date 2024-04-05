@@ -789,6 +789,103 @@
   width: 100%;
   object-fit: cover;
 }
+.noah-app .burbuja {
+  height: auto;
+  position: fixed;
+  z-index: 2;
+  right: 0;
+  bottom: 0;
+  margin: 2%;
+  transition: 0.3s;
+  width: 15%;
+}
+.noah-app .burbuja .burb {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px;
+}
+.noah-app .burbuja .burb .hiddeNav {
+  width: 100%;
+  padding: 40px 10px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0px 6px 14px rgba(24, 24, 24, 0.41);
+  display: none;
+  transition: 0.3s;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button {
+  margin: 0px 10px;
+  background-color: transparent;
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  border: none;
+  transition: 0.3s;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button .icon {
+  transition: 0.3s;
+  font-size: 18px;
+  color: white;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button.WhatsApp {
+  background-color: green;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button.WhatsApp .icon {
+  color: white;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li span.WhatsApp {
+  color: green;
+  font-size: 14px;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button.Messenger {
+  background-color: #2a7de1;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li span.Messenger {
+  color: #2a7de1;
+  font-size: 14px;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li button.Web {
+  background-color: #666;
+}
+.noah-app .burbuja .burb .hiddeNav nav ul li span.Web {
+  font-size: 14px;
+  color: #666;
+}
+.noah-app .burbuja .burb .hiddeNav nav li:hover button {
+  transform: scale(1.1);
+}
+.noah-app .burbuja .burb .hiddeNav nav li:hover button .icon {
+  transform: rotate(30deg);
+}
+.noah-app .burbuja .burb .hiddeNavActive {
+  display: block;
+}
+.noah-app .burbuja .burb .btn {
+  padding: 10px;
+  box-sizing: border-box;
+}
+.noah-app .burbuja .burb .btn button {
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  background-color: #2a7de1;
+  border: 1px solid #2a7de1;
+  transition: 0.3s;
+}
+.noah-app .burbuja .burb .btn button .icon {
+  color: white;
+}
+.noah-app .burbuja .burb .btn button:hover {
+  transform: scale(1.1);
+}
 @media screen and (max-width: 900px) {
   .noah-app .container-noah .home .firstComponentHome .left-div .text h1 {
     font-size: 42px;

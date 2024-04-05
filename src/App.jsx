@@ -8,6 +8,7 @@ import Direct from './components/landing/services/direct/direct'
 import Contact from './components/landing/contact/contact'
 import Us from './components/landing/us/us'
 import Blog from './components/landing/blog/blog'
+import Burbuja from './components/landing/burbuja/burbuja'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
     <div className='noah-app'>
       <Router>
         <Nav />
+        <Burbuja />
         <div className='container-noah'>
           <Routes>
             <Route path="/*" element={<HomeNoah />} />
