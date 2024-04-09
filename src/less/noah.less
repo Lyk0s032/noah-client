@@ -21,7 +21,7 @@
                 box-sizing: border-box;
                 display: flex;
                 align-items: center;
-
+                justify-content: space-around;
                 .left-div{
                     box-sizing: border-box;
                     width:40%;
@@ -32,7 +32,7 @@
 
                     .text{
                         h1{
-                            font-size: 62px;
+                            font-size: 52px;
                             color: @bgDark;
                             
                         }
@@ -83,6 +83,15 @@
                             border:1px solid #ccc;
 
                         }
+                    }
+                }
+                .right-div{
+                    width:50%;
+                    height:80%;
+                    box-sizing: border-box;
+                    img{
+                        width:100%;
+                        object-fit: contain;
                     }
                 }
                 z-index:1;
@@ -154,7 +163,7 @@
                                     margin:10px 0px;
                                 }
                                 span{
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     color: #6b7385;
                                     letter-spacing: 1px;
                                 }
@@ -274,14 +283,14 @@
                                 padding:10px 0px;
                                 width:80%;
                                 h3{
-                                    font-weight: 700;
+                                    font-weight: 400;
                                     color: @bgDark;
                                     font-size: 32px;
                                     margin:10px 0px;
                                 }
                                 span{
                                     color: @txtColorDark;
-                                    font-size: 16px;
+                                    font-size: 14px;
                                     letter-spacing: 1px;
                                 }
                             }
@@ -1115,8 +1124,28 @@
 
     // MAXWIDTH 800
     @media screen and (max-width: 800px){
-        
+        .burbuja{
+            width:30%;
+            .burb{
+                .hiddeNav{
+                    nav{
+                        ul{
+                            li{
+                                button{
+                                    margin:auto;
+                                }
+                                span{
+                                    display: none;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
         .container-noah{
+
+            
             .home{
                 .firstComponentHome{
                     .left-div{
@@ -1138,6 +1167,9 @@
                                 }
                             }
                         }
+                    }
+                    .right-div{
+                        display: none;
                     }
                     
                 }

@@ -30,6 +30,7 @@
   box-sizing: border-box;
   display: flex;
   align-items: center;
+  justify-content: space-around;
   z-index: 1;
 }
 .noah-app .container-noah .home .firstComponentHome .left-div {
@@ -40,7 +41,7 @@
   margin-left: 5%;
 }
 .noah-app .container-noah .home .firstComponentHome .left-div .text h1 {
-  font-size: 62px;
+  font-size: 52px;
   color: #141414;
 }
 .noah-app .container-noah .home .firstComponentHome .left-div .text h3 {
@@ -85,6 +86,15 @@
 .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction .normal:hover {
   transform: translateX(5%);
   border: 1px solid #ccc;
+}
+.noah-app .container-noah .home .firstComponentHome .right-div {
+  width: 50%;
+  height: 80%;
+  box-sizing: border-box;
+}
+.noah-app .container-noah .home .firstComponentHome .right-div img {
+  width: 100%;
+  object-fit: contain;
 }
 .noah-app .container-noah .home .componentResponsiveServices {
   box-sizing: border-box;
@@ -152,7 +162,7 @@
   margin: 10px 0px;
 }
 .noah-app .container-noah .home .componentResponsiveServices .containerRelative .containerServices .containerInfoServices .titleAndDesc span {
-  font-size: 16px;
+  font-size: 14px;
   color: #6b7385;
   letter-spacing: 1px;
 }
@@ -262,14 +272,14 @@
   width: 80%;
 }
 .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc h3 {
-  font-weight: 700;
+  font-weight: 400;
   color: #141414;
   font-size: 32px;
   margin: 10px 0px;
 }
 .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .titleAndDesc span {
   color: #6b7385;
-  font-size: 16px;
+  font-size: 14px;
   letter-spacing: 1px;
 }
 .noah-app .container-noah .home .other .containerOtherServices .designServices .containerS .title {
@@ -958,6 +968,15 @@
   }
 }
 @media screen and (max-width: 800px) {
+  .noah-app .burbuja {
+    width: 30%;
+  }
+  .noah-app .burbuja .burb .hiddeNav nav ul li button {
+    margin: auto;
+  }
+  .noah-app .burbuja .burb .hiddeNav nav ul li span {
+    display: none;
+  }
   .noah-app .container-noah .home .firstComponentHome .left-div {
     width: 100%;
     box-sizing: b;
@@ -973,6 +992,9 @@
   }
   .noah-app .container-noah .home .firstComponentHome .left-div .go-toAction button span {
     font-size: 12px;
+  }
+  .noah-app .container-noah .home .firstComponentHome .right-div {
+    display: none;
   }
   .noah-app .container-noah .home .componentResponsiveServices {
     display: none;
@@ -2176,6 +2198,88 @@
   font-weight: 100;
 }
 @media screen and (max-width: 800px) {
+  .specific .web .modal {
+    z-index: 3;
+  }
+  .specific .web .modal .containerModal {
+    width: 100%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 100%;
+    position: relative;
+  }
+  .specific .web .modal .containerModal .box {
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+  }
+  .specific .web .modal .containerModal .box .header {
+    height: 10%;
+  }
+  .specific .web .modal .containerModal .box .containerBox {
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .bigTitle h1 {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price {
+    padding: 10px 0px;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul {
+    display: block;
+    flex-wrap: nowrap;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li {
+    width: 70%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    display: block;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns {
+    box-sizing: border-box;
+  }
+  .specific .web .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button {
+    width: 80%;
+    margin: auto;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .smallImg {
+    display: none;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .formsInputs {
+    margin: 30px 0px;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+    font-size: 14px;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button {
+    width: 90%;
+    margin: auto;
+  }
+  .specific .web .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+    font-size: 14px;
+  }
   .specific .web .homeWeb .seccion01 .container {
     display: flex;
     flex-wrap: wrap;
@@ -2315,6 +2419,88 @@
   .specific .web .componentBlueBig .wallpaperDiv .containerInfoBlue .btn button {
     width: 100%;
     padding: 10px 0px;
+  }
+  .specific .mobile .modal {
+    z-index: 3;
+  }
+  .specific .mobile .modal .containerModal {
+    width: 100%;
+    margin-top: 0px;
+    box-sizing: border-box;
+    border-radius: 0px;
+    height: 100%;
+    position: relative;
+  }
+  .specific .mobile .modal .containerModal .box {
+    overflow-y: auto;
+    height: 100%;
+    position: relative;
+  }
+  .specific .mobile .modal .containerModal .box .header {
+    height: 10%;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox {
+    width: 100%;
+    height: 90%;
+    overflow-y: auto;
+    box-sizing: border-box;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .bigTitle h1 {
+    margin-bottom: 0px;
+    font-size: 22px;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices {
+    margin: 0px auto;
+    width: 100%;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .price {
+    padding: 10px 0px;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul {
+    display: block;
+    flex-wrap: nowrap;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .listOptions nav ul li {
+    width: 70%;
+    box-sizing: border-box;
+    margin: 5px 0px;
+    display: block;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns {
+    box-sizing: border-box;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .desc .posibility .boxPrices .btns button {
+    width: 80%;
+    margin: auto;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption {
+    width: 90%;
+    box-sizing: border-box;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .smallImg {
+    display: none;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs {
+    margin: 30px 0px;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+    box-sizing: border-box;
+    text-align: center;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+    font-size: 14px;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button {
+    width: 90%;
+    margin: auto;
+  }
+  .specific .mobile .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+    font-size: 14px;
   }
   .specific .mobile .firstSeccion {
     background: white;
@@ -4406,6 +4592,51 @@
     width: 100%;
     text-align: right;
   }
+  .direct .sells .modal .containerModal {
+    width: 100%;
+    height: 100%;
+    margin-top: 0px;
+    border-radius: 0px;
+  }
+  .direct .sells .modal .containerModal .box .containerBox {
+    width: 100%;
+  }
+  .direct .sells .modal .containerModal .box .containerBox .formOption {
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .direct .sells .modal .containerModal .box .containerBox .formOption .smallImg {
+    display: none;
+  }
+  .direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv {
+    box-sizing: border-box;
+  }
+  .direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv input {
+    font-size: 14px;
+  }
+  .direct .sells .modal .containerModal .box .containerBox .formOption .formsInputs .inputDiv button span {
+    font-size: 14px;
+  }
+  .direct .sells .sellsNoahWhyChooseOur {
+    height: auto;
+    position: relative;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs {
+    height: auto;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions {
+    margin: 20px 0px;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions {
+    flex-wrap: wrap;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options {
+    width: 100%;
+    margin: 20px 0px;
+  }
+  .direct .sells .sellsNoahWhyChooseOur .containerWhyUs .somesOptions .containerOptions .options .iconContainer {
+    width: 20%;
+  }
   .direct .sells .homeSellIncluded .includesDivide {
     padding: 0px 0px;
   }
@@ -5778,7 +6009,7 @@
   font-size: 12px;
   color: #2a7de1;
 }
-.navNoah .navigation-container .navigation-options nav ul .goAction:hover {
+.navNoah .navigation-container .navigation-options nav ul .GoAction:hover {
   border-bottom: 2px solid white;
 }
 .navNoah .navigation-container .navigation-options nav > li {

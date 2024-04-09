@@ -189,8 +189,11 @@ export default function Comunication(){
                                     <img src="https://histudy-nextjs.vercel.app/_next/image?url=%2Fimages%2Fshape%2Fservice-01.png&w=64&q=75" alt="" />
                                 </div>
                                 <div className='titleSmall'>
-                                    <h3>Administramos tu redes sociales</h3>
-                                    <span>Pequeño texto que indique este box</span>
+                                    <h3>Redes sociales</h3>
+                                    <span>
+                                        Nuestro equipo especializado en marketing digital está listo 
+                                        para potenciar tu presencia en las redes sociales.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -200,8 +203,10 @@ export default function Comunication(){
                                     <img src="https://histudy-nextjs.vercel.app/_next/image?url=%2Fimages%2Fshape%2Fservice-01.png&w=64&q=75" alt="" />
                                 </div>
                                 <div className='titleSmall'>
-                                    <h3>Administramos tu redes sociales</h3>
-                                    <span>Pequeño texto que indique este box</span>
+                                    <h3>Software dedicado</h3>
+                                    <span>
+                                        Simplifica tus procesos de comunicación y ahorrra tiempo y recursos con nuestras plataforma de automatización.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -211,8 +216,10 @@ export default function Comunication(){
                                     <img src="https://histudy-nextjs.vercel.app/_next/image?url=%2Fimages%2Fshape%2Fservice-02.png&w=64&q=75" alt="" />
                                 </div>
                                 <div className='titleSmall'>
-                                    <h3>Administramos tu redes sociales</h3>
-                                    <span>Pequeño texto que indique este box</span>
+                                    <h3>SEO y optimización</h3>
+                                    <span>
+                                        MEjora tu visibilidad online y atrae más tráfico orgánico a tu sitio web con nuestras estrategias de optimización.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -223,8 +230,10 @@ export default function Comunication(){
                                     <img src="https://histudy-nextjs.vercel.app/_next/image?url=%2Fimages%2Fshape%2Fservice-01.png&w=64&q=75" alt="" />
                                 </div>
                                 <div className='titleSmall'>
-                                    <h3>Administramos tu redes sociales</h3>
-                                    <span>Pequeño texto que indique este box</span>
+                                    <h3>Blogging</h3>
+                                    <span>
+                                        El contenido es el rey en el mundo digítal, estamos aqui para ayudarte a ser atractivo en el mundo digítal
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -234,8 +243,10 @@ export default function Comunication(){
                                     <img src="https://histudy-nextjs.vercel.app/_next/image?url=%2Fimages%2Fshape%2Fservice-01.png&w=64&q=75" alt="" />
                                 </div>
                                 <div className='titleSmall'>
-                                    <h3>Administramos tu redes sociales</h3>
-                                    <span>Pequeño texto que indique este box</span>
+                                    <h3>Email Marketing</h3>
+                                    <span>
+                                        El correo electrónico sigue siendo una poderosa herramienta de comunicación para llegar a tus clientes y mantenerlos comprometidos con tu marca.
+                                    </span>
                                 </div>
                             </div>
                         </div>

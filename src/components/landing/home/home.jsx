@@ -1,6 +1,13 @@
 import React from 'react';
 import { CiCircleCheck } from "react-icons/ci";
 import { FaCheckCircle } from "react-icons/fa";
+import  Consultory  from '../../../assets/imgs/consultory.jpg';
+import  Comunication  from '../../../assets/imgs/comunication.jpg';
+import  Sells  from '../../../assets/imgs/sells.jpg';
+import  Automation  from '../../../assets/imgs/automation.jpg';
+import  Noah  from '../../../assets/imgs/noahh.png';
+
+
 
 export default function HomeNoah(){
     return (
@@ -20,6 +27,10 @@ export default function HomeNoah(){
                         </button>
 
                     </div>
+                </div>
+
+                <div className='right-div'>
+                    <img src={Noah} alt="" />
                 </div>
             </div>
             
@@ -68,7 +79,7 @@ export default function HomeNoah(){
                 <div className='containerRelative'>
                     <div className='containerServices'>
                         <div className='wallpaperLeft'>
-                            <img src="https://rainbowthemes.net/splash/react/histudy/assets/images/splash/innerlayout/course-layout-01.png" alt="" />
+                            <img src={Consultory} alt="" />
                         </div>
                         <div className='containerInfoServices'>
                             <div className='top'>
@@ -231,7 +242,7 @@ export default function HomeNoah(){
                     </div>
 
                     <div className='imgWallpaper'>
-                        <img src="https://rainbowthemes.net/splash/react/histudy/assets/images/splash/innerlayout/course-layout-01.png" alt="" />
+                        <img src={Comunication} alt="" />
                     </div>
                 </div>
  
@@ -243,7 +254,7 @@ export default function HomeNoah(){
                 <div className='containerRelative'>
                     <div className='containerServices'>
                         <div className='wallpaperLeft'>
-                            <img src="https://rainbowthemes.net/splash/react/histudy/assets/images/splash/innerlayout/course-layout-01.png" alt="" />
+                            <img src={Sells} alt="" />
                         </div>
                         <div className='containerInfoServices'>
                             <div className='top'>
@@ -424,7 +435,7 @@ export default function HomeNoah(){
                     </div>
 
                     <div className='imgWallpaper'>
-                        <img src="https://rainbowthemes.net/splash/react/histudy/assets/images/splash/innerlayout/course-layout-01.png" alt="" />
+                        <img src={Automation} alt="" />
                     </div>
                 </div>
 

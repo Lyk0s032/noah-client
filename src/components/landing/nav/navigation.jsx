@@ -43,21 +43,27 @@ export default function Nav(){
                                                 <div className="optionsList">
                                                     <ul>
                                                         <li onClick={() => {
-                                                            navigation('/s/direct/sells')
-                                                            openMain()
+                                                            navigation('/s/direct/sells');
+                                                            openMain();
                                                         }}>
                                                             <span>Impulzamiento de ventas</span>
                                                         </li>
                                                         <li onClick={() => {
-                                                            navigation('/s/direct/comunication')
-                                                            openMain()
+                                                            navigation('/s/direct/comunication');
+                                                            openMain();
                                                         }}>
                                                             <span>Comunicaciones</span> 
                                                         </li>
-                                                        <li onClick={() => navigation('/s/direct/automation')}>
+                                                        <li onClick={() => {
+                                                            navigation('/s/direct/automation');
+                                                            openMain();
+                                                        }}>
                                                             <span>Automatización</span>
                                                         </li>
-                                                        <li onClick={() => navigation('/s/direct/consulting')}>
+                                                        <li onClick={() => {
+                                                            navigation('/s/direct/consulting');
+                                                            openMain();
+                                                        }}>
                                                             <span>Consultoría</span>
                                                         </li>
                                                     </ul>
@@ -70,10 +76,16 @@ export default function Nav(){
                                                 </div>
                                                 <div className="optionsList">
                                                     <ul>
-                                                        <li onClick={() => navigation('/s/specific/web')}>
+                                                        <li onClick={() => {
+                                                            navigation('/s/specific/web');
+                                                            openMain();
+                                                        }}>
                                                             <span>Desarrollo Web</span>
                                                         </li>
-                                                        <li onClick={() => navigation('/s/specific/mobile')}>
+                                                        <li onClick={() => {
+                                                             navigation('/s/specific/mobile');
+                                                             openMain();
+                                                        }}>
                                                             <span>Desarrollo Mobile</span> 
                                                         </li>
                                                         
@@ -88,24 +100,33 @@ export default function Nav(){
 
   
 
-                            <li className="li" onClick={() => navigation('/us')}>
+                            <li className="li" onClick={() => {
+                                navigation('/us');
+                                openMain();
+                            }}>
                                 <span>
-                                    Acerca de 
+                                    Nosotros
                                 </span>
 
                   
                             </li>
 
-                            <li className="li">
-                                <span onClick={() => navigation('/blog')}>
+                            <li className="li"  onClick={() => {
+                                navigation('/blog');
+                                openMain();
+                            }}>
+                                <span>
                                     Blog
                                 </span>
 
 
                             </li>
 
-                            <li className="li GoAction" onClick={() => navigation('/contact')}>
-                                <button>
+                            <li className="li GoAction" >
+                                <button onClick={() => {
+                                    navigation('/contact');
+                                    openMain();
+                                }}>
                                     <span>Comunicarme</span>
                                 </button>
                             </li>
