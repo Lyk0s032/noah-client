@@ -1,8 +1,11 @@
 import React from 'react';
 import { FiHeart } from "react-icons/fi";
 import { MdOutlineEmojiObjects } from "react-icons/md";
+import { useNavigate } from 'react-router-dom';
 
 export default function Us(){
+
+    const navigation = useNavigate();
     return (
         <div className='us'>
             <div className="homeUs">
@@ -21,7 +24,7 @@ export default function Us(){
                                 ¡Queremos llevar a nuevas empresas a otro nivel!
                             </h1>
 
-                            <button className='contact'>
+                            <button className='contact' onClick={() => navigation('/contact')}>
                                 <span>Contactarse</span>
                             </button>
                         </div>
@@ -55,8 +58,10 @@ export default function Us(){
                             </button>
                         </div>
                         <div className='title'>
-                            <h1>Llevar las empresas a otro nivel...</h1>
-                            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita dolorem id impedit fugiat iure exercitationem sequi quo dolorum harum aperiam, quibusdam temporibus velit molestias. Dicta vero dignissimos natus commodi beatae? </h3>
+                            <h1>Empoderar a empresas y emprendedores para alcanzar su máximo potencial</h1>
+                            <h3>
+                                Fortaleciendo su seguridad, aumentando sus ventas y mejorando la comunicación con sus clientes
+                            </h3>
                         </div>
 
                         <div className='listOptionsSubMisiones'>
@@ -67,8 +72,11 @@ export default function Us(){
                                     </button>
                                 </div>
                                 <div className='Desc'>
-                                    <h3>Desbloquear un nuevo nivel</h3>
-                                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati eligendi! Iste, blanditiis cum! Vel, architecto excepturi tenetur fugiat, officiis perspiciatis enim omnis nobis odio nemo ea debitis, nihil consectetur!</span>
+                                    <h3>Potenciar seguridad en sí mismos</h3>
+                                    <span>
+                                        Brindamos herramientas y capacitación para que tanto empresas como emprendedoresdesarrollen una mentalidad sólidad y confiada,
+                                        permitiéndoles enfretar desafíos con determinación y autoconfianza.
+                                    </span>
                                 </div>
                             </div>
                             <div className='option'>
@@ -78,8 +86,11 @@ export default function Us(){
                                     </button>
                                 </div>
                                 <div className='Desc'>
-                                    <h3>Desbloquear un nuevo nivel</h3>
-                                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati eligendi! Iste, blanditiis cum! Vel, architecto excepturi tenetur fugiat, officiis perspiciatis enim omnis nobis odio nemo ea debitis, nihil consectetur!</span>
+                                    <h3>Impulsar el crecimiento de las ventas</h3>
+                                    <span>
+                                        Implementamos estrategías innovadoras y efectivas para aumentar el volumen de ventas, identificando oportunidades
+                                        de mercado, optimizando procesos de ventas y proporcionando mayor engagement.
+                                    </span>
                                 </div>
                             </div>
                             <div className='option'>
@@ -89,8 +100,11 @@ export default function Us(){
                                     </button>
                                 </div>
                                 <div className='Desc'>
-                                    <h3>Desbloquear un nuevo nivel</h3>
-                                    <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati eligendi! Iste, blanditiis cum! Vel, architecto excepturi tenetur fugiat, officiis perspiciatis enim omnis nobis odio nemo ea debitis, nihil consectetur!</span>
+                                    <h3>Mejorar la percepción de la marca</h3>
+                                    <span>
+                                        Trabajamos en el fortalecimiento y la proyección de la identidad de la marca, desarrollando estrategías de posicionamiento,
+                                        comunicación y diseño que resalten sus valores y generen una conexión auténtica con su audiencia objetivo.
+                                    </span>
                                 </div>
                             </div>
                         </div>
@@ -110,8 +124,11 @@ export default function Us(){
                                 </button>
                             </div>
                             <div className='title'>
-                                <h1>Ser la número 2 en el mundo</h1>
-                                <h3>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quo incidunt animi optio tempora corrupti in earum dicta, dolore at ipsam molestiae et ea laudantium dolorem similique. Ipsa quae doloribus reprehenderit.</h3>
+                                <h1>Ser la 2da mejor en el mundo</h1>
+                                <h3>
+                                    Todos tenemos un referente que nos inspira, que nos motiva a ser mejores. En Noah no somos la excepción. Por esta razón,
+                                    aspiramos a ser la número 2 en el mundo para el año 2030.
+                                </h3>
                             </div>
 
                             <div className='listOptionsSubMisiones'>
@@ -123,21 +140,12 @@ export default function Us(){
                                     </div>
                                     <div className='Desc'>
                                         <h3>Desbloquear un nuevo nivel</h3>
-                                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati eligendi! Iste, blanditiis cum! Vel, architecto excepturi tenetur fugiat, officiis perspiciatis enim omnis nobis odio nemo ea debitis, nihil consectetur!</span>
+                                        <span>
+                                            Colaborar con más de 100.000 empresas y emprendedores para alcanzar su máximo potencial.
+                                        </span>
                                     </div>
                                 </div>
 
-                                <div className='option'>
-                                    <div className='icon'>
-                                        <button>
-                                            <MdOutlineEmojiObjects className="iconD" />
-                                        </button>
-                                    </div>
-                                    <div className='Desc'>
-                                        <h3>Desbloquear un nuevo nivel</h3>
-                                        <span>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur, obcaecati eligendi! Iste, blanditiis cum! Vel, architecto excepturi tenetur fugiat, officiis perspiciatis enim omnis nobis odio nemo ea debitis, nihil consectetur!</span>
-                                    </div>
-                                </div>
                             </div>
                         </div>
                         <div className='imgWallpaper'>
@@ -162,7 +170,11 @@ export default function Us(){
                             <h1>
                                 Suscribete y recibe nuestro contenido</h1>
 
-                            <h3>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quod ipsam sapiente est amet deleniti aperiam sed eos quos accusamus doloribus. Necessitatibus veritatis dolor earum omnis dolore perferendis, velit commodi vel!</h3>
+                                <h3>
+                                    En nuestro blog, te ofrecemos el conocimiento y las herramientas necesarias para potenciar tu seguridad,
+                                    impulsar tus ventas y mejorar la percepción de tu marca. Aquí estamos para ayudarte. <br /><br />
+                                    Lo mejor de todo, nuestro contenido es complemetamente <strong style={{fontWeight:'bold',fontStyle:'italic'}}>GRATIS.</strong>
+                                </h3>
                         </div>
                         <div className='form'>
                             <div className='formWhite'>
